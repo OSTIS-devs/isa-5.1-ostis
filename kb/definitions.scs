@@ -1,0 +1,2781 @@
+/* Temporary uk language definition */
+lang_uk
+<- sc_node_not_relation;
+<- languages;
+=> nrel_main_idtf:
+   [Украинский язык] (* <- lang_ru;; *);
+   [Ukrainian language] (* <- lang_en;; *);
+   [Українська мова] (* <- lang_uk;; *);;
+
+
+accessible
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [accessible]
+    (* <- lang_en;; *);
+    [доступный]
+    (* <- lang_ru;; *);
+    [доступний]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/accessible.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/accessible.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/accessible.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/accessible.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/accessible.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/accessible.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+alarm
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [alarm]
+    (* <- lang_en;; *);
+    [сигнализация]
+    (* <- lang_ru;; *);
+    [сигналізація]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/alarm.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/alarm.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/alarm.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/alarm.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/alarm.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/alarm.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+analog
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [analog]
+    (* <- lang_en;; *);
+    [аналог]
+    (* <- lang_ru;; *);
+    [аналог]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/analog.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/analog.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/analog.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/analog.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/analog.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/analog.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+application_software
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [application software]
+    (* <- lang_en;; *);
+    [программное обеспечение]
+    (* <- lang_ru;; *);
+    [програмне забезпечення]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/application_software.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/application_software.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/application_software.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/application_software.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/application_software.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/application_software.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+assignable
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [assignable]
+    (* <- lang_en;; *);
+    [назначаемый]
+    (* <- lang_ru;; *);
+    [присвоюваний]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/assignable.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/assignable.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/assignable.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/assignable.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/assignable.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/assignable.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+auto_manual_station
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [auto-manual station]
+    (* <- lang_en;; *);
+    [автоматическая ручная станция]
+    (* <- lang_ru;; *);
+    [авто-ручна станція]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/auto_manual_station.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/auto_manual_station.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/auto_manual_station.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/auto_manual_station.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/auto_manual_station.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/auto_manual_station.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+balloon
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [balloon]
+    (* <- lang_en;; *);
+    [баллон]
+    (* <- lang_ru;; *);
+    [балон]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/balloon.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/balloon.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/balloon.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/balloon.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/balloon.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/balloon.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+basic_process_control_system
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [basic process control system]
+    (* <- lang_en;; *);
+    [базовая система управления технологическим процессом]
+    (* <- lang_ru;; *);
+    [основна система управління процесом]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/basic_process_control_system.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/basic_process_control_system.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/basic_process_control_system.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/basic_process_control_system.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/basic_process_control_system.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/basic_process_control_system.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+behind_the_panel
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [behind the panel]
+    (* <- lang_en;; *);
+    [за панелью]
+    (* <- lang_ru;; *);
+    [за панеллю]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/behind_the_panel.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/behind_the_panel.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/behind_the_panel.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/behind_the_panel.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/behind_the_panel.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/behind_the_panel.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+binary
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [binary]
+    (* <- lang_en;; *);
+    [двоичный]
+    (* <- lang_ru;; *);
+    [двійковий]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/binary.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/binary.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/binary.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/binary.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/binary.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/binary.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+board
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [board]
+    (* <- lang_en;; *);
+    [доска]
+    (* <- lang_ru;; *);
+    [дошка]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/board.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/board.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/board.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/board.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/board.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/board.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+bubble
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [bubble]
+    (* <- lang_en;; *);
+    [пузырь]
+    (* <- lang_ru;; *);
+    [пузир]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/bubble.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/bubble.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/bubble.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/bubble.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/bubble.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/bubble.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+communication_link
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [communication link]
+    (* <- lang_en;; *);
+    [связь]
+    (* <- lang_ru;; *);
+    [ланка зв'язку]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/communication_link.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/communication_link.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/communication_link.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/communication_link.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/communication_link.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/communication_link.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+computer_control_system
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [computer control system]
+    (* <- lang_en;; *);
+    [компьютерная система управления]
+    (* <- lang_ru;; *);
+    [комп’ютерна система управління]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/computer_control_system.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/computer_control_system.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/computer_control_system.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/computer_control_system.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/computer_control_system.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/computer_control_system.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+computing_device
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [computing device]
+    (* <- lang_en;; *);
+    [вычислительное устройство]
+    (* <- lang_ru;; *);
+    [обчислювальний пристрій]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/computing_device.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/computing_device.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/computing_device.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/computing_device.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/computing_device.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/computing_device.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+computing_relay
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [computing relay]
+    (* <- lang_en;; *);
+    [вычислительное реле]
+    (* <- lang_ru;; *);
+    [обчислювальне реле]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/computing_relay.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/computing_relay.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/computing_relay.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/computing_relay.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/computing_relay.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/computing_relay.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+computing_function
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [computing function]
+    (* <- lang_en;; *);
+    [вычислительная функция]
+    (* <- lang_ru;; *);
+    [обчислювальна функція]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/computing_function.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/computing_function.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/computing_function.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/computing_function.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/computing_function.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/computing_function.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+configurable
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [configurable]
+    (* <- lang_en;; *);
+    [настраиваемый]
+    (* <- lang_ru;; *);
+    [конфігурується]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/configurable.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/configurable.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/configurable.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/configurable.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/configurable.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/configurable.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+controller
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [controller]
+    (* <- lang_en;; *);
+    [контролер]
+    (* <- lang_ru;; *);
+    [контролер]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/controller.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/controller.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/controller.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/controller.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/controller.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/controller.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+control_station
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [control station]
+    (* <- lang_en;; *);
+    [станция управления]
+    (* <- lang_ru;; *);
+    [станція управління]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/control_station.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/control_station.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/control_station.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/control_station.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/control_station.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/control_station.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+control_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [control valve]
+    (* <- lang_en;; *);
+    [регулирующий вентиль]
+    (* <- lang_ru;; *);
+    [контрольний клапан]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/control_valve.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/control_valve.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/control_valve.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/control_valve.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/control_valve.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/control_valve.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+converter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [converter]
+    (* <- lang_en;; *);
+    [преобразователь]
+    (* <- lang_ru;; *);
+    [перетворювач]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/converter.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/converter.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/converter.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/converter.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/converter.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/converter.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+datalink
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [datalink]
+    (* <- lang_en;; *);
+    [канал передачи данных]
+    (* <- lang_ru;; *);
+    [канал передачі даних]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/datalink.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/datalink.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/datalink.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/datalink.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/datalink.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/datalink.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+detector
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [detector]
+    (* <- lang_en;; *);
+    [детектор]
+    (* <- lang_ru;; *);
+    [детектор]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/detector.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/detector.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/detector.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/detector.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/detector.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/detector.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+device
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [device]
+    (* <- lang_en;; *);
+    [устройство]
+    (* <- lang_ru;; *);
+    [пристрою]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/device.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/device.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/device.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/device.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/device.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/device.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+digital
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [digital]
+    (* <- lang_en;; *);
+    [цифровой]
+    (* <- lang_ru;; *);
+    [цифровий]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/digital.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/digital.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/digital.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/digital.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/digital.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/digital.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+discrete_instrument
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [discrete instrument]
+    (* <- lang_en;; *);
+    [дискретный инструмент]
+    (* <- lang_ru;; *);
+    [дискретний інструмент]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/discrete_instrument.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/discrete_instrument.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/discrete_instrument.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/discrete_instrument.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/discrete_instrument.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/discrete_instrument.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+discrete_signals
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [discrete signals]
+    (* <- lang_en;; *);
+    [дискретные сигналы]
+    (* <- lang_ru;; *);
+    [дискретні сигнали]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/discrete_signals.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/discrete_signals.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/discrete_signals.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/discrete_signals.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/discrete_signals.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/discrete_signals.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+distributed_control_system
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [distributed control system]
+    (* <- lang_en;; *);
+    [распределенная система управления]
+    (* <- lang_ru;; *);
+    [розподілена система управління]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/distributed_control_system.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/distributed_control_system.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/distributed_control_system.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/distributed_control_system.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/distributed_control_system.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/distributed_control_system.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+field_instrument
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [field instrument]
+    (* <- lang_en;; *);
+    [полевой инструмент]
+    (* <- lang_ru;; *);
+    [польовий прилад]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/field_instrument.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/field_instrument.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/field_instrument.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/field_instrument.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/field_instrument.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/field_instrument.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+final_control_element
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [final control element]
+    (* <- lang_en;; *);
+    [конечный элемент управления]
+    (* <- lang_ru;; *);
+    [кінцевий елемент управління]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/final_control_element.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/final_control_element.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/final_control_element.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/final_control_element.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/final_control_element.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/final_control_element.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+function
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [function]
+    (* <- lang_en;; *);
+    [функция]
+    (* <- lang_ru;; *);
+    [функція]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/function.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/function.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/function.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/function.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/function.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/function.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+hardware
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [hardware]
+    (* <- lang_en;; *);
+    [аппаратное обеспечение]
+    (* <- lang_ru;; *);
+    [апаратне забезпечення]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/hardware.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/hardware.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/hardware.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/hardware.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/hardware.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/hardware.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+high_level_control_system
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [high level control system]
+    (* <- lang_en;; *);
+    [система управления высокого уровня]
+    (* <- lang_ru;; *);
+    [система управління високого рівня]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/high_level_control_system.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/high_level_control_system.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/high_level_control_system.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/high_level_control_system.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/high_level_control_system.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/high_level_control_system.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+identification
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [identification]
+    (* <- lang_en;; *);
+    [идентификация]
+    (* <- lang_ru;; *);
+    [ідентифікація]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/identification.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/identification.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/identification.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/identification.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/identification.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/identification.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+instrument
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [instrument]
+    (* <- lang_en;; *);
+    [инструмент]
+    (* <- lang_ru;; *);
+    [інструмент]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/instrument.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/instrument.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/instrument.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/instrument.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/instrument.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/instrument.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+instrumentation
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [instrumentation]
+    (* <- lang_en;; *);
+    [приборы]
+    (* <- lang_ru;; *);
+    [приладобудування]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/instrumentation.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/instrumentation.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/instrumentation.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/instrumentation.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/instrumentation.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/instrumentation.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+local_instrument
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [local instrument]
+    (* <- lang_en;; *);
+    [местный инструмент]
+    (* <- lang_ru;; *);
+    [місцевий інструмент]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/local_instrument.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/local_instrument.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/local_instrument.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/local_instrument.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/local_instrument.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/local_instrument.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+local_panel
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [local panel]
+    (* <- lang_en;; *);
+    [местная панель]
+    (* <- lang_ru;; *);
+    [локальна панель]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/local_panel.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/local_panel.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/local_panel.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/local_panel.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/local_panel.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/local_panel.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+loop
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [loop]
+    (* <- lang_en;; *);
+    [петля]
+    (* <- lang_ru;; *);
+    [петля]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/loop.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/loop.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/loop.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/loop.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/loop.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/loop.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+manual_loading_station
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [manual loading station]
+    (* <- lang_en;; *);
+    [станция ручной загрузки]
+    (* <- lang_ru;; *);
+    [станція ручного завантаження]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/manual_loading_station.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/manual_loading_station.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/manual_loading_station.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/manual_loading_station.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/manual_loading_station.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/manual_loading_station.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+measurement
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [measurement]
+    (* <- lang_en;; *);
+    [измерение]
+    (* <- lang_ru;; *);
+    [вимірювання]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/measurement.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/measurement.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/measurement.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/measurement.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/measurement.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/measurement.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+monitor
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [monitor]
+    (* <- lang_en;; *);
+    [монитор]
+    (* <- lang_ru;; *);
+    [монітор]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/monitor.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/monitor.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/monitor.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/monitor.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/monitor.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/monitor.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+monitor_light
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [monitor light]
+    (* <- lang_en;; *);
+    [свет монитора]
+    (* <- lang_ru;; *);
+    [монітор світла]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/monitor_light.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/monitor_light.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/monitor_light.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/monitor_light.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/monitor_light.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/monitor_light.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+panel
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [panel]
+    (* <- lang_en;; *);
+    [панель]
+    (* <- lang_ru;; *);
+    [панель]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/panel.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/panel.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/panel.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/panel.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/panel.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/panel.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+panel_mounted
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [panel-mounted]
+    (* <- lang_en;; *);
+    [панельный]
+    (* <- lang_ru;; *);
+    [на панелі]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/panel_mounted.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/panel_mounted.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/panel_mounted.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/panel_mounted.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/panel_mounted.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/panel_mounted.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+pilot_light
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [pilot light]
+    (* <- lang_en;; *);
+    [пилотный свет]
+    (* <- lang_ru;; *);
+    [пілотне світло]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/pilot_light.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/pilot_light.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/pilot_light.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/pilot_light.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/pilot_light.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/pilot_light.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+primary_element
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [primary element]
+    (* <- lang_en;; *);
+    [первичный элемент]
+    (* <- lang_ru;; *);
+    [первинний елемент]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/primary_element.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/primary_element.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/primary_element.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/primary_element.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/primary_element.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/primary_element.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+process
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [process]
+    (* <- lang_en;; *);
+    [процесс]
+    (* <- lang_ru;; *);
+    [процес]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/process.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/process.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/process.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/process.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/process.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/process.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+process_variable
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [process variable]
+    (* <- lang_en;; *);
+    [переменная процесса]
+    (* <- lang_ru;; *);
+    [переменний процес]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/process_variable.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/process_variable.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/process_variable.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/process_variable.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/process_variable.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/process_variable.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+program
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [program]
+    (* <- lang_en;; *);
+    [программа]
+    (* <- lang_ru;; *);
+    [програма]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/program.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/program.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/program.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/program.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/program.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/program.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+programmable_logic_controller
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [programmable logic controller]
+    (* <- lang_en;; *);
+    [Программируемый логический контроллер]
+    (* <- lang_ru;; *);
+    [програмований логічний контролер]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/programmable_logic_controller.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/programmable_logic_controller.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/programmable_logic_controller.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/programmable_logic_controller.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/programmable_logic_controller.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/programmable_logic_controller.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+relay
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [relay]
+    (* <- lang_en;; *);
+    [реле]
+    (* <- lang_ru;; *);
+    [реле]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/relay.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/relay.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/relay.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/relay.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/relay.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/relay.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+safety_instrumented_system
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [safety instrumented system]
+    (* <- lang_en;; *);
+    [автоматическая система безопасности]
+    (* <- lang_ru;; *);
+    [приладова система безпеки]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/safety_instrumented_system.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/safety_instrumented_system.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/safety_instrumented_system.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/safety_instrumented_system.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/safety_instrumented_system.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/safety_instrumented_system.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+scan
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [scan]
+    (* <- lang_en;; *);
+    [сканирование]
+    (* <- lang_ru;; *);
+    [сканування]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/scan.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/scan.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/scan.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/scan.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/scan.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/scan.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+sensor
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [sensor]
+    (* <- lang_en;; *);
+    [датчик]
+    (* <- lang_ru;; *);
+    [датчик]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/sensor.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/sensor.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/sensor.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/sensor.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/sensor.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/sensor.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+setpoint
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [setpoint]
+    (* <- lang_en;; *);
+    [уставка]
+    (* <- lang_ru;; *);
+    [задане значення]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/setpoint.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/setpoint.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/setpoint.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/setpoint.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/setpoint.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/setpoint.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+shared_control
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [shared control]
+    (* <- lang_en;; *);
+    [общий контроль]
+    (* <- lang_ru;; *);
+    [спільний контроль]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/shared_control.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/shared_control.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/shared_control.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/shared_control.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/shared_control.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/shared_control.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+shared_display
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [shared display]
+    (* <- lang_en;; *);
+    [общий дисплей]
+    (* <- lang_ru;; *);
+    [спільний дисплей]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/shared_display.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/shared_display.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/shared_display.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/shared_display.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/shared_display.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/shared_display.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+software
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [software]
+    (* <- lang_en;; *);
+    [программное обеспечение]
+    (* <- lang_ru;; *);
+    [програмне забезпечення]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/software.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/software.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/software.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/software.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/software.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/software.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+software_link
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [software link]
+    (* <- lang_en;; *);
+    [ссылка на программное обеспечение]
+    (* <- lang_ru;; *);
+    [посилання на програмне забезпечення]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/software_link.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/software_link.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/software_link.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/software_link.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/software_link.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/software_link.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+supervisory_setpoint_control_system
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [supervisory setpoint control system]
+    (* <- lang_en;; *);
+    [система диспетчерского контроля уставок]
+    (* <- lang_ru;; *);
+    [система контролю контрольних заданих значень]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/supervisory_setpoint_control_system.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/supervisory_setpoint_control_system.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/supervisory_setpoint_control_system.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/supervisory_setpoint_control_system.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/supervisory_setpoint_control_system.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/supervisory_setpoint_control_system.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [switch]
+    (* <- lang_en;; *);
+    [переключатель]
+    (* <- lang_ru;; *);
+    [перемикач]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/switch.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/switch.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/switch.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/switch.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/switch.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/switch.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+test_point
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [test point]
+    (* <- lang_en;; *);
+    [контрольная точка]
+    (* <- lang_ru;; *);
+    [контрольний пункт]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/test_point.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/test_point.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/test_point.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/test_point.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/test_point.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/test_point.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+transducer
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [transducer]
+    (* <- lang_en;; *);
+    [преобразователь]
+    (* <- lang_ru;; *);
+    [перетворювач]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/transducer.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/transducer.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/transducer.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/transducer.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/transducer.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/transducer.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
+
+transmitter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+    [передатчик]
+    (* <- lang_en;; *);
+    [преобразователь]
+    (* <- lang_ru;; *);
+    [передавач]
+    (* <- lang_uk;; *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- explanation;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/explanations/en/transmitter.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/explanations/ru/transmitter.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/explanations/uk/transmitter.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);
+<- rrel_key_sc_element:
+    ...
+    (*
+        <- note;;
+        <= nrel_sc_text_translation:
+            ...
+            (*
+                -> rrel_example:
+                    "file://content_html/notes/en/transmitter.html"
+                    (* <- lang_en;; *);
+                    "file://content_html/notes/ru/transmitter.html"
+                    (* <- lang_ru;; *);
+                    "file://content_html/notes/uk/transmitter.html"
+                    (* <- lang_uk;; *);;
+            *);;
+    *);;
