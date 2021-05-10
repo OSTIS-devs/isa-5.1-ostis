@@ -55,7 +55,7 @@ concept_AND_gate
 	[Логічний символ І]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/AND_gate.jpg"
+	"file://images/logic/AND_gate.jpg"
 <- rrel_key_sc_element:
 	..AND_gate_explanation
 	(*
