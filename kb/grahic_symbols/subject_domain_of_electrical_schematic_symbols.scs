@@ -21,7 +21,18 @@ concept_three_position_toggle_or_rotary_maintained_position_pushbutton_switch_ac
 concept_single_pole_normally_open_toggle_switch;
 concept_single_pole_normally_closed_toggle_switch;
 concept_double_pole_normally_closed_or_normally_open_toggle_switch;
-concept_rotary_selector_switch;;
+concept_rotary_selector_switch;
+concept_pressure_switch_actuator;
+concept_differential_pressure_switch_actuator;
+concept_liquid_level_switch_actuator;
+concept_temperature_switch_actuator;
+concept_flow_switch_actuator;
+concept_foot_switch_actuator;
+concept_relay_operating_coil;
+concept_normally_open_relay_contact;
+concept_normally_closed_relay_contact;
+concept_normally_open_or_normally_closed_relay_contact;;
+
 
 concept_electrical_schematic_symbol
 <- sc_node_not_relation;
@@ -59,7 +70,17 @@ concept_three_position_toggle_or_rotary_maintained_position_pushbutton_switch_ac
 concept_single_pole_normally_open_toggle_switch;
 concept_single_pole_normally_closed_toggle_switch;
 concept_double_pole_normally_closed_or_normally_open_toggle_switch;
-concept_rotary_selector_switch;;
+concept_rotary_selector_switch;
+concept_pressure_switch_actuator;
+concept_differential_pressure_switch_actuator;
+concept_liquid_level_switch_actuator;
+concept_temperature_switch_actuator;
+concept_flow_switch_actuator;
+concept_foot_switch_actuator;
+concept_relay_operating_coil;
+concept_normally_open_relay_contact;
+concept_normally_closed_relay_contact;
+concept_normally_open_or_normally_closed_relay_contact;;
 
 concept_device_wiring_point
 <- sc_node_not_relation;
@@ -505,6 +526,118 @@ concept_foot_switch_actuator
 				"file://content_html/explanations/electric/foot_switch_actuator_en.html"
 			(* <- lang_en;; *);
 				"file://content_html/explanations/electric/foot_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_relay_operating_coil
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[катушка управления реле]
+	(* <- lang_ru;; *);
+	[relay operating coil]
+	(* <- lang_en;; *);
+	[котушка управління реле]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/relay_operating_coil.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/relay_operating_coil_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/relay_operating_coil_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/relay_operating_coil_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_normally_open_relay_contact
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[нормально разомкнутый релейный контакт]
+	(* <- lang_ru;; *);
+	[normally open relay contact]
+	(* <- lang_en;; *);
+	[нормально розімкнутий контакт реле]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/normally_open_relay_contact.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/normally_open_relay_contact_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/normally_open_relay_contact_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/normally_open_relay_contact_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_normally_closed_relay_contact
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[нормально замкнутый релейный контакт]
+	(* <- lang_ru;; *);
+	[normally closed relay contact]
+	(* <- lang_en;; *);
+	[нормально замкнутий контакт реле]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/normally_closed_relay_contact.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/normally_closed_relay_contact_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/normally_closed_relay_contact_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/normally_closed_relay_contact_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_normally_open_or_normally_closed_relay_contact
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[нормально замкнутый релейный контакт]
+	(* <- lang_ru;; *);
+	[normally open or normally closed relay contact]
+	(* <- lang_en;; *);
+	[нормально замкнутий контакт реле]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/normally_closed_relay_contact.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/normally_open_or_normally_closed_relay_contact_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/normally_open_or_normally_closed_relay_contact_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/normally_open_or_normally_closed_relay_contact_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
