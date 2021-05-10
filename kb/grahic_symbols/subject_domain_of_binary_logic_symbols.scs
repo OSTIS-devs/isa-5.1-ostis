@@ -13,6 +13,7 @@ concept_binary_logic_symbol;
 
 -> rrel_not_maximum_studied_object_class:
 concept_AND_gate;
+concept_NAND_gate;
 concept_OR_gate;;
 
 concept_binary_logic_symbol
@@ -73,3 +74,86 @@ concept_AND_gate
 		*);;
 	*);;
 	
+concept_OR_gate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[логический символ ИЛИ]
+	(* <- lang_ru;; *);
+	[OR gate]
+	(* <- lang_en;; *);
+	[логічний символ АБО]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/OR_gate.jpg";
+<- rrel_key_sc_element:
+	..OR_gate_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/OR_gate_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/OR_gate_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/OR_gate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_NAND_gate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[логический символ И-НЕ]
+	(* <- lang_ru;; *);
+	[NAND gate]
+	(* <- lang_en;; *);
+	[логічний символ I-НЕ]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/NAND_gate.jpg";
+<- rrel_key_sc_element:
+	..NAND_gate_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/NAND_gate_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/NAND_gate_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/NAND_gate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_NOR_gate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[логический символ ИЛИ-НЕ]
+	(* <- lang_ru;; *);
+	[NOR gate]
+	(* <- lang_en;; *);
+	[логічний символ IЛI-НЕ]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/NOR_gate.jpg";
+<- rrel_key_sc_element:
+	..NOR_gate_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/NOR_gate_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/NOR_gate_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/NOR_gate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
