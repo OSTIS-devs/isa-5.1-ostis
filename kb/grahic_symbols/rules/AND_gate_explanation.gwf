@@ -86,7 +86,7 @@
         <pair type="pair/const/-/perm/orient" idtf="" shapeColor="0" id="94356660317216" parent="94356661521472" id_b="94356661861504" id_e="94356660311120" b_x="295.5" b_y="253.5" e_x="607" e_y="252.5" dotBBalance="0" dotEBalance="0">
             <points/>
         </pair>
-        <contour type="contour/const/perm" idtf="AND_gate_explanation" shapeColor="0" id="94356661521472" parent="0" left="0" top="0" right="134.313" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-59" idtf_pos_y="-253">
+        <contour type="contour/const/perm" idtf="..AND_gate_explanation" shapeColor="0" id="94356661521472" parent="0" left="0" top="0" right="134.313" bottom="23" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" idtf_pos_x="-59" idtf_pos_y="-253">
             <points>
                 <point x="128" y="473"/>
                 <point x="128" y="50"/>
