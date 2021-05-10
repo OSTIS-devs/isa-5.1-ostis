@@ -36,3 +36,5 @@ concept_graphic_symbol
 			(* <- lang_uk;; *);;
 		*);;
 	*);
+=> nrel_inclusion:
+concept_binary_logic_symbol;;

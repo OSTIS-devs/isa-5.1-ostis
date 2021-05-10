@@ -1,0 +1,38 @@
+subject_domain_of_binary_logic_symbols
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область двоичных логических обозначений]
+	(* <- lang_ru;; *);
+	[Subject domain of binary logic symbols]
+	(* <- lang_en;; *);
+	[Предметна область двійкових логічних позначень]
+	(* <- lang_uk;; *);;
+	
+-> rrel_maximum_studied_object_class: 
+concept_binary_logic_symbol;;
+
+concept_binary_logic_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Двоичное логическое обозначение]
+	(* <- lang_ru;; *);
+	[Binary logic symbol]
+	(* <- lang_en;; *);
+	[Двійкове логічне позначення]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/binary_logic_symbol_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/binary_logic_symbol_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/binary_logic_symbol_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);
