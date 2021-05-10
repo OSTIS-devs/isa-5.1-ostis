@@ -288,7 +288,7 @@ concept_single_pole_normally_closed_toggle_switch
 concept_double_pole_normally_closed_or_normally_open_toggle_switch
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[двополюсний нормально закритий або нормально відкритий тумблер]
+	[двухполюсный нормально закрытый или нормально открытый переключатель]
 	(* <- lang_ru;; *);
 	[double pole normally closed or normally open toggle switch]
 	(* <- lang_en;; *);
