@@ -25,11 +25,11 @@ accessible
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/accessible.html"
+                    "file://content_html/explanations/accessible_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/accessible.html"
+                    "file://content_html/explanations/accessible_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/accessible.html"
+                    "file://content_html/explanations/accessible_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -41,11 +41,11 @@ accessible
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/accessible.html"
+                    "file://content_html/notes/accessible_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/accessible.html"
+                    "file://content_html/notes/accessible_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/accessible.html"
+                    "file://content_html/notes/accessible_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -67,11 +67,11 @@ alarm
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/alarm.html"
+                    "file://content_html/explanations/alarm_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/alarm.html"
+                    "file://content_html/explanations/alarm_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/alarm.html"
+                    "file://content_html/explanations/alarm_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -83,11 +83,11 @@ alarm
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/alarm.html"
+                    "file://content_html/notes/alarm_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/alarm.html"
+                    "file://content_html/notes/alarm_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/alarm.html"
+                    "file://content_html/notes/alarm_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -109,11 +109,11 @@ analog
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/analog.html"
+                    "file://content_html/explanations/analog_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/analog.html"
+                    "file://content_html/explanations/analog_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/analog.html"
+                    "file://content_html/explanations/analog_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -125,11 +125,11 @@ analog
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/analog.html"
+                    "file://content_html/notes/analog_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/analog.html"
+                    "file://content_html/notes/analog_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/analog.html"
+                    "file://content_html/notes/analog_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -151,11 +151,11 @@ application_software
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/application_software.html"
+                    "file://content_html/explanations/application_software_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/application_software.html"
+                    "file://content_html/explanations/application_software_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/application_software.html"
+                    "file://content_html/explanations/application_software_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -167,11 +167,11 @@ application_software
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/application_software.html"
+                    "file://content_html/notes/application_software_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/application_software.html"
+                    "file://content_html/notes/application_software_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/application_software.html"
+                    "file://content_html/notes/application_software_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -193,11 +193,11 @@ assignable
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/assignable.html"
+                    "file://content_html/explanations/assignable_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/assignable.html"
+                    "file://content_html/explanations/assignable_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/assignable.html"
+                    "file://content_html/explanations/assignable_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -209,11 +209,11 @@ assignable
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/assignable.html"
+                    "file://content_html/notes/assignable_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/assignable.html"
+                    "file://content_html/notes/assignable_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/assignable.html"
+                    "file://content_html/notes/assignable_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -235,11 +235,11 @@ auto_manual_station
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/auto_manual_station.html"
+                    "file://content_html/explanations/auto_manual_station_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/auto_manual_station.html"
+                    "file://content_html/explanations/auto_manual_station_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/auto_manual_station.html"
+                    "file://content_html/explanations/auto_manual_station_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -251,11 +251,11 @@ auto_manual_station
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/auto_manual_station.html"
+                    "file://content_html/notes/auto_manual_station_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/auto_manual_station.html"
+                    "file://content_html/notes/auto_manual_station_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/auto_manual_station.html"
+                    "file://content_html/notes/auto_manual_station_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -277,11 +277,11 @@ balloon
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/balloon.html"
+                    "file://content_html/explanations/balloon_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/balloon.html"
+                    "file://content_html/explanations/balloon_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/balloon.html"
+                    "file://content_html/explanations/balloon_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -293,11 +293,11 @@ balloon
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/balloon.html"
+                    "file://content_html/notes/balloon_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/balloon.html"
+                    "file://content_html/notes/balloon_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/balloon.html"
+                    "file://content_html/notes/balloon_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -319,11 +319,11 @@ basic_process_control_system
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/basic_process_control_system.html"
+                    "file://content_html/explanations/basic_process_control_system_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/basic_process_control_system.html"
+                    "file://content_html/explanations/basic_process_control_system_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/basic_process_control_system.html"
+                    "file://content_html/explanations/basic_process_control_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -335,11 +335,11 @@ basic_process_control_system
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/basic_process_control_system.html"
+                    "file://content_html/notes/basic_process_control_system_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/basic_process_control_system.html"
+                    "file://content_html/notes/basic_process_control_system_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/basic_process_control_system.html"
+                    "file://content_html/notes/basic_process_control_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -361,11 +361,11 @@ behind_the_panel
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/behind_the_panel.html"
+                    "file://content_html/explanations/behind_the_panel_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/behind_the_panel.html"
+                    "file://content_html/explanations/behind_the_panel_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/behind_the_panel.html"
+                    "file://content_html/explanations/behind_the_panel_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -377,11 +377,11 @@ behind_the_panel
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/behind_the_panel.html"
+                    "file://content_html/notes/behind_the_panel_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/behind_the_panel.html"
+                    "file://content_html/notes/behind_the_panel_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/behind_the_panel.html"
+                    "file://content_html/notes/behind_the_panel_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -403,11 +403,11 @@ binary
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/binary.html"
+                    "file://content_html/explanations/binary_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/binary.html"
+                    "file://content_html/explanations/binary_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/binary.html"
+                    "file://content_html/explanations/binary_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -419,11 +419,11 @@ binary
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/binary.html"
+                    "file://content_html/notes/binary_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/binary.html"
+                    "file://content_html/notes/binary_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/binary.html"
+                    "file://content_html/notes/binary_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -445,11 +445,11 @@ board
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/board.html"
+                    "file://content_html/explanations/board_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/board.html"
+                    "file://content_html/explanations/board_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/board.html"
+                    "file://content_html/explanations/board_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -461,11 +461,11 @@ board
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/board.html"
+                    "file://content_html/notes/board_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/board.html"
+                    "file://content_html/notes/board_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/board.html"
+                    "file://content_html/notes/board_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -487,11 +487,11 @@ bubble
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/bubble.html"
+                    "file://content_html/explanations/bubble_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/bubble.html"
+                    "file://content_html/explanations/bubble_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/bubble.html"
+                    "file://content_html/explanations/bubble_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -503,11 +503,11 @@ bubble
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/bubble.html"
+                    "file://content_html/notes/bubble_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/bubble.html"
+                    "file://content_html/notes/bubble_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/bubble.html"
+                    "file://content_html/notes/bubble_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -529,11 +529,11 @@ communication_link
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/communication_link.html"
+                    "file://content_html/explanations/communication_link_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/communication_link.html"
+                    "file://content_html/explanations/communication_link_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/communication_link.html"
+                    "file://content_html/explanations/communication_link_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -545,11 +545,11 @@ communication_link
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/communication_link.html"
+                    "file://content_html/notes/communication_link_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/communication_link.html"
+                    "file://content_html/notes/communication_link_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/communication_link.html"
+                    "file://content_html/notes/communication_link_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -571,11 +571,11 @@ computer_control_system
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/computer_control_system.html"
+                    "file://content_html/explanations/computer_control_system_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/computer_control_system.html"
+                    "file://content_html/explanations/computer_control_system_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/computer_control_system.html"
+                    "file://content_html/explanations/computer_control_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -587,11 +587,11 @@ computer_control_system
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/computer_control_system.html"
+                    "file://content_html/notes/computer_control_system_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/computer_control_system.html"
+                    "file://content_html/notes/computer_control_system_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/computer_control_system.html"
+                    "file://content_html/notes/computer_control_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -613,11 +613,11 @@ computing_device
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/computing_device.html"
+                    "file://content_html/explanations/computing_device_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/computing_device.html"
+                    "file://content_html/explanations/computing_device_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/computing_device.html"
+                    "file://content_html/explanations/computing_device_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -629,11 +629,11 @@ computing_device
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/computing_device.html"
+                    "file://content_html/notes/computing_device_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/computing_device.html"
+                    "file://content_html/notes/computing_device_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/computing_device.html"
+                    "file://content_html/notes/computing_device_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -655,11 +655,11 @@ computing_relay
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/computing_relay.html"
+                    "file://content_html/explanations/computing_relay_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/computing_relay.html"
+                    "file://content_html/explanations/computing_relay_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/computing_relay.html"
+                    "file://content_html/explanations/computing_relay_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -671,11 +671,11 @@ computing_relay
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/computing_relay.html"
+                    "file://content_html/notes/computing_relay_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/computing_relay.html"
+                    "file://content_html/notes/computing_relay_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/computing_relay.html"
+                    "file://content_html/notes/computing_relay_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -697,11 +697,11 @@ computing_function
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/computing_function.html"
+                    "file://content_html/explanations/computing_function_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/computing_function.html"
+                    "file://content_html/explanations/computing_function_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/computing_function.html"
+                    "file://content_html/explanations/computing_function_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -713,11 +713,11 @@ computing_function
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/computing_function.html"
+                    "file://content_html/notes/computing_function_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/computing_function.html"
+                    "file://content_html/notes/computing_function_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/computing_function.html"
+                    "file://content_html/notes/computing_function_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -739,11 +739,11 @@ configurable
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/configurable.html"
+                    "file://content_html/explanations/configurable_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/configurable.html"
+                    "file://content_html/explanations/configurable_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/configurable.html"
+                    "file://content_html/explanations/configurable_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -755,11 +755,11 @@ configurable
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/configurable.html"
+                    "file://content_html/notes/configurable_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/configurable.html"
+                    "file://content_html/notes/configurable_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/configurable.html"
+                    "file://content_html/notes/configurable_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -781,11 +781,11 @@ controller
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/controller.html"
+                    "file://content_html/explanations/controller_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/controller.html"
+                    "file://content_html/explanations/controller_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/controller.html"
+                    "file://content_html/explanations/controller_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -797,11 +797,11 @@ controller
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/controller.html"
+                    "file://content_html/notes/controller_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/controller.html"
+                    "file://content_html/notes/controller_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/controller.html"
+                    "file://content_html/notes/controller_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -823,11 +823,11 @@ control_station
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/control_station.html"
+                    "file://content_html/explanations/control_station_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/control_station.html"
+                    "file://content_html/explanations/control_station_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/control_station.html"
+                    "file://content_html/explanations/control_station_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -839,11 +839,11 @@ control_station
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/control_station.html"
+                    "file://content_html/notes/control_station_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/control_station.html"
+                    "file://content_html/notes/control_station_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/control_station.html"
+                    "file://content_html/notes/control_station_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -865,11 +865,11 @@ control_valve
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/control_valve.html"
+                    "file://content_html/explanations/control_valve_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/control_valve.html"
+                    "file://content_html/explanations/control_valve_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/control_valve.html"
+                    "file://content_html/explanations/control_valve_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -881,11 +881,11 @@ control_valve
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/control_valve.html"
+                    "file://content_html/notes/control_valve_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/control_valve.html"
+                    "file://content_html/notes/control_valve_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/control_valve.html"
+                    "file://content_html/notes/control_valve_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -907,11 +907,11 @@ converter
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/converter.html"
+                    "file://content_html/explanations/converter_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/converter.html"
+                    "file://content_html/explanations/converter_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/converter.html"
+                    "file://content_html/explanations/converter_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -923,11 +923,11 @@ converter
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/converter.html"
+                    "file://content_html/notes/converter_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/converter.html"
+                    "file://content_html/notes/converter_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/converter.html"
+                    "file://content_html/notes/converter_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -949,11 +949,11 @@ datalink
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/datalink.html"
+                    "file://content_html/explanations/datalink_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/datalink.html"
+                    "file://content_html/explanations/datalink_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/datalink.html"
+                    "file://content_html/explanations/datalink_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -965,11 +965,11 @@ datalink
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/datalink.html"
+                    "file://content_html/notes/datalink_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/datalink.html"
+                    "file://content_html/notes/datalink_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/datalink.html"
+                    "file://content_html/notes/datalink_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -991,11 +991,11 @@ detector
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/detector.html"
+                    "file://content_html/explanations/detector_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/detector.html"
+                    "file://content_html/explanations/detector_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/detector.html"
+                    "file://content_html/explanations/detector_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1007,11 +1007,11 @@ detector
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/detector.html"
+                    "file://content_html/notes/detector_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/detector.html"
+                    "file://content_html/notes/detector_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/detector.html"
+                    "file://content_html/notes/detector_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1033,11 +1033,11 @@ device
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/device.html"
+                    "file://content_html/explanations/device_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/device.html"
+                    "file://content_html/explanations/device_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/device.html"
+                    "file://content_html/explanations/device_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1049,11 +1049,11 @@ device
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/device.html"
+                    "file://content_html/notes/device_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/device.html"
+                    "file://content_html/notes/device_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/device.html"
+                    "file://content_html/notes/device_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1075,11 +1075,11 @@ digital
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/digital.html"
+                    "file://content_html/explanations/digital_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/digital.html"
+                    "file://content_html/explanations/digital_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/digital.html"
+                    "file://content_html/explanations/digital_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1091,11 +1091,11 @@ digital
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/digital.html"
+                    "file://content_html/notes/digital_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/digital.html"
+                    "file://content_html/notes/digital_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/digital.html"
+                    "file://content_html/notes/digital_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1117,11 +1117,11 @@ discrete_instrument
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/discrete_instrument.html"
+                    "file://content_html/explanations/discrete_instrument_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/discrete_instrument.html"
+                    "file://content_html/explanations/discrete_instrument_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/discrete_instrument.html"
+                    "file://content_html/explanations/discrete_instrument_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1133,11 +1133,11 @@ discrete_instrument
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/discrete_instrument.html"
+                    "file://content_html/notes/discrete_instrument_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/discrete_instrument.html"
+                    "file://content_html/notes/discrete_instrument_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/discrete_instrument.html"
+                    "file://content_html/notes/discrete_instrument_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1159,11 +1159,11 @@ discrete_signals
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/discrete_signals.html"
+                    "file://content_html/explanations/discrete_signals_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/discrete_signals.html"
+                    "file://content_html/explanations/discrete_signals_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/discrete_signals.html"
+                    "file://content_html/explanations/discrete_signals_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1175,11 +1175,11 @@ discrete_signals
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/discrete_signals.html"
+                    "file://content_html/notes/discrete_signals_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/discrete_signals.html"
+                    "file://content_html/notes/discrete_signals_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/discrete_signals.html"
+                    "file://content_html/notes/discrete_signals_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1201,11 +1201,11 @@ distributed_control_system
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/distributed_control_system.html"
+                    "file://content_html/explanations/distributed_control_system_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/distributed_control_system.html"
+                    "file://content_html/explanations/distributed_control_system_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/distributed_control_system.html"
+                    "file://content_html/explanations/distributed_control_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1217,11 +1217,11 @@ distributed_control_system
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/distributed_control_system.html"
+                    "file://content_html/notes/distributed_control_system_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/distributed_control_system.html"
+                    "file://content_html/notes/distributed_control_system_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/distributed_control_system.html"
+                    "file://content_html/notes/distributed_control_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1243,11 +1243,11 @@ field_instrument
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/field_instrument.html"
+                    "file://content_html/explanations/field_instrument_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/field_instrument.html"
+                    "file://content_html/explanations/field_instrument_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/field_instrument.html"
+                    "file://content_html/explanations/field_instrument_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1259,11 +1259,11 @@ field_instrument
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/field_instrument.html"
+                    "file://content_html/notes/field_instrument_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/field_instrument.html"
+                    "file://content_html/notes/field_instrument_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/field_instrument.html"
+                    "file://content_html/notes/field_instrument_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1285,11 +1285,11 @@ final_control_element
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/final_control_element.html"
+                    "file://content_html/explanations/final_control_element_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/final_control_element.html"
+                    "file://content_html/explanations/final_control_element_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/final_control_element.html"
+                    "file://content_html/explanations/final_control_element_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1301,11 +1301,11 @@ final_control_element
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/final_control_element.html"
+                    "file://content_html/notes/final_control_element_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/final_control_element.html"
+                    "file://content_html/notes/final_control_element_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/final_control_element.html"
+                    "file://content_html/notes/final_control_element_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1327,11 +1327,11 @@ function
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/function.html"
+                    "file://content_html/explanations/function_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/function.html"
+                    "file://content_html/explanations/function_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/function.html"
+                    "file://content_html/explanations/function_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1343,11 +1343,11 @@ function
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/function.html"
+                    "file://content_html/notes/function_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/function.html"
+                    "file://content_html/notes/function_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/function.html"
+                    "file://content_html/notes/function_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1369,11 +1369,11 @@ hardware
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/hardware.html"
+                    "file://content_html/explanations/hardware_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/hardware.html"
+                    "file://content_html/explanations/hardware_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/hardware.html"
+                    "file://content_html/explanations/hardware_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1385,11 +1385,11 @@ hardware
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/hardware.html"
+                    "file://content_html/notes/hardware_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/hardware.html"
+                    "file://content_html/notes/hardware_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/hardware.html"
+                    "file://content_html/notes/hardware_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1411,11 +1411,11 @@ high_level_control_system
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/high_level_control_system.html"
+                    "file://content_html/explanations/high_level_control_system_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/high_level_control_system.html"
+                    "file://content_html/explanations/high_level_control_system_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/high_level_control_system.html"
+                    "file://content_html/explanations/high_level_control_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1427,11 +1427,11 @@ high_level_control_system
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/high_level_control_system.html"
+                    "file://content_html/notes/high_level_control_system_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/high_level_control_system.html"
+                    "file://content_html/notes/high_level_control_system_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/high_level_control_system.html"
+                    "file://content_html/notes/high_level_control_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1453,11 +1453,11 @@ identification
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/identification.html"
+                    "file://content_html/explanations/identification_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/identification.html"
+                    "file://content_html/explanations/identification_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/identification.html"
+                    "file://content_html/explanations/identification_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1469,11 +1469,11 @@ identification
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/identification.html"
+                    "file://content_html/notes/identification_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/identification.html"
+                    "file://content_html/notes/identification_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/identification.html"
+                    "file://content_html/notes/identification_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1495,11 +1495,11 @@ instrument
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/instrument.html"
+                    "file://content_html/explanations/instrument_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/instrument.html"
+                    "file://content_html/explanations/instrument_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/instrument.html"
+                    "file://content_html/explanations/instrument_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1511,11 +1511,11 @@ instrument
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/instrument.html"
+                    "file://content_html/notes/instrument_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/instrument.html"
+                    "file://content_html/notes/instrument_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/instrument.html"
+                    "file://content_html/notes/instrument_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1537,11 +1537,11 @@ instrumentation
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/instrumentation.html"
+                    "file://content_html/explanations/instrumentation_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/instrumentation.html"
+                    "file://content_html/explanations/instrumentation_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/instrumentation.html"
+                    "file://content_html/explanations/instrumentation_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1553,11 +1553,11 @@ instrumentation
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/instrumentation.html"
+                    "file://content_html/notes/instrumentation_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/instrumentation.html"
+                    "file://content_html/notes/instrumentation_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/instrumentation.html"
+                    "file://content_html/notes/instrumentation_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1579,11 +1579,11 @@ local_instrument
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/local_instrument.html"
+                    "file://content_html/explanations/local_instrument_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/local_instrument.html"
+                    "file://content_html/explanations/local_instrument_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/local_instrument.html"
+                    "file://content_html/explanations/local_instrument_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1595,11 +1595,11 @@ local_instrument
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/local_instrument.html"
+                    "file://content_html/notes/local_instrument_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/local_instrument.html"
+                    "file://content_html/notes/local_instrument_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/local_instrument.html"
+                    "file://content_html/notes/local_instrument_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1621,11 +1621,11 @@ local_panel
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/local_panel.html"
+                    "file://content_html/explanations/local_panel_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/local_panel.html"
+                    "file://content_html/explanations/local_panel_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/local_panel.html"
+                    "file://content_html/explanations/local_panel_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1637,11 +1637,11 @@ local_panel
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/local_panel.html"
+                    "file://content_html/notes/local_panel_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/local_panel.html"
+                    "file://content_html/notes/local_panel_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/local_panel.html"
+                    "file://content_html/notes/local_panel_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1663,11 +1663,11 @@ loop
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/loop.html"
+                    "file://content_html/explanations/loop_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/loop.html"
+                    "file://content_html/explanations/loop_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/loop.html"
+                    "file://content_html/explanations/loop_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1679,11 +1679,11 @@ loop
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/loop.html"
+                    "file://content_html/notes/loop_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/loop.html"
+                    "file://content_html/notes/loop_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/loop.html"
+                    "file://content_html/notes/loop_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1705,11 +1705,11 @@ manual_loading_station
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/manual_loading_station.html"
+                    "file://content_html/explanations/manual_loading_station_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/manual_loading_station.html"
+                    "file://content_html/explanations/manual_loading_station_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/manual_loading_station.html"
+                    "file://content_html/explanations/manual_loading_station_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1721,11 +1721,11 @@ manual_loading_station
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/manual_loading_station.html"
+                    "file://content_html/notes/manual_loading_station_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/manual_loading_station.html"
+                    "file://content_html/notes/manual_loading_station_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/manual_loading_station.html"
+                    "file://content_html/notes/manual_loading_station_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1747,11 +1747,11 @@ measurement
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/measurement.html"
+                    "file://content_html/explanations/measurement_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/measurement.html"
+                    "file://content_html/explanations/measurement_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/measurement.html"
+                    "file://content_html/explanations/measurement_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1763,11 +1763,11 @@ measurement
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/measurement.html"
+                    "file://content_html/notes/measurement_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/measurement.html"
+                    "file://content_html/notes/measurement_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/measurement.html"
+                    "file://content_html/notes/measurement_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1789,11 +1789,11 @@ monitor
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/monitor.html"
+                    "file://content_html/explanations/monitor_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/monitor.html"
+                    "file://content_html/explanations/monitor_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/monitor.html"
+                    "file://content_html/explanations/monitor_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1805,11 +1805,11 @@ monitor
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/monitor.html"
+                    "file://content_html/notes/monitor_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/monitor.html"
+                    "file://content_html/notes/monitor_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/monitor.html"
+                    "file://content_html/notes/monitor_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1831,11 +1831,11 @@ monitor_light
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/monitor_light.html"
+                    "file://content_html/explanations/monitor_light_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/monitor_light.html"
+                    "file://content_html/explanations/monitor_light_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/monitor_light.html"
+                    "file://content_html/explanations/monitor_light_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1847,11 +1847,11 @@ monitor_light
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/monitor_light.html"
+                    "file://content_html/notes/monitor_light_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/monitor_light.html"
+                    "file://content_html/notes/monitor_light_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/monitor_light.html"
+                    "file://content_html/notes/monitor_light_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1873,11 +1873,11 @@ panel
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/panel.html"
+                    "file://content_html/explanations/panel_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/panel.html"
+                    "file://content_html/explanations/panel_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/panel.html"
+                    "file://content_html/explanations/panel_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1889,11 +1889,11 @@ panel
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/panel.html"
+                    "file://content_html/notes/panel_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/panel.html"
+                    "file://content_html/notes/panel_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/panel.html"
+                    "file://content_html/notes/panel_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1915,11 +1915,11 @@ panel_mounted
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/panel_mounted.html"
+                    "file://content_html/explanations/panel_mounted_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/panel_mounted.html"
+                    "file://content_html/explanations/panel_mounted_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/panel_mounted.html"
+                    "file://content_html/explanations/panel_mounted_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1931,11 +1931,11 @@ panel_mounted
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/panel_mounted.html"
+                    "file://content_html/notes/panel_mounted_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/panel_mounted.html"
+                    "file://content_html/notes/panel_mounted_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/panel_mounted.html"
+                    "file://content_html/notes/panel_mounted_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1957,11 +1957,11 @@ pilot_light
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/pilot_light.html"
+                    "file://content_html/explanations/pilot_light_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/pilot_light.html"
+                    "file://content_html/explanations/pilot_light_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/pilot_light.html"
+                    "file://content_html/explanations/pilot_light_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -1973,11 +1973,11 @@ pilot_light
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/pilot_light.html"
+                    "file://content_html/notes/pilot_light_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/pilot_light.html"
+                    "file://content_html/notes/pilot_light_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/pilot_light.html"
+                    "file://content_html/notes/pilot_light_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1999,11 +1999,11 @@ primary_element
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/primary_element.html"
+                    "file://content_html/explanations/primary_element_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/primary_element.html"
+                    "file://content_html/explanations/primary_element_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/primary_element.html"
+                    "file://content_html/explanations/primary_element_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2015,11 +2015,11 @@ primary_element
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/primary_element.html"
+                    "file://content_html/notes/primary_element_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/primary_element.html"
+                    "file://content_html/notes/primary_element_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/primary_element.html"
+                    "file://content_html/notes/primary_element_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2041,11 +2041,11 @@ process
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/process.html"
+                    "file://content_html/explanations/process_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/process.html"
+                    "file://content_html/explanations/process_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/process.html"
+                    "file://content_html/explanations/process_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2057,11 +2057,11 @@ process
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/process.html"
+                    "file://content_html/notes/process_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/process.html"
+                    "file://content_html/notes/process_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/process.html"
+                    "file://content_html/notes/process_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2083,11 +2083,11 @@ process_variable
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/process_variable.html"
+                    "file://content_html/explanations/process_variable_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/process_variable.html"
+                    "file://content_html/explanations/process_variable_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/process_variable.html"
+                    "file://content_html/explanations/process_variable_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2099,11 +2099,11 @@ process_variable
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/process_variable.html"
+                    "file://content_html/notes/process_variable_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/process_variable.html"
+                    "file://content_html/notes/process_variable_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/process_variable.html"
+                    "file://content_html/notes/process_variable_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2125,11 +2125,11 @@ program
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/program.html"
+                    "file://content_html/explanations/program_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/program.html"
+                    "file://content_html/explanations/program_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/program.html"
+                    "file://content_html/explanations/program_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2141,11 +2141,11 @@ program
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/program.html"
+                    "file://content_html/notes/program_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/program.html"
+                    "file://content_html/notes/program_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/program.html"
+                    "file://content_html/notes/program_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2167,11 +2167,11 @@ programmable_logic_controller
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/programmable_logic_controller.html"
+                    "file://content_html/explanations/programmable_logic_controller_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/programmable_logic_controller.html"
+                    "file://content_html/explanations/programmable_logic_controller_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/programmable_logic_controller.html"
+                    "file://content_html/explanations/programmable_logic_controller_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2183,11 +2183,11 @@ programmable_logic_controller
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/programmable_logic_controller.html"
+                    "file://content_html/notes/programmable_logic_controller_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/programmable_logic_controller.html"
+                    "file://content_html/notes/programmable_logic_controller_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/programmable_logic_controller.html"
+                    "file://content_html/notes/programmable_logic_controller_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2209,11 +2209,11 @@ relay
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/relay.html"
+                    "file://content_html/explanations/relay_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/relay.html"
+                    "file://content_html/explanations/relay_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/relay.html"
+                    "file://content_html/explanations/relay_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2225,11 +2225,11 @@ relay
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/relay.html"
+                    "file://content_html/notes/relay_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/relay.html"
+                    "file://content_html/notes/relay_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/relay.html"
+                    "file://content_html/notes/relay_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2251,11 +2251,11 @@ safety_instrumented_system
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/safety_instrumented_system.html"
+                    "file://content_html/explanations/safety_instrumented_system_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/safety_instrumented_system.html"
+                    "file://content_html/explanations/safety_instrumented_system_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/safety_instrumented_system.html"
+                    "file://content_html/explanations/safety_instrumented_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2267,11 +2267,11 @@ safety_instrumented_system
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/safety_instrumented_system.html"
+                    "file://content_html/notes/safety_instrumented_system_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/safety_instrumented_system.html"
+                    "file://content_html/notes/safety_instrumented_system_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/safety_instrumented_system.html"
+                    "file://content_html/notes/safety_instrumented_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2293,11 +2293,11 @@ scan
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/scan.html"
+                    "file://content_html/explanations/scan_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/scan.html"
+                    "file://content_html/explanations/scan_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/scan.html"
+                    "file://content_html/explanations/scan_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2309,11 +2309,11 @@ scan
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/scan.html"
+                    "file://content_html/notes/scan_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/scan.html"
+                    "file://content_html/notes/scan_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/scan.html"
+                    "file://content_html/notes/scan_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2335,11 +2335,11 @@ sensor
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/sensor.html"
+                    "file://content_html/explanations/sensor_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/sensor.html"
+                    "file://content_html/explanations/sensor_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/sensor.html"
+                    "file://content_html/explanations/sensor_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2351,11 +2351,11 @@ sensor
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/sensor.html"
+                    "file://content_html/notes/sensor_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/sensor.html"
+                    "file://content_html/notes/sensor_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/sensor.html"
+                    "file://content_html/notes/sensor_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2377,11 +2377,11 @@ setpoint
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/setpoint.html"
+                    "file://content_html/explanations/setpoint_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/setpoint.html"
+                    "file://content_html/explanations/setpoint_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/setpoint.html"
+                    "file://content_html/explanations/setpoint_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2393,11 +2393,11 @@ setpoint
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/setpoint.html"
+                    "file://content_html/notes/setpoint_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/setpoint.html"
+                    "file://content_html/notes/setpoint_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/setpoint.html"
+                    "file://content_html/notes/setpoint_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2419,11 +2419,11 @@ shared_control
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/shared_control.html"
+                    "file://content_html/explanations/shared_control_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/shared_control.html"
+                    "file://content_html/explanations/shared_control_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/shared_control.html"
+                    "file://content_html/explanations/shared_control_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2435,11 +2435,11 @@ shared_control
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/shared_control.html"
+                    "file://content_html/notes/shared_control_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/shared_control.html"
+                    "file://content_html/notes/shared_control_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/shared_control.html"
+                    "file://content_html/notes/shared_control_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2461,11 +2461,11 @@ shared_display
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/shared_display.html"
+                    "file://content_html/explanations/shared_display_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/shared_display.html"
+                    "file://content_html/explanations/shared_display_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/shared_display.html"
+                    "file://content_html/explanations/shared_display_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2477,11 +2477,11 @@ shared_display
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/shared_display.html"
+                    "file://content_html/notes/shared_display_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/shared_display.html"
+                    "file://content_html/notes/shared_display_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/shared_display.html"
+                    "file://content_html/notes/shared_display_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2503,11 +2503,11 @@ software
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/software.html"
+                    "file://content_html/explanations/software_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/software.html"
+                    "file://content_html/explanations/software_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/software.html"
+                    "file://content_html/explanations/software_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2519,11 +2519,11 @@ software
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/software.html"
+                    "file://content_html/notes/software_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/software.html"
+                    "file://content_html/notes/software_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/software.html"
+                    "file://content_html/notes/software_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2545,11 +2545,11 @@ software_link
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/software_link.html"
+                    "file://content_html/explanations/software_link_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/software_link.html"
+                    "file://content_html/explanations/software_link_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/software_link.html"
+                    "file://content_html/explanations/software_link_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2561,11 +2561,11 @@ software_link
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/software_link.html"
+                    "file://content_html/notes/software_link_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/software_link.html"
+                    "file://content_html/notes/software_link_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/software_link.html"
+                    "file://content_html/notes/software_link_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2587,11 +2587,11 @@ supervisory_setpoint_control_system
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/supervisory_setpoint_control_system.html"
+                    "file://content_html/explanations/supervisory_setpoint_control_system_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/supervisory_setpoint_control_system.html"
+                    "file://content_html/explanations/supervisory_setpoint_control_system_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/supervisory_setpoint_control_system.html"
+                    "file://content_html/explanations/supervisory_setpoint_control_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2603,11 +2603,11 @@ supervisory_setpoint_control_system
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/supervisory_setpoint_control_system.html"
+                    "file://content_html/notes/supervisory_setpoint_control_system_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/supervisory_setpoint_control_system.html"
+                    "file://content_html/notes/supervisory_setpoint_control_system_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/supervisory_setpoint_control_system.html"
+                    "file://content_html/notes/supervisory_setpoint_control_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2629,11 +2629,11 @@ switch
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/switch.html"
+                    "file://content_html/explanations/switch_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/switch.html"
+                    "file://content_html/explanations/switch_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/switch.html"
+                    "file://content_html/explanations/switch_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2645,11 +2645,11 @@ switch
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/switch.html"
+                    "file://content_html/notes/switch_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/switch.html"
+                    "file://content_html/notes/switch_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/switch.html"
+                    "file://content_html/notes/switch_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2671,11 +2671,11 @@ test_point
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/test_point.html"
+                    "file://content_html/explanations/test_point_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/test_point.html"
+                    "file://content_html/explanations/test_point_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/test_point.html"
+                    "file://content_html/explanations/test_point_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2687,11 +2687,11 @@ test_point
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/test_point.html"
+                    "file://content_html/notes/test_point_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/test_point.html"
+                    "file://content_html/notes/test_point_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/test_point.html"
+                    "file://content_html/notes/test_point_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2713,11 +2713,11 @@ transducer
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/transducer.html"
+                    "file://content_html/explanations/transducer_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/transducer.html"
+                    "file://content_html/explanations/transducer_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/transducer.html"
+                    "file://content_html/explanations/transducer_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2729,11 +2729,11 @@ transducer
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/transducer.html"
+                    "file://content_html/notes/transducer_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/transducer.html"
+                    "file://content_html/notes/transducer_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/transducer.html"
+                    "file://content_html/notes/transducer_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2755,11 +2755,11 @@ transmitter
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/explanations/en/transmitter.html"
+                    "file://content_html/explanations/transmitter_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/explanations/ru/transmitter.html"
+                    "file://content_html/explanations/transmitter_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/explanations/uk/transmitter.html"
+                    "file://content_html/explanations/transmitter_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);
@@ -2771,11 +2771,12 @@ transmitter
             ...
             (*
                 -> rrel_example:
-                    "file://content_html/notes/en/transmitter.html"
+                    "file://content_html/notes/transmitter_en.html"
                     (* <- lang_en;; *);
-                    "file://content_html/notes/ru/transmitter.html"
+                    "file://content_html/notes/transmitter_ru.html"
                     (* <- lang_ru;; *);
-                    "file://content_html/notes/uk/transmitter.html"
+                    "file://content_html/notes/transmitter_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
+
