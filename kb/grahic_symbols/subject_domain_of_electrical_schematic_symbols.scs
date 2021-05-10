@@ -340,3 +340,171 @@ concept_rotary_selector_switch
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
+	
+concept_pressure_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод реле давления]
+	(* <- lang_ru;; *);
+	[pressure switch actuator]
+	(* <- lang_en;; *);
+	[привід реле тиску]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/pressure_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/pressure_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/pressure_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/pressure_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_differential_pressure_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод реле перепада давления]
+	(* <- lang_ru;; *);
+	[differential pressure switch actuator]
+	(* <- lang_en;; *);
+	[привід реле перепаду тиску]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/differential_pressure_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/differential_pressure_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/differential_pressure_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/differential_pressure_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_liquid_level_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод реле уровня жидкости]
+	(* <- lang_ru;; *);
+	[liquid level switch actuator]
+	(* <- lang_en;; *);
+	[привід реле рівня рідини]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/liquid_level_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/liquid_level_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/liquid_level_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/liquid_level_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_temperature_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод реле температуры]
+	(* <- lang_ru;; *);
+	[temperature switch actuator]
+	(* <- lang_en;; *);
+	[привід реле температури]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/temperature_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/temperature_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/temperature_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/temperature_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_flow_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[исполнительный механизм реле потока]
+	(* <- lang_ru;; *);
+	[flow switch actuator]
+	(* <- lang_en;; *);
+	[виконавчий механізм реле потоку]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/flow_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/flow_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/flow_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/flow_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_foot_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод ножного переключателя]
+	(* <- lang_ru;; *);
+	[foot switch actuator]
+	(* <- lang_en;; *);
+	[привод нового перемикача]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/foot_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/foot_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/foot_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/foot_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;

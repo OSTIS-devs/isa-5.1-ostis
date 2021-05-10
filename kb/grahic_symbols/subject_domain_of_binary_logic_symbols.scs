@@ -84,7 +84,7 @@ concept_OR_gate
 	[логічний символ АБО]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/OR_gate.jpg";
+	"file://images/logic/OR_gate.png";
 <- rrel_key_sc_element:
 	..OR_gate_explanation
 	(*
@@ -112,7 +112,7 @@ concept_NAND_gate
 	[логічний символ I-НЕ]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/NAND_gate.jpg";
+	"file://images/logic/NAND_gate.png";
 <- rrel_key_sc_element:
 	..NAND_gate_explanation
 	(*
@@ -140,7 +140,7 @@ concept_NOR_gate
 	[логічний символ IЛI-НЕ]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/NOR_gate.jpg";
+	"file://images/logic/NOR_gate.png";
 <- rrel_key_sc_element:
 	..NOR_gate_explanation
 	(*
