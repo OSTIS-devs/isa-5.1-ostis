@@ -33,11 +33,11 @@ concept_functional_block_symbol
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanations/logic/binary_logic_symbol_ru.html"
+				"file://content_html/explanations/functional/functional_block_symbol_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/logic/binary_logic_symbol_ru.html"	
+				"file://content_html/explanations/functional/functional_block_symbol_en.html"	
 			(* <- lang_en;; *);
-				"file://content_html/explanations/logic/binary_logic_symbol_ru.html"	
+				"file://content_html/explanations/functional/functional_block_symbol_uk.html"	
 			(* <- lang_uk;; *);;
 		*);;
 	*);
