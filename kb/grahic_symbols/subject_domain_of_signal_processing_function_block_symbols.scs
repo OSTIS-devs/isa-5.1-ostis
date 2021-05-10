@@ -1,0 +1,81 @@
+subject_domain_signal_processing_function_block_symbols
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область условных обозначений функционального блока обработки сигналов]
+	(* <- lang_ru;; *);
+	[Subject domain of signal processing function block symbols]
+	(* <- lang_en;; *);
+	[Предметная область условних обозначень функціонального блоку обробки сигналів]
+	(* <- lang_uk;; *);
+	
+-> rrel_maximum_studied_object_class: 
+concept_functional_block_symbol;
+
+-> rrel_not_maximum_studied_object_class:
+concept_summation_symbol;;
+
+
+concept_functional_block_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Условное обозначение функционального блока обработки сигналов]
+	(* <- lang_ru;; *);
+	[Symbol of the signal processing function block]
+	(* <- lang_en;; *);
+	[Умовне позначення функціонального блоку обробки сигналів]
+	(* <- lang_uk;; *);
+
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/binary_logic_symbol_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/binary_logic_symbol_ru.html"	
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/binary_logic_symbol_ru.html"	
+			(* <- lang_uk;; *);;
+		*);;
+	*);
+
+=> nrel_inclusion:
+concept_summation_symbol;;
+
+
+concept_summation_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Функциональный символ суммы]
+	(* <- lang_ru;; *);
+	[Functional summation symbol]
+	(* <- lang_en;; *);
+	[Функціональний підсумовування символ]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/summation.jpg";
+
+<- rrel_key_sc_element:
+
+	..summary_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/summation_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/summation_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/summation_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+
+
