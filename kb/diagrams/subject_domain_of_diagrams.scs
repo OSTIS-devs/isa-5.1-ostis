@@ -9,7 +9,7 @@ subject_domain_of_diagrams
 	(* <- lang_uk;; *);
 	
 -> rrel_maximum_studied_object_class: 
-concept_diagram;
+concept_diagram;;
 
 concept_diagram
 <- sc_node_not_relation;
@@ -28,11 +28,11 @@ concept_diagram
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanation/diagram_ru.html"
+				"file://content_html/explanations/diagram_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanation/diagram_en.html"
+				"file://content_html/explanations/diagram_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanation/diagram_uk.html"
+				"file://content_html/explanations/diagram_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);

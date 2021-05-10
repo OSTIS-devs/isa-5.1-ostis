@@ -1,0 +1,38 @@
+subject_domain_of_graphic_symbols
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область графических обозначений]
+	(* <- lang_ru;; *);
+	[Subject domain of graphic symbols]
+	(* <- lang_en;; *);
+	[Предметна область графічних позначень]
+	(* <- lang_uk;; *);;
+	
+-> rrel_maximum_studied_object_class: 
+concept_graphic_symbol;;
+
+concept_graphic_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Графическое обозначение]
+	(* <- lang_ru;; *);
+	[Graphic symbol]
+	(* <- lang_en;; *);
+	[Графічне позначення]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/graphic_symbol_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/graphic_symbol_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/graphic_symbol_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);
