@@ -6,10 +6,10 @@ subject_domain_of_binary_logic_symbols
 	[Subject domain of binary logic symbols]
 	(* <- lang_en;; *);
 	[Предметна область двійкових логічних позначень]
-	(* <- lang_uk;; *);;
+	(* <- lang_uk;; *);
 	
 -> rrel_maximum_studied_object_class: 
-concept_binary_logic_symbol;;
+concept_binary_logic_symbol;
 
 -> rrel_not_maximum_studied_object_class:
 concept_AND_gate;
@@ -18,11 +18,11 @@ concept_OR_gate;;
 concept_binary_logic_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Двоичное логическое обозначение]
+	[двоичное логическое обозначение]
 	(* <- lang_ru;; *);
-	[Binary logic symbol]
+	[binary logic symbol]
 	(* <- lang_en;; *);
-	[Двійкове логічне позначення]
+	[двійкове логічне позначення]
 	(* <- lang_uk;; *);
 <- rrel_key_sc_element:
 	...
@@ -32,11 +32,11 @@ concept_binary_logic_symbol
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanations/binary_logic_symbol_ru.html"
+				"file://content_html/explanations/logic/binary_logic_symbol_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/binary_logic_symbol_en.html"
+				"file://content_html/explanations/logic/binary_logic_symbol_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/binary_logic_symbol_uk.html"
+				"file://content_html/explanations/logic/binary_logic_symbol_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);
@@ -48,14 +48,14 @@ concept_OR_gate;;
 concept_AND_gate
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Логический символ И]
+	[логический символ И]
 	(* <- lang_ru;; *);
 	[AND gate]
 	(* <- lang_en;; *);
-	[Логічний символ І]
+	[логічний символ І]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/logic/AND_gate.jpg"
+	"file://images/logic/AND_gate.jpg";
 <- rrel_key_sc_element:
 	..AND_gate_explanation
 	(*
@@ -64,12 +64,12 @@ concept_AND_gate
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanations/AND_gate_ru.html"
+				"file://content_html/explanations/logic/AND_gate_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/AND_gate_en.html"
+				"file://content_html/explanations/logic/AND_gate_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/AND_gate_uk.html"
+				"file://content_html/explanations/logic/AND_gate_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
-	*);
+	*);;
 	

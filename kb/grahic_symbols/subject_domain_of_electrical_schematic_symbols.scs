@@ -1,0 +1,342 @@
+subject_domain_of_electrical_schematic_symbols
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область условных обозначений электрических схем]
+	(* <- lang_ru;; *);
+	[Subject domain of electrical schematic symbols]
+	(* <- lang_en;; *);
+	[Предметна область умовних позначень електричних схем]
+	(* <- lang_uk;; *);
+	
+-> rrel_maximum_studied_object_class: 
+concept_electrical_schematic_symbol;
+
+-> rrel_not_maximum_studied_object_class:
+concept_device_wiring_point;
+concept_normally_open_single_circuit_momentary_pushbutton_switch;
+concept_normally_closed_single_circuit_momentary_pushbutton_switch;
+concept_normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch;
+concept_two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator;
+concept_three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator;
+concept_single_pole_normally_open_toggle_switch;
+concept_single_pole_normally_closed_toggle_switch;
+concept_double_pole_normally_closed_or_normally_open_toggle_switch;
+concept_rotary_selector_switch;;
+
+concept_electrical_schematic_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[условное обозначение электрической схемы]
+	(* <- lang_ru;; *);
+	[electrical schematic symbol]
+	(* <- lang_en;; *);
+	[умовне позначення електричної схеми]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/electrical_schematic_symbol_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/electrical_schematic_symbol_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/electrical_schematic_symbol_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);
+	
+=> nrel_inclusion:
+concept_device_wiring_point;
+concept_normally_open_single_circuit_momentary_pushbutton_switch;
+concept_normally_closed_single_circuit_momentary_pushbutton_switch;
+concept_normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch;
+concept_two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator;
+concept_three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator;
+concept_single_pole_normally_open_toggle_switch;
+concept_single_pole_normally_closed_toggle_switch;
+concept_double_pole_normally_closed_or_normally_open_toggle_switch;
+concept_rotary_selector_switch;;
+
+concept_device_wiring_point
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[точка подключения устройства]
+	(* <- lang_ru;; *);
+	[device wiring point]
+	(* <- lang_en;; *);
+	[точка підключення пристрою]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/device_wiring_point.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/device_wiring_point_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/device_wiring_point_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/device_wiring_point_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_normally_open_single_circuit_momentary_pushbutton_switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[нормально разомкнутый одноконтурный кнопочный выключатель мгновенного действия]
+	(* <- lang_ru;; *);
+	[normally open single circuit momentary pushbutton switch]
+	(* <- lang_en;; *);
+	[нормально разомкнутий одноконтурний кнопочний вимикач мгновенного дії]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/normally_open_single_circuit_momentary_pushbutton_switch.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/normally_open_single_circuit_momentary_pushbutton_switch_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/normally_open_single_circuit_momentary_pushbutton_switch_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/normally_open_single_circuit_momentary_pushbutton_switch_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_normally_closed_single_circuit_momentary_pushbutton_switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[нормально замкнутый одноконтурный выключатель мгновенного действия]
+	(* <- lang_ru;; *);
+	[normally closed single circuit momentary pushbutton switch]
+	(* <- lang_en;; *);
+	[нормально замкнутий одноконтурний вимикач мгновенного дії]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/normally_closed_single_circuit_momentary_pushbutton_switch.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/normally_closed_single_circuit_momentary_pushbutton_switch_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/normally_closed_single_circuit_momentary_pushbutton_switch_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/normally_closed_single_circuit_momentary_pushbutton_switch_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[нормально замкнутый или нормально разомкнутый двухконтурный кнопочный переключатель мгновенного действия]
+	(* <- lang_ru;; *);
+	[normally closed or normally open double circuit momentary pushbutton switch]
+	(* <- lang_en;; *);
+	[нормально замкнутий або нормально розімкнутий двоконтурний кнопковий перемикач миттєвої дії]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/normally_closed_or_normally_open_double_circuit_momentary_pushbutton_switch_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[двухпозиционный тумблерный или поворотный кнопочный переключатель с удерживаемым положением]
+	(* <- lang_ru;; *);
+	[two position toggle or rotary maintained position pushbutton switch actuator]
+	(* <- lang_en;; *);
+	[двохпозиційний тумблерного або поворотний кнопковий перемикач з утримуваним становищем]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/two_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[трёхпозиционный тумблерный или поворотный кнопочный переключатель с удерживаемым положением]
+	(* <- lang_ru;; *);
+	[three position toggle or rotary maintained position pushbutton switch actuator]
+	(* <- lang_en;; *);
+	[трипозиційний тумблерного або поворотний кнопковий перемикач з утримуваним становищем]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/three_position_toggle_or_rotary_maintained_position_pushbutton_switch_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_single_pole_normally_open_toggle_switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[однополюсный нормально разомкнутый тумблер]
+	(* <- lang_ru;; *);
+	[single pole normally open toggle switch]
+	(* <- lang_en;; *);
+	[однополюсний нормально відкритий тумблер]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/single_pole_normally_open_toggle_switch.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/single_pole_normally_open_toggle_switch_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/single_pole_normally_open_toggle_switch_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/single_pole_normally_open_toggle_switch_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_single_pole_normally_closed_toggle_switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[однополюсный нормально закрытый тумблер]
+	(* <- lang_ru;; *);
+	[single pole normally closed toggle switch]
+	(* <- lang_en;; *);
+	[однополюсний нормально закритий тумблер]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/single_pole_normally_closed_toggle_switch.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/single_pole_normally_closed_toggle_switch_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/single_pole_normally_closed_toggle_switch_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/single_pole_normally_closed_toggle_switch_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_double_pole_normally_closed_or_normally_open_toggle_switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[двополюсний нормально закритий або нормально відкритий тумблер]
+	(* <- lang_ru;; *);
+	[double pole normally closed or normally open toggle switch]
+	(* <- lang_en;; *);
+	[двополюсній нормально закритий або нормально відкритий тумблер]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/double_pole_normally_closed_or_normally_open_toggle_switch.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/double_pole_normally_closed_or_normally_open_toggle_switch_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/double_pole_normally_closed_or_normally_open_toggle_switch_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/double_pole_normally_closed_or_normally_open_toggle_switch_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_rotary_selector_switch
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[поворотный выборный переключатель]
+	(* <- lang_ru;; *);
+	[rotary selector switch]
+	(* <- lang_en;; *);
+	[поворотний виборний перемикач]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/rotary_selector_switch.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/rotary_selector_switch_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/rotary_selector_switch_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/rotary_selector_switch_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;

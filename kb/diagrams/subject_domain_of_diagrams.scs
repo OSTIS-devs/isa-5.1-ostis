@@ -35,4 +35,4 @@ concept_diagram
 				"file://content_html/explanations/diagram_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
-	*);
+	*);;
