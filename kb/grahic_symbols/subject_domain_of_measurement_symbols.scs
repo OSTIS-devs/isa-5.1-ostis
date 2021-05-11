@@ -9,7 +9,7 @@ subject_domain_of_measurement_symbols
 	(* <- lang_uk;; *);
 	
 -> rrel_maximum_studied_object_class: 
-concept_measurement_symbol;;
+concept_measurement_symbol;
 
 -> rrel_not_maximum_studied_object_class:
 concept_single_element_sensing_probe;
