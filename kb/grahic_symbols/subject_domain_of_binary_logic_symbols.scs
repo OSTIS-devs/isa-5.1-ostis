@@ -13,8 +13,11 @@ concept_binary_logic_symbol;
 
 -> rrel_not_maximum_studied_object_class:
 concept_AND_gate;
+concept_OR_gate;
 concept_NAND_gate;
-concept_OR_gate;;
+concept_NOR_gate;
+concept_qualified_OR_gate_greater_or_equal_to_n;
+concept_qualified_OR_gate_greater_n;;
 
 concept_binary_logic_symbol
 <- sc_node_not_relation;
@@ -44,7 +47,11 @@ concept_binary_logic_symbol
 	
 => nrel_inclusion:
 concept_AND_gate;
-concept_OR_gate;;
+concept_OR_gate;
+concept_NAND_gate;
+concept_NOR_gate;
+concept_qualified_OR_gate_greater_or_equal_to_n;
+concept_qualified_OR_gate_greater_n;;
 
 concept_AND_gate
 <- sc_node_not_relation;
@@ -154,6 +161,174 @@ concept_NOR_gate
 				"file://content_html/explanations/logic/NOR_gate_en.html"
 			(* <- lang_en;; *);
 				"file://content_html/explanations/logic/NOR_gate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_qualified_OR_gate_greater_or_equal_to_n
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[квалифицированный логический символ ИЛИ, больше или равно "n"]
+	(* <- lang_ru;; *);
+	[qualified OR gate, greater or equal to "n"]
+	(* <- lang_en;; *);
+	[кваліфікований логічний символ АБО, більше або дорівнює "n"]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/qualified_OR_gate_greater_or_equal_to_n.jpg";
+<- rrel_key_sc_element:
+	..qualified_OR_gate_greater_or_equal_to_n_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/qualified_OR_gate_greater_or_equal_to_n_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_greater_or_equal_to_n_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_greater_or_equal_to_n_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_qualified_OR_gate_greater_than_n
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[квалифицированный логический символ ИЛИ, больше "n"]
+	(* <- lang_ru;; *);
+	[qualified OR gate, greater than "n"]
+	(* <- lang_en;; *);
+	[кваліфікований логічний символ АБО, більше "n"]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/qualified_OR_gate_greater_than_n.jpg";
+<- rrel_key_sc_element:
+	..qualified_OR_gate_greater_than_n_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/qualified_OR_gate_greater_than_n_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_greater_than_n_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_greater_than_n_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_qualified_OR_gate_less_or_equal_to_n
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[квалифицированный логический символ ИЛИ, меньше или равно "n"]
+	(* <- lang_ru;; *);
+	[qualified OR gate, less or equal to "n"]
+	(* <- lang_en;; *);
+	[кваліфікований логічний символ АБО, менше або дорівнює "n"]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/qualified_OR_gate_less_or_equal_to_n.jpg";
+<- rrel_key_sc_element:
+	..qualified_OR_gate_less_or_equal_to_n_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/qualified_OR_gate_less_or_equal_to_n_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_less_or_equal_to_n_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_less_or_equal_to_n_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_qualified_OR_gate_less_than_n
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[квалифицированный логический символ ИЛИ, меньше "n"]
+	(* <- lang_ru;; *);
+	[qualified OR gate, less than "n"]
+	(* <- lang_en;; *);
+	[кваліфікований логічний символ АБО, менше "n"]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/qualified_OR_gate_less_than_n.jpg";
+<- rrel_key_sc_element:
+	..qualified_OR_gate_less_than_n_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/qualified_OR_gate_less_than_n_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_less_than_n_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_less_than_n_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_qualified_OR_gate_equal_to_n
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[квалифицированный логический символ ИЛИ, равно "n"]
+	(* <- lang_ru;; *);
+	[qualified OR gate, equal to "n"]
+	(* <- lang_en;; *);
+	[кваліфікований логічний символ АБО, дорівнює "n"]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/qualified_OR_gate_equal_to_n.jpg";
+<- rrel_key_sc_element:
+	..qualified_OR_gate_equal_to_n_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/qualified_OR_gate_equal_to_n_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_equal_to_n_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_equal_to_n_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_qualified_OR_gate_not_equal_to_n
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[квалифицированный логический символ ИЛИ, не равно "n"]
+	(* <- lang_ru;; *);
+	[qualified OR gate, not equal to "n"]
+	(* <- lang_en;; *);
+	[кваліфікований логічний символ АБО, не дорівнює "n"]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/logic/qualified_OR_gate_not_equal_to_n.jpg";
+<- rrel_key_sc_element:
+	..qualified_OR_gate_not_equal_to_n_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/logic/qualified_OR_gate_not_equal_to_n_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_not_equal_to_n_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/logic/qualified_OR_gate_not_equal_to_n_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
