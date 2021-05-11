@@ -1,0 +1,966 @@
+subject_domain_of_measurement_symbols
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область условных обозначений измерений]
+	(* <- lang_ru;; *);
+	[Subject domain of measurement symbols]
+	(* <- lang_en;; *);
+    [Предметна область умовних позначень вимірювань]
+	(* <- lang_uk;; *);
+	
+-> rrel_maximum_studied_object_class: 
+concept_measurement_symbol;;
+
+-> rrel_not_maximum_studied_object_class:
+concept_single_element_sensing_probe;
+concept_dual_element_sensing_probe;
+concept_fiberoptic_sensing_probe;
+concept_ultraviolet_flame_detector;
+concept_flame_rod_flame_detector;
+concept_generic_orifice_plate;
+concept_orifice_plate_in_quick_change_fitting;
+concept_concentric_circle_orifice_plate;
+concept_eccentric_circle_orifice_plate;
+concept_circle_quadrant_orifice_plate;
+concept_multi_hole_orifice_plate;
+concept_generic_venturi_tube;
+concept_venturi_tube;
+concept_flow_nozzle;
+concept_flow_tube;
+concept_integral_orifice_plate;
+concept_standard_pitot_tube;
+concept_averaging_pitot_tube;
+concept_turbine_flowmeter;
+concept_vortex_shedding_flowmeter;
+concept_target_flowmeter;
+concept_magnetic_flowmeter;
+concept_thermal_mass_flowmeter;
+concept_positive_displacement_flowmeter;
+concept_annular_orifice_meter;
+concept_cone_meter;
+concept_wedge_meter;
+concept_coriollis_flowmeter;
+concept_sonic_flowmeter;
+concept_ultrasonic_flowmeter;
+concept_variable_area_flowmeter;
+concept_open_channel_weir_plate;
+concept_open_channel_flume;;
+
+concept_measurement_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[условное обозначение измерения]
+	(* <- lang_ru;; *);
+	[measurement symbol]
+	(* <- lang_en;; *);
+	[умовне позначення виміру]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/measurement_symbol_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/measurement_symbol_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/measurement_symbol_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);
+=> nrel_inclusion:
+concept_single_element_sensing_probe;
+concept_dual_element_sensing_probe;
+concept_fiberoptic_sensing_probe;
+concept_ultraviolet_flame_detector;
+concept_flame_rod_flame_detector;
+concept_generic_orifice_plate;
+concept_orifice_plate_in_quick_change_fitting;
+concept_concentric_circle_orifice_plate;
+concept_eccentric_circle_orifice_plate;
+concept_circle_quadrant_orifice_plate;
+concept_multi_hole_orifice_plate;
+concept_generic_venturi_tube;
+concept_venturi_tube;
+concept_flow_nozzle;
+concept_flow_tube;
+concept_integral_orifice_plate;
+concept_standard_pitot_tube;
+concept_averaging_pitot_tube;
+concept_turbine_flowmeter;
+concept_vortex_shedding_flowmeter;
+concept_target_flowmeter;
+concept_magnetic_flowmeter;
+concept_thermal_mass_flowmeter;
+concept_positive_displacement_flowmeter;
+concept_annular_orifice_meter;
+concept_cone_meter;
+concept_wedge_meter;
+concept_coriollis_flowmeter;
+concept_sonic_flowmeter;
+concept_ultrasonic_flowmeter;
+concept_variable_area_flowmeter;
+concept_open_channel_weir_plate;
+concept_open_channel_flume;;
+
+concept_single_element_sensing_probe
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[одноэлементный зонд]
+	(* <- lang_ru;; *);
+	[single element sensing probe]
+	(* <- lang_en;; *);
+	[одноелементний зонд]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/single_element_sensing_probe_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/single_element_sensing_probe_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/single_element_sensing_probe_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_dual_element_sensing_probe
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[двухэлементный зонд]
+	(* <- lang_ru;; *);
+	[dual element sensing probe]
+	(* <- lang_en;; *);
+	[двоелементний зонд]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/dual_element_sensing_probe_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/dual_element_sensing_probe_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/dual_element_sensing_probe_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_fiberoptic_sensing_probe
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[оптоволоконный зонд]
+	(* <- lang_ru;; *);
+	[fiberoptic sensing probe]
+	(* <- lang_en;; *);
+	[оптоволоконний зонд]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/fiberoptic_sensing_probe_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/fiberoptic_sensing_probe_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/fiberoptic_sensing_probe_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_ultraviolet_flame_detector
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[ультрафиолетовый датчик пламени]
+	(* <- lang_ru;; *);
+	[ultraviolet flame detector]
+	(* <- lang_en;; *);
+	[ультрафіолетовий датчик полум'я]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/ultraviolet_flame_detector_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/ultraviolet_flame_detector_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/ultraviolet_flame_detector_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_flame_rod_flame_detector
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[стержневой детектор пламени]
+	(* <- lang_ru;; *);
+	[flame rod flame detector]
+	(* <- lang_en;; *);
+	[стрижневий детектор полум'я]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/flame_rod_flame_detector_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/flame_rod_flame_detector_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/flame_rod_flame_detector_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_generic_orifice_plate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[стандартная диафрагма]
+	(* <- lang_ru;; *);
+	[generic orifice plate]
+	(* <- lang_en;; *);
+	[стандартна діафрагма]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/generic_orifice_plate_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/generic_orifice_plate_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/generic_orifice_plate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_orifice_plate_in_quick_change_fitting
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[диафрагма в быстросменном приборе]
+	(* <- lang_ru;; *);
+	[orifice plate in quick-change fitting]
+	(* <- lang_en;; *);
+	[діафрагма в швидкозмінний приладі]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/orifice_plate_in_quick_change_fitting_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/orifice_plate_in_quick_change_fitting_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/orifice_plate_in_quick_change_fitting_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_concentric_circle_orifice_plate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[концентрическая круглая диафрагма]
+	(* <- lang_ru;; *);
+	[concentric circle orifice plate]
+	(* <- lang_en;; *);
+	[концентрическая кругла діафрагма]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/concentric_circle_orifice_plate_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/concentric_circle_orifice_plate_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/concentric_circle_orifice_plate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_eccentric_circle_orifice_plate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[эксцентриковая круглая диафрагма]
+	(* <- lang_ru;; *);
+	[eccentric circle orifice plate]
+	(* <- lang_en;; *);
+	[ексцентрикова кругла діафрагма]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/eccentric_circle_orifice_plate_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/eccentric_circle_orifice_plate_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/eccentric_circle_orifice_plate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_circle_quadrant_orifice_plate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[диафрагма в виде квадранта]
+	(* <- lang_ru;; *);
+	[circle quadrant orifice plate]
+	(* <- lang_en;; *);
+	[діафрагма у вигляді квадранта]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/circle_quadrant_orifice_plate_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/circle_quadrant_orifice_plate_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/circle_quadrant_orifice_plate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_multi_hole_orifice_plate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[диафрагма с несколькими отверстиями]
+	(* <- lang_ru;; *);
+	[multi-hole orifice plate]
+	(* <- lang_en;; *);
+	[діафрагма з декількома отворами]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/multi_hole_orifice_plate_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/multi_hole_orifice_plate_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/multi_hole_orifice_plate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_generic_venturi_tube
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[стандартная трубка Вентури]
+	(* <- lang_ru;; *);
+	[generic venturi tube]
+	(* <- lang_en;; *);
+	[стандартна трубка Вентурі]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/generic_venturi_tube_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/generic_venturi_tube_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/generic_venturi_tube_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_venturi_tube
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[трубка Вентури]
+	(* <- lang_ru;; *);
+	[venturi tube]
+	(* <- lang_en;; *);
+	[трубка Вентурі]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/venturi_tube_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/venturi_tube_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/venturi_tube_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_flow_nozzle
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[сопло]
+	(* <- lang_ru;; *);
+	[flow nozzle]
+	(* <- lang_en;; *);
+	[сопло]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/flow_nozzle_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/flow_nozzle_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/flow_nozzle_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_flow_tube
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[проточная трубка]
+	(* <- lang_ru;; *);
+	[flow tube]
+	(* <- lang_en;; *);
+	[проточна трубка]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/flow_tube_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/flow_tube_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/flow_tube_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_integral_orifice_plate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[встроенная диафрагма]
+	(* <- lang_ru;; *);
+	[integral orifice plate]
+	(* <- lang_en;; *);
+	[вбудована діафрагма]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/integral_orifice_plate_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/integral_orifice_plate_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/integral_orifice_plate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_standard_pitot_tube
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[стандартная трубка Пито]
+	(* <- lang_ru;; *);
+	[standard pitot tube]
+	(* <- lang_en;; *);
+	[стандартна трубка Піто]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/standard_pitot_tube_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/standard_pitot_tube_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/standard_pitot_tube_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_averaging_pitot_tube
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[усредняющая трубка Пито]
+	(* <- lang_ru;; *);
+	[averaging pitot tube]
+	(* <- lang_en;; *);
+	[усереднюються трубка Піто]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/averaging_pitot_tube_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/averaging_pitot_tube_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/averaging_pitot_tube_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_turbine_flowmeter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[турбинный расходомер]
+	(* <- lang_ru;; *);
+	[turbine flowmeter]
+	(* <- lang_en;; *);
+	[турбінний витратомір]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/turbine_flowmeter_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/turbine_flowmeter_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/turbine_flowmeter_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_vortex_shedding_flowmeter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[вихревой расходомер]
+	(* <- lang_ru;; *);
+	[vortex shedding flowmeter]
+	(* <- lang_en;; *);
+	[вихровий витратомір]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/vortex_shedding_flowmeter_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/vortex_shedding_flowmeter_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/vortex_shedding_flowmeter_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_target_flowmeter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[целевой расходомер]
+	(* <- lang_ru;; *);
+	[target flowmeter]
+	(* <- lang_en;; *);
+	[цільової витратомір]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/target_flowmeter_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/target_flowmeter_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/target_flowmeter_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_magnetic_flowmeter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[магнитный расходомер]
+	(* <- lang_ru;; *);
+	[magnetic flowmeter]
+	(* <- lang_en;; *);
+	[магнітний витратомір]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/magnetic_flowmeter_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/magnetic_flowmeter_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/magnetic_flowmeter_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_thermal_mass_flowmeter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[термомассовый расходомер]
+	(* <- lang_ru;; *);
+	[thermal mass flowmeter]
+	(* <- lang_en;; *);
+	[термомассовий витратомір]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/thermal_mass_flowmeter_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/thermal_mass_flowmeter_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/thermal_mass_flowmeter_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_positive_displacement_flowmeter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[расходомер прямого вытеснения]
+	(* <- lang_ru;; *);
+	[positive displacement flowmeter]
+	(* <- lang_en;; *);
+	[витратомір прямого витіснення]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/positive_displacement_flowmeter_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/positive_displacement_flowmeter_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/positive_displacement_flowmeter_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_cone_meter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[конический измеритель]
+	(* <- lang_ru;; *);
+	[cone meter]
+	(* <- lang_en;; *);
+	[конічний вимірювач]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/cone_meter_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/cone_meter_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/cone_meter_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_annular_orifice_meter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[измеритель с кольцевым отверстием]
+	(* <- lang_ru;; *);
+	[annular orifice meter]
+	(* <- lang_en;; *);
+	[вимірювач з кільцевих отвором]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/annular_orifice_meter_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/annular_orifice_meter_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/annular_orifice_meter_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_wedge_meter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[клиновой измеритель]
+	(* <- lang_ru;; *);
+	[wedge meter]
+	(* <- lang_en;; *);
+	[клиновий вимірювач]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/wedge_meter_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/wedge_meter_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/wedge_meter_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_coriollis_flowmeter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[кориоллисовый расходомер]
+	(* <- lang_ru;; *);
+	[coriollis flowmeter]
+	(* <- lang_en;; *);
+	[коріоллісовий витратомір]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/coriollis_flowmeter_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/coriollis_flowmeter_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/coriollis_flowmeter_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_sonic_flowmeter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[звуковой расходомер]
+	(* <- lang_ru;; *);
+	[sonic flowmeter]
+	(* <- lang_en;; *);
+	[звуковий витратомір]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/sonic_flowmeter_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/sonic_flowmeter_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/sonic_flowmeter_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_ultrasonic_flowmeter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[ультразвуковой расходомер]
+	(* <- lang_ru;; *);
+	[ultrasonic flowmeter]
+	(* <- lang_en;; *);
+	[ультразвуковий витратомір]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/ultrasonic_flowmeter_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/ultrasonic_flowmeter_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/ultrasonic_flowmeter_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_variable_area_flowmeter
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[расходомер с переменным сечением]
+	(* <- lang_ru;; *);
+	[variable area flowmeter]
+	(* <- lang_en;; *);
+	[витратомір зі змінним перетином]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/variable_area_flowmeter_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/variable_area_flowmeter_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/variable_area_flowmeter_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_open_channel_weir_plate
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[водосливная пластина открытого канала]
+	(* <- lang_ru;; *);
+	[open channel weir plate]
+	(* <- lang_en;; *);
+	[водосливная пластина відкритого каналу]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/open_channel_weir_plate_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/open_channel_weir_plate_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/open_channel_weir_plate_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_open_channel_flume
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[лоток с открытым каналом]
+	(* <- lang_ru;; *);
+	[open channel flume]
+	(* <- lang_en;; *);
+	[лоток з відкритим каналом]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement_symbols/open_channel_flume_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement_symbols/open_channel_flume_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement_symbols/open_channel_flume_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
