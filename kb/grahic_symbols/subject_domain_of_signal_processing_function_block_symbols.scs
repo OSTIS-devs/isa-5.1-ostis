@@ -82,9 +82,6 @@ concept_summation_symbol
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
-	
-	
-	
 
 concept_multiplication_symbol
 <- sc_node_not_relation;
@@ -117,11 +114,6 @@ concept_multiplication_symbol
 		*);;
 	*);;
 
-
-
-	
-	
-
 concept_difference_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
@@ -153,11 +145,6 @@ concept_difference_symbol
 		*);;
 	*);;
 
-
-
-
-	
-	
 concept_average_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
@@ -188,5 +175,749 @@ concept_average_symbol
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
-	
 
+concept_exponential_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[функциональный экспоненциальный символ]
+	(* <- lang_ru;; *);
+	[Functional exponential symbol]
+	(* <- lang_en;; *);
+	[Функціональний експонентний символ]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/еxponential.jpg";
+
+<- rrel_key_sc_element:
+
+	..exponential_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/exponential_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/exponential_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/exponential_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_proportion_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Функциональный символ пропорции]
+	(* <- lang_ru;; *);
+	[Functional proportion symbol]
+	(* <- lang_en;; *);
+	[Функціональний символ пропорції]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/proportion.jpg";
+
+<- rrel_key_sc_element:
+
+	..proportion_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/proportion_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/proportion_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/proportion_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_integral_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Функциональный интегральный символ]
+	(* <- lang_ru;; *);
+	[Functional integral symbol]
+	(* <- lang_en;; *);
+	[Функціональний інтегральний символ]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/integral.jpg";
+
+<- rrel_key_sc_element:
+
+	..integral_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/integral_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/integral_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/integral_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_unspecified_function_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Символ неуказанной функции]
+	(* <- lang_ru;; *);
+	[Symbol of unspecified function]
+	(* <- lang_en;; *);
+	[Символ неуточненої функції]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/unspecified_function.jpg";
+
+<- rrel_key_sc_element:
+
+	..unspecified_function_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/unspecified_function_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/unspecified_function_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/unspecified_function_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_conversion_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Функциональный символ преобразования]
+	(* <- lang_ru;; *);
+	[Functional conversion symbol]
+	(* <- lang_en;; *);
+	[Функціональний символ перетворення]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/conversion.jpg";
+
+<- rrel_key_sc_element:
+
+	..conversion_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/conversion_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/conversion_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/conversion_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_middle_signal_select_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Функциональный символ преобразования]
+	(* <- lang_ru;; *);
+	[Functional conversion symbol]
+	(* <- lang_en;; *);
+	[Функціональний символ перетворення]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/middle_signal_select.jpg";
+
+<- rrel_key_sc_element:
+
+	..conversion_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/middle_signal_select_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/middle_signal_select_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/middle_signal_select_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_high_limit_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Функциональный символ преобразования]
+	(* <- lang_ru;; *);
+	[Functional conversion symbol]
+	(* <- lang_en;; *);
+	[Функціональний символ перетворення]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/high_limit.jpg";
+
+<- rrel_key_sc_element:
+
+	..high_limit_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/middle_signal_select_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/middle_signal_select_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/middle_signal_select_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_positive_bias_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Функциональный символ преобразования]
+	(* <- lang_ru;; *);
+	[Functional conversion symbol]
+	(* <- lang_en;; *);
+	[Функціональний символ перетворення]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/positive_bias.jpg";
+
+<- rrel_key_sc_element:
+
+	..positive_bias_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/positive_bias_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/positive_bias_select_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/positive_bias_select_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_velocity_limiter_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Функциональный символ преобразования]
+	(* <- lang_ru;; *);
+	[Functional conversion symbol]
+	(* <- lang_en;; *);
+	[Функціональний символ перетворення]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/velocity_limiter.jpg";
+
+<- rrel_key_sc_element:
+
+	..velocity_limiter_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/velocity_limiter_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/velocity_limiter_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/velocity_limiter_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_low_signal_monitor_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Функциональный символ преобразования]
+	(* <- lang_ru;; *);
+	[Functional conversion symbol]
+	(* <- lang_en;; *);
+	[Функціональний символ перетворення]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/low_signal_monitor_limiter.jpg";
+
+<- rrel_key_sc_element:
+
+	..velocity_limiter_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/low_signal_monitor_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/low_signal_monitor_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/low_signal_monitor_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_division_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[функциональный символ деления]
+	(* <- lang_ru;; *);
+	[functional division symbol]
+	(* <- lang_en;; *);
+	[символ функціонального поділу]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/division.jpg";
+
+<- rrel_key_sc_element:
+
+	..division_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/division_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/division_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/division_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_root_extraction_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[функциональный символ извлечение корня]
+	(* <- lang_ru;; *);
+	[functional root extraction symbol]
+	(* <- lang_en;; *);
+	[функціональний символ вилучення коренів]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/root_extraction.jpg";
+
+<- rrel_key_sc_element:
+
+	..root_extraction_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/root_extraction_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/root_extraction_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/root_extraction_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_reverse_proportion_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[символ обратной пропорции функции]
+	(* <- lang_ru;; *);
+	[functional reverse proportion symbol]
+	(* <- lang_en;; *);
+	[символ зворотної пропорції функції]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/reverse_proportion.jpg";
+
+<- rrel_key_sc_element:
+
+	..reverse_proportion_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/reverse_proportion_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/reverse_proportion_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/reverse_proportion_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+
+concept_derivative_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[символ функциональной производной]
+	(* <- lang_ru;; *);
+	[functional derivative symbol]
+	(* <- lang_en;; *);
+	[функціональний похідний символ]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/derivative.jpg";
+
+<- rrel_key_sc_element:
+
+	..derivative_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/derivative_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/derivative_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/derivative_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_time_function_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[функциональный символ функции времени]
+	(* <- lang_ru;; *);
+	[functional time function symbol]
+	(* <- lang_en;; *);
+	[функціональний час функція символ]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/time_function.jpg";
+
+<- rrel_key_sc_element:
+
+	..time_function_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/time_function_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/time_function_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/time_function_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_high_signal_select_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[символ выбора функционального высокого сигнала]
+	(* <- lang_ru;; *);
+	[functional high signal select symbol]
+	(* <- lang_en;; *);
+	[функціональний символ вибору високого сигналу]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/high_signal_select.jpg";
+
+<- rrel_key_sc_element:
+
+	..high_signal_select_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/high_signal_select_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/high_signal_select_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/high_signal_select_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+
+concept_low_signal_select_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[символ выбора функционального слабого сигнала]
+	(* <- lang_ru;; *);
+	[functional low signal select symbol]
+	(* <- lang_en;; *);
+	[функціональний символ вибору низького сигналу]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/low_signal_select.jpg";
+
+<- rrel_key_sc_element:
+
+	..low_signal_select_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/low_signal_select_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/low_signal_select_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/low_signal_select_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_low_limit_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[функциональный символ нижнего предела]
+	(* <- lang_ru;; *);
+	[functional low limit symbol]
+	(* <- lang_en;; *);
+	[функціональний символ нижньої межі]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/low_limit.jpg";
+
+<- rrel_key_sc_element:
+
+	..low_limit_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/low_limit_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/low_limit_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/low_limit_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_negative_bias_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[символ функционального отрицательного смещения]
+	(* <- lang_ru;; *);
+	[functional negative bias symbol]
+	(* <- lang_en;; *);
+	[функціональний негативний упереджений символ]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/negative_bias.jpg";
+
+<- rrel_key_sc_element:
+
+	..negative_bias_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/negative_bias_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/negative_bias_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/negative_bias_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_high_signal_monitor_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Функциональный символ монитора высокого уровня сигнала]
+	(* <- lang_ru;; *);
+	[functional high signal monitor symbol]
+	(* <- lang_en;; *);
+	[функціональний символ високого сигналу монітора]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/high_signal_monitor.jpg";
+
+<- rrel_key_sc_element:
+
+	..high_signal_monitor_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/high_signal_monitor_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/high_signal_monitor_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/high_signal_monitor_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_high_low_signal_monitor_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[Функциональный символ монитора высокого / низкого уровня сигнала]
+	(* <- lang_ru;; *);
+	[functional high/low signal monitor symbol]
+	(* <- lang_en;; *);
+	[функціональний символ монітора високого / низького рівня сигналу]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/high_low_signal_monitor.jpg";
+
+<- rrel_key_sc_element:
+
+	..high_low_signal_monitor_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/high_low_signal_monitor_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/high_low_signal_monitor_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/high_low_signal_monitor_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_binary_signal_generator_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[функциональный символ генератора двоичных сигналов]
+	(* <- lang_ru;; *);
+	[functional binary signal generator symbol]
+	(* <- lang_en;; *);
+	[функціональний двійковий символ генератора сигналів]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/binary_signal_generator.jpg";
+
+<- rrel_key_sc_element:
+
+	..binary_signal_generator_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/binary_signal_generator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/binary_signal_generator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/binary_signal_generator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_signal_transfer_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[символ передачи функционального сигнала]
+	(* <- lang_ru;; *);
+	[functional signal transfer symbol]
+	(* <- lang_en;; *);
+	[функціональний символ передачі сигналу]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/signal_transfer.jpg";
+
+<- rrel_key_sc_element:
+
+	..signal_transfer_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/signal_transfer_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/signal_transfer_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/signal_transfer_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_analog_signal_generator_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[функциональный символ генератора аналоговых сигналов]
+	(* <- lang_ru;; *);
+	[functional analog signal generator symbol]
+	(* <- lang_en;; *);
+	[функціональний символ передачі сигналу]
+	(* <- lang_uk;; *);
+
+=> nrel_idtf:
+	"file://images/functional/analog_signal_generator.jpg";
+
+<- rrel_key_sc_element:
+
+	..analog_signal_generator_explanation
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/functional/analog_signal_generator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/functional/analog_signal_generator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/functional/analog_signal_generator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
