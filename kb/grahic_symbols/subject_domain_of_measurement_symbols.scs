@@ -63,11 +63,11 @@ concept_measurement_symbol
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/measurement_symbol_ru.html"
+                "file://content_html/explanations/measurement/measurement_symbol_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/measurement_symbol_en.html"
+				"file://content_html/explanations/measurement/measurement_symbol_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/measurement_symbol_uk.html"
+				"file://content_html/explanations/measurement/measurement_symbol_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);
@@ -123,11 +123,11 @@ concept_single_element_sensing_probe
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/single_element_sensing_probe_ru.html"
+                "file://content_html/explanations/measurement/single_element_sensing_probe_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/single_element_sensing_probe_en.html"
+				"file://content_html/explanations/measurement/single_element_sensing_probe_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/single_element_sensing_probe_uk.html"
+				"file://content_html/explanations/measurement/single_element_sensing_probe_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -149,11 +149,11 @@ concept_dual_element_sensing_probe
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/dual_element_sensing_probe_ru.html"
+                "file://content_html/explanations/measurement/dual_element_sensing_probe_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/dual_element_sensing_probe_en.html"
+				"file://content_html/explanations/measurement/dual_element_sensing_probe_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/dual_element_sensing_probe_uk.html"
+				"file://content_html/explanations/measurement/dual_element_sensing_probe_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -175,11 +175,11 @@ concept_fiberoptic_sensing_probe
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/fiberoptic_sensing_probe_ru.html"
+                "file://content_html/explanations/measurement/fiberoptic_sensing_probe_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/fiberoptic_sensing_probe_en.html"
+				"file://content_html/explanations/measurement/fiberoptic_sensing_probe_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/fiberoptic_sensing_probe_uk.html"
+				"file://content_html/explanations/measurement/fiberoptic_sensing_probe_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -201,11 +201,11 @@ concept_ultraviolet_flame_detector
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/ultraviolet_flame_detector_ru.html"
+                "file://content_html/explanations/measurement/ultraviolet_flame_detector_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/ultraviolet_flame_detector_en.html"
+				"file://content_html/explanations/measurement/ultraviolet_flame_detector_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/ultraviolet_flame_detector_uk.html"
+				"file://content_html/explanations/measurement/ultraviolet_flame_detector_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -227,11 +227,11 @@ concept_flame_rod_flame_detector
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/flame_rod_flame_detector_ru.html"
+                "file://content_html/explanations/measurement/flame_rod_flame_detector_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/flame_rod_flame_detector_en.html"
+				"file://content_html/explanations/measurement/flame_rod_flame_detector_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/flame_rod_flame_detector_uk.html"
+				"file://content_html/explanations/measurement/flame_rod_flame_detector_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -253,11 +253,11 @@ concept_generic_orifice_plate
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/generic_orifice_plate_ru.html"
+                "file://content_html/explanations/measurement/generic_orifice_plate_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/generic_orifice_plate_en.html"
+				"file://content_html/explanations/measurement/generic_orifice_plate_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/generic_orifice_plate_uk.html"
+				"file://content_html/explanations/measurement/generic_orifice_plate_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -279,11 +279,11 @@ concept_orifice_plate_in_quick_change_fitting
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/orifice_plate_in_quick_change_fitting_ru.html"
+                "file://content_html/explanations/measurement/orifice_plate_in_quick_change_fitting_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/orifice_plate_in_quick_change_fitting_en.html"
+				"file://content_html/explanations/measurement/orifice_plate_in_quick_change_fitting_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/orifice_plate_in_quick_change_fitting_uk.html"
+				"file://content_html/explanations/measurement/orifice_plate_in_quick_change_fitting_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -305,11 +305,11 @@ concept_concentric_circle_orifice_plate
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/concentric_circle_orifice_plate_ru.html"
+                "file://content_html/explanations/measurement/concentric_circle_orifice_plate_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/concentric_circle_orifice_plate_en.html"
+				"file://content_html/explanations/measurement/concentric_circle_orifice_plate_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/concentric_circle_orifice_plate_uk.html"
+				"file://content_html/explanations/measurement/concentric_circle_orifice_plate_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -331,11 +331,11 @@ concept_eccentric_circle_orifice_plate
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/eccentric_circle_orifice_plate_ru.html"
+                "file://content_html/explanations/measurement/eccentric_circle_orifice_plate_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/eccentric_circle_orifice_plate_en.html"
+				"file://content_html/explanations/measurement/eccentric_circle_orifice_plate_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/eccentric_circle_orifice_plate_uk.html"
+				"file://content_html/explanations/measurement/eccentric_circle_orifice_plate_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -357,11 +357,11 @@ concept_circle_quadrant_orifice_plate
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/circle_quadrant_orifice_plate_ru.html"
+                "file://content_html/explanations/measurement/circle_quadrant_orifice_plate_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/circle_quadrant_orifice_plate_en.html"
+				"file://content_html/explanations/measurement/circle_quadrant_orifice_plate_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/circle_quadrant_orifice_plate_uk.html"
+				"file://content_html/explanations/measurement/circle_quadrant_orifice_plate_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -383,11 +383,11 @@ concept_multi_hole_orifice_plate
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/multi_hole_orifice_plate_ru.html"
+                "file://content_html/explanations/measurement/multi_hole_orifice_plate_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/multi_hole_orifice_plate_en.html"
+				"file://content_html/explanations/measurement/multi_hole_orifice_plate_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/multi_hole_orifice_plate_uk.html"
+				"file://content_html/explanations/measurement/multi_hole_orifice_plate_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -409,11 +409,11 @@ concept_generic_venturi_tube
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/generic_venturi_tube_ru.html"
+                "file://content_html/explanations/measurement/generic_venturi_tube_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/generic_venturi_tube_en.html"
+				"file://content_html/explanations/measurement/generic_venturi_tube_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/generic_venturi_tube_uk.html"
+				"file://content_html/explanations/measurement/generic_venturi_tube_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -435,11 +435,11 @@ concept_venturi_tube
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/venturi_tube_ru.html"
+                "file://content_html/explanations/measurement/venturi_tube_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/venturi_tube_en.html"
+				"file://content_html/explanations/measurement/venturi_tube_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/venturi_tube_uk.html"
+				"file://content_html/explanations/measurement/venturi_tube_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -461,11 +461,11 @@ concept_flow_nozzle
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/flow_nozzle_ru.html"
+                "file://content_html/explanations/measurement/flow_nozzle_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/flow_nozzle_en.html"
+				"file://content_html/explanations/measurement/flow_nozzle_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/flow_nozzle_uk.html"
+				"file://content_html/explanations/measurement/flow_nozzle_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -487,11 +487,11 @@ concept_flow_tube
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/flow_tube_ru.html"
+                "file://content_html/explanations/measurement/flow_tube_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/flow_tube_en.html"
+				"file://content_html/explanations/measurement/flow_tube_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/flow_tube_uk.html"
+				"file://content_html/explanations/measurement/flow_tube_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -513,11 +513,11 @@ concept_integral_orifice_plate
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/integral_orifice_plate_ru.html"
+                "file://content_html/explanations/measurement/integral_orifice_plate_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/integral_orifice_plate_en.html"
+				"file://content_html/explanations/measurement/integral_orifice_plate_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/integral_orifice_plate_uk.html"
+				"file://content_html/explanations/measurement/integral_orifice_plate_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -539,11 +539,11 @@ concept_standard_pitot_tube
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/standard_pitot_tube_ru.html"
+                "file://content_html/explanations/measurement/standard_pitot_tube_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/standard_pitot_tube_en.html"
+				"file://content_html/explanations/measurement/standard_pitot_tube_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/standard_pitot_tube_uk.html"
+				"file://content_html/explanations/measurement/standard_pitot_tube_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -565,11 +565,11 @@ concept_averaging_pitot_tube
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/averaging_pitot_tube_ru.html"
+                "file://content_html/explanations/measurement/averaging_pitot_tube_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/averaging_pitot_tube_en.html"
+				"file://content_html/explanations/measurement/averaging_pitot_tube_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/averaging_pitot_tube_uk.html"
+				"file://content_html/explanations/measurement/averaging_pitot_tube_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -591,11 +591,11 @@ concept_turbine_flowmeter
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/turbine_flowmeter_ru.html"
+                "file://content_html/explanations/measurement/turbine_flowmeter_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/turbine_flowmeter_en.html"
+				"file://content_html/explanations/measurement/turbine_flowmeter_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/turbine_flowmeter_uk.html"
+				"file://content_html/explanations/measurement/turbine_flowmeter_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -617,11 +617,11 @@ concept_vortex_shedding_flowmeter
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/vortex_shedding_flowmeter_ru.html"
+                "file://content_html/explanations/measurement/vortex_shedding_flowmeter_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/vortex_shedding_flowmeter_en.html"
+				"file://content_html/explanations/measurement/vortex_shedding_flowmeter_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/vortex_shedding_flowmeter_uk.html"
+				"file://content_html/explanations/measurement/vortex_shedding_flowmeter_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -643,11 +643,11 @@ concept_target_flowmeter
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/target_flowmeter_ru.html"
+                "file://content_html/explanations/measurement/target_flowmeter_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/target_flowmeter_en.html"
+				"file://content_html/explanations/measurement/target_flowmeter_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/target_flowmeter_uk.html"
+				"file://content_html/explanations/measurement/target_flowmeter_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -669,11 +669,11 @@ concept_magnetic_flowmeter
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/magnetic_flowmeter_ru.html"
+                "file://content_html/explanations/measurement/magnetic_flowmeter_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/magnetic_flowmeter_en.html"
+				"file://content_html/explanations/measurement/magnetic_flowmeter_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/magnetic_flowmeter_uk.html"
+				"file://content_html/explanations/measurement/magnetic_flowmeter_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -695,11 +695,11 @@ concept_thermal_mass_flowmeter
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/thermal_mass_flowmeter_ru.html"
+                "file://content_html/explanations/measurement/thermal_mass_flowmeter_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/thermal_mass_flowmeter_en.html"
+				"file://content_html/explanations/measurement/thermal_mass_flowmeter_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/thermal_mass_flowmeter_uk.html"
+				"file://content_html/explanations/measurement/thermal_mass_flowmeter_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -721,11 +721,11 @@ concept_positive_displacement_flowmeter
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/positive_displacement_flowmeter_ru.html"
+                "file://content_html/explanations/measurement/positive_displacement_flowmeter_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/positive_displacement_flowmeter_en.html"
+				"file://content_html/explanations/measurement/positive_displacement_flowmeter_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/positive_displacement_flowmeter_uk.html"
+				"file://content_html/explanations/measurement/positive_displacement_flowmeter_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -747,11 +747,11 @@ concept_cone_meter
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/cone_meter_ru.html"
+                "file://content_html/explanations/measurement/cone_meter_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/cone_meter_en.html"
+				"file://content_html/explanations/measurement/cone_meter_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/cone_meter_uk.html"
+				"file://content_html/explanations/measurement/cone_meter_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -773,11 +773,11 @@ concept_annular_orifice_meter
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/annular_orifice_meter_ru.html"
+                "file://content_html/explanations/measurement/annular_orifice_meter_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/annular_orifice_meter_en.html"
+				"file://content_html/explanations/measurement/annular_orifice_meter_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/annular_orifice_meter_uk.html"
+				"file://content_html/explanations/measurement/annular_orifice_meter_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -799,11 +799,11 @@ concept_wedge_meter
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/wedge_meter_ru.html"
+                "file://content_html/explanations/measurement/wedge_meter_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/wedge_meter_en.html"
+				"file://content_html/explanations/measurement/wedge_meter_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/wedge_meter_uk.html"
+				"file://content_html/explanations/measurement/wedge_meter_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -825,11 +825,11 @@ concept_coriollis_flowmeter
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/coriollis_flowmeter_ru.html"
+                "file://content_html/explanations/measurement/coriollis_flowmeter_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/coriollis_flowmeter_en.html"
+				"file://content_html/explanations/measurement/coriollis_flowmeter_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/coriollis_flowmeter_uk.html"
+				"file://content_html/explanations/measurement/coriollis_flowmeter_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -851,11 +851,11 @@ concept_sonic_flowmeter
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/sonic_flowmeter_ru.html"
+                "file://content_html/explanations/measurement/sonic_flowmeter_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/sonic_flowmeter_en.html"
+				"file://content_html/explanations/measurement/sonic_flowmeter_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/sonic_flowmeter_uk.html"
+				"file://content_html/explanations/measurement/sonic_flowmeter_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -877,11 +877,11 @@ concept_ultrasonic_flowmeter
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/ultrasonic_flowmeter_ru.html"
+                "file://content_html/explanations/measurement/ultrasonic_flowmeter_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/ultrasonic_flowmeter_en.html"
+				"file://content_html/explanations/measurement/ultrasonic_flowmeter_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/ultrasonic_flowmeter_uk.html"
+				"file://content_html/explanations/measurement/ultrasonic_flowmeter_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -903,11 +903,11 @@ concept_variable_area_flowmeter
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/variable_area_flowmeter_ru.html"
+                "file://content_html/explanations/measurement/variable_area_flowmeter_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/variable_area_flowmeter_en.html"
+				"file://content_html/explanations/measurement/variable_area_flowmeter_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/variable_area_flowmeter_uk.html"
+				"file://content_html/explanations/measurement/variable_area_flowmeter_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -929,11 +929,11 @@ concept_open_channel_weir_plate
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/open_channel_weir_plate_ru.html"
+                "file://content_html/explanations/measurement/open_channel_weir_plate_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/open_channel_weir_plate_en.html"
+				"file://content_html/explanations/measurement/open_channel_weir_plate_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/open_channel_weir_plate_uk.html"
+				"file://content_html/explanations/measurement/open_channel_weir_plate_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -955,11 +955,11 @@ concept_open_channel_flume
 		...
 		(*
 		-> rrel_example:
-                "file://content_html/explanations/measurement_symbols/open_channel_flume_ru.html"
+                "file://content_html/explanations/measurement/open_channel_flume_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement_symbols/open_channel_flume_en.html"
+				"file://content_html/explanations/measurement/open_channel_flume_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement_symbols/open_channel_flume_uk.html"
+				"file://content_html/explanations/measurement/open_channel_flume_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
