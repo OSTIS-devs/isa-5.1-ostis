@@ -1,9 +1,9 @@
-subject_domain_of_control_elements
+subject_domain_of_final_control_elements
 <- sc_node_struct;
 => nrel_main_idtf:
 	[Предметная область обозначений конечных элементов управления]
 	(* <- lang_ru;; *);
-	[Subject domain of finite element notation]
+	[Subject domain of final element notation]
 	(* <- lang_en;; *);
 	[Предметна область позначень кінцевих елементів управління]
 	(* <- lang_uk;; *);
@@ -50,11 +50,11 @@ concept_schematic_control_element
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanations/electric/schematic_control_element_ru.html"
+				"file://content_html/explanations/final/schematic_control_element_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/electric/schematic_control_element_en.html"
+				"file://content_html/explanations/final/schematic_control_element_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/electric/schematic_control_element_uk.html"
+				"file://content_html/explanations/final/schematic_control_element_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);
@@ -91,7 +91,7 @@ concept_generic_two_way_valve
 	[універсальний двоходовий клапан]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/generic_two_way_valve.jpg";
+	"file://images/final/generic_two_way_valve.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -100,11 +100,11 @@ concept_generic_two_way_valve
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanations/electric/generic_two_way_valve_ru.html"
+				"file://content_html/explanations/final/generic_two_way_valve_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/electric/generic_two_way_valve_en.html"
+				"file://content_html/explanations/final/generic_two_way_valve_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/electric/generic_two_way_valve_uk.html"
+				"file://content_html/explanations/final/generic_two_way_valve_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -119,7 +119,7 @@ concept_generic_two_way_angle_valve
 	[універсальний двоходовий кутовий клапан]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/electric/generic_two_way_angle_valve.jpg";
+	"file://images/final/generic_two_way_angle_valve.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -128,11 +128,11 @@ concept_generic_two_way_angle_valve
 		...
 		(*
 		-> rrel_example:
-				"file://content_html/explanations/electric/generic_two_way_angle_valve_ru.html"
+				"file://content_html/explanations/final/generic_two_way_angle_valve_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/electric/generic_two_way_angle_valve_en.html"
+				"file://content_html/explanations/final/generic_two_way_angle_valve_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/electric/generic_two_way_angle_valve_uk.html"
+				"file://content_html/explanations/final/generic_two_way_angle_valve_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;

@@ -14,6 +14,9 @@ section_subject_domain_of_isa5_1
 	(* => nrel_section_base_order: 
 		section_subject_domain_of_graphic_symbols;; *);
 	section_subject_domain_of_graphic_symbols
+	(* => nrel_section_base_order: 
+		section_subject_domain_of_instrumentation_symbol_and_identification_terminology;; *);
+	section_subject_domain_of_instrumentation_symbol_and_identification_terminology
 };
 
 => nrel_summary:
@@ -44,9 +47,20 @@ section_subject_domain_of_graphic_symbols
 	(* <- lang_en;; *);
 	[Розділ. Предметна область графічних позначень]
 	(* <- lang_uk;; *);;
+	
+section_subject_domain_of_instrumentation_symbol_and_identification_terminology
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Раздел. Предметная область терминологии условных обозначений и идентификации]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of instrumentation symbol and identification terminology]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область термінології умовних позначень та ідентифікації]
+	(* <- lang_uk;; *);;
 
 rrel_key_sc_element -> 
 (section_subject_domain_of_isa5_1 -> subject_domain_of_isa5_1); 
 (section_subject_domain_of_diagrams -> subject_domain_of_diagrams);
-(section_subject_domain_of_graphic_symbols -> subject_domain_of_graphic_symbols);;
+(section_subject_domain_of_graphic_symbols -> subject_domain_of_graphic_symbols);
+(section_subject_domain_of_instrumentation_symbol_and_identification_terminology -> subject_domain_of_instrumentation_symbol_and_identification_terminology);;
 

@@ -1,4 +1,84 @@
-accessible
+subject_domain_of_instrumentation_symbol_and_identification_terminology
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область терминологии условных обозначений и идентификации]
+	(* <- lang_ru;; *);
+	[Subject domain of instrumentation symbol and identification terminology]
+	(* <- lang_en;; *);
+	[Предметна область термінології умовних позначень та ідентифікації]
+	(* <- lang_uk;; *);
+	
+/*-> rrel_maximum_studied_object_class: */
+
+
+-> rrel_not_maximum_studied_object_class:
+concept_accessible;
+concept_alarm;
+concept_analog;
+concept_application_software;
+concept_assignable;
+concept_auto_manual_station;
+concept_balloon;
+concept_basic_process_control_system;
+concept_binary;
+concept_board;
+concept_bubble;
+concept_communication_link;
+concept_computer_control_system;
+concept_computing_device;
+concept_computing_relay;
+concept_computing_function;
+concept_configurable;
+concept_controller;
+concept_control_station;
+concept_control_valve;
+concept_converter;
+concept_datalink;
+concept_detector;
+concept_device;
+concept_digital;
+concept_discrete_instrument;
+concept_discrete_signals;
+concept_distributed_control_system;
+concept_field_instrument;
+concept_final_control_element;
+concept_function;
+concept_hardware;
+concept_high_level_control_system;
+concept_identification;
+concept_instrument;
+concept_instrumentation;
+concept_local_instrument;
+concept_local_panel;
+concept_loop;
+concept_manual_loading_station;
+concept_measurement;
+concept_monitor;
+concept_monitor_light;
+concept_panel;
+concept_panel_mounted;
+concept_pilot_light;
+concept_primary_element;
+concept_process;
+concept_process_variable;
+concept_program;
+concept_programmable_logic_controller;
+concept_relay;
+concept_safety_instrumented_system;
+concept_scan;
+concept_sensor;
+concept_setpoint;
+concept_shared_control;
+concept_shared_display;
+concept_software;
+concept_software_link;
+concept_supervisory_setpoint_control_system;
+concept_test_point;
+concept_transducer;
+concept_transmitter;;
+
+
+concept_accessible
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [accessible]
@@ -40,7 +120,7 @@ accessible
             *);;
     *);;
 
-alarm
+concept_alarm
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [alarm]
@@ -82,7 +162,7 @@ alarm
             *);;
     *);;
 
-analog
+concept_analog
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [analog]
@@ -124,7 +204,7 @@ analog
             *);;
     *);;
 
-application_software
+concept_application_software
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [application software]
@@ -166,7 +246,7 @@ application_software
             *);;
     *);;
 
-assignable
+concept_assignable
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [assignable]
@@ -208,7 +288,7 @@ assignable
             *);;
     *);;
 
-auto_manual_station
+concept_auto_manual_station
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [auto-manual station]
@@ -250,7 +330,7 @@ auto_manual_station
             *);;
     *);;
 
-balloon
+concept_balloon
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [balloon]
@@ -292,7 +372,7 @@ balloon
             *);;
     *);;
 
-basic_process_control_system
+concept_basic_process_control_system
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [basic process control system]
@@ -334,7 +414,7 @@ basic_process_control_system
             *);;
     *);;
 
-behind_the_panel
+concept_basic_process_control_system
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [behind the panel]
@@ -376,7 +456,7 @@ behind_the_panel
             *);;
     *);;
 
-binary
+concept_binary
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [binary]
@@ -418,7 +498,7 @@ binary
             *);;
     *);;
 
-board
+concept_board
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [board]
@@ -460,7 +540,7 @@ board
             *);;
     *);;
 
-bubble
+concept_bubble
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [bubble]
@@ -502,7 +582,7 @@ bubble
             *);;
     *);;
 
-communication_link
+concept_communication_link
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [communication link]
@@ -544,7 +624,7 @@ communication_link
             *);;
     *);;
 
-computer_control_system
+concept_computer_control_system
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [computer control system]
@@ -586,7 +666,7 @@ computer_control_system
             *);;
     *);;
 
-computing_device
+concept_computing_device
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [computing device]
@@ -628,7 +708,7 @@ computing_device
             *);;
     *);;
 
-computing_relay
+concept_computing_relay
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [computing relay]
@@ -670,7 +750,7 @@ computing_relay
             *);;
     *);;
 
-computing_function
+concept_computing_function
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [computing function]
@@ -712,7 +792,7 @@ computing_function
             *);;
     *);;
 
-configurable
+concept_configurable
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [configurable]
@@ -754,7 +834,7 @@ configurable
             *);;
     *);;
 
-controller
+concept_controller
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [controller]
@@ -796,7 +876,7 @@ controller
             *);;
     *);;
 
-control_station
+concept_control_station
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [control station]
@@ -838,7 +918,7 @@ control_station
             *);;
     *);;
 
-control_valve
+concept_control_valve
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [control valve]
@@ -880,7 +960,7 @@ control_valve
             *);;
     *);;
 
-converter
+concept_converter
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [converter]
@@ -922,7 +1002,7 @@ converter
             *);;
     *);;
 
-datalink
+concept_datalink
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [datalink]
@@ -964,7 +1044,7 @@ datalink
             *);;
     *);;
 
-detector
+concept_detector
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [detector]
@@ -1006,7 +1086,7 @@ detector
             *);;
     *);;
 
-device
+concept_device
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [device]
@@ -1048,7 +1128,7 @@ device
             *);;
     *);;
 
-digital
+concept_digital
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [digital]
@@ -1090,7 +1170,7 @@ digital
             *);;
     *);;
 
-discrete_instrument
+concept_discrete_instrument
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [discrete instrument]
@@ -1132,7 +1212,7 @@ discrete_instrument
             *);;
     *);;
 
-discrete_signals
+concept_discrete_signals
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [discrete signals]
@@ -1174,7 +1254,7 @@ discrete_signals
             *);;
     *);;
 
-distributed_control_system
+concept_distributed_control_system
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [distributed control system]
@@ -1216,7 +1296,7 @@ distributed_control_system
             *);;
     *);;
 
-field_instrument
+concept_field_instrument
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [field instrument]
@@ -1258,7 +1338,7 @@ field_instrument
             *);;
     *);;
 
-final_control_element
+concept_final_control_element
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [final control element]
@@ -1300,7 +1380,7 @@ final_control_element
             *);;
     *);;
 
-function
+concept_function
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [function]
@@ -1342,7 +1422,7 @@ function
             *);;
     *);;
 
-hardware
+concept_hardware
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [hardware]
@@ -1384,7 +1464,7 @@ hardware
             *);;
     *);;
 
-high_level_control_system
+concept_high_level_control_system
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [high level control system]
@@ -1426,7 +1506,7 @@ high_level_control_system
             *);;
     *);;
 
-identification
+concept_identification
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [identification]
@@ -1468,7 +1548,7 @@ identification
             *);;
     *);;
 
-instrument
+concept_instrument
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [instrument]
@@ -1510,7 +1590,7 @@ instrument
             *);;
     *);;
 
-instrumentation
+concept_instrumentation
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [instrumentation]
@@ -1552,7 +1632,7 @@ instrumentation
             *);;
     *);;
 
-local_instrument
+concept_local_instrument
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [local instrument]
@@ -1594,7 +1674,7 @@ local_instrument
             *);;
     *);;
 
-local_panel
+concept_local_panel
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [local panel]
@@ -1636,7 +1716,7 @@ local_panel
             *);;
     *);;
 
-loop
+concept_loop
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [loop]
@@ -1678,7 +1758,7 @@ loop
             *);;
     *);;
 
-manual_loading_station
+concept_manual_loading_station
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [manual loading station]
@@ -1720,7 +1800,7 @@ manual_loading_station
             *);;
     *);;
 
-measurement
+concept_measurement
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [measurement]
@@ -1762,7 +1842,7 @@ measurement
             *);;
     *);;
 
-monitor
+concept_monitor
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [monitor]
@@ -1804,7 +1884,7 @@ monitor
             *);;
     *);;
 
-monitor_light
+concept_monitor_light
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [monitor light]
@@ -1846,7 +1926,7 @@ monitor_light
             *);;
     *);;
 
-panel
+concept_panel
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [panel]
@@ -1888,7 +1968,7 @@ panel
             *);;
     *);;
 
-panel_mounted
+concept_panel_mounted
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [panel-mounted]
@@ -1930,7 +2010,7 @@ panel_mounted
             *);;
     *);;
 
-pilot_light
+concept_pilot_light
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [pilot light]
@@ -1972,7 +2052,7 @@ pilot_light
             *);;
     *);;
 
-primary_element
+concept_primary_element
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [primary element]
@@ -2014,7 +2094,7 @@ primary_element
             *);;
     *);;
 
-process
+concept_process
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [process]
@@ -2056,7 +2136,7 @@ process
             *);;
     *);;
 
-process_variable
+concept_process_variable
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [process variable]
@@ -2098,7 +2178,7 @@ process_variable
             *);;
     *);;
 
-program
+concept_program
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [program]
@@ -2140,7 +2220,7 @@ program
             *);;
     *);;
 
-programmable_logic_controller
+concept_programmable_logic_controller
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [programmable logic controller]
@@ -2182,7 +2262,7 @@ programmable_logic_controller
             *);;
     *);;
 
-relay
+concept_relay
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [relay]
@@ -2224,7 +2304,7 @@ relay
             *);;
     *);;
 
-safety_instrumented_system
+concept_safety_instrumented_system
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [safety instrumented system]
@@ -2266,7 +2346,7 @@ safety_instrumented_system
             *);;
     *);;
 
-scan
+concept_scan
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [scan]
@@ -2308,7 +2388,7 @@ scan
             *);;
     *);;
 
-sensor
+concept_sensor
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [sensor]
@@ -2350,7 +2430,7 @@ sensor
             *);;
     *);;
 
-setpoint
+concept_setpoint
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [setpoint]
@@ -2392,7 +2472,7 @@ setpoint
             *);;
     *);;
 
-shared_control
+concept_shared_control
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [shared control]
@@ -2434,7 +2514,7 @@ shared_control
             *);;
     *);;
 
-shared_display
+concept_shared_display
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [shared display]
@@ -2476,7 +2556,7 @@ shared_display
             *);;
     *);;
 
-software
+concept_software
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [software]
@@ -2518,7 +2598,7 @@ software
             *);;
     *);;
 
-software_link
+concept_software_link
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [software link]
@@ -2560,7 +2640,7 @@ software_link
             *);;
     *);;
 
-supervisory_setpoint_control_system
+concept_supervisory_setpoint_control_system
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [supervisory setpoint control system]
@@ -2602,7 +2682,7 @@ supervisory_setpoint_control_system
             *);;
     *);;
 
-switch
+concept_switch
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [switch]
@@ -2644,7 +2724,7 @@ switch
             *);;
     *);;
 
-test_point
+concept_test_point
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [test point]
@@ -2686,7 +2766,7 @@ test_point
             *);;
     *);;
 
-transducer
+concept_transducer
 <- sc_node_not_relation;
 => nrel_main_idtf:
     [transducer]
@@ -2728,10 +2808,10 @@ transducer
             *);;
     *);;
 
-transmitter
+concept_transmitter
 <- sc_node_not_relation;
 => nrel_main_idtf:
-    [передатчик]
+    [transmitter]
     (* <- lang_en;; *);
     [преобразователь]
     (* <- lang_ru;; *);

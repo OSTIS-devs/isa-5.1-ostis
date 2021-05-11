@@ -1,11 +1,11 @@
 subject_domain_of_signal_processing_function_block_symbols
 <- sc_node_struct;
 => nrel_main_idtf:
-	[Предметная область условных обозначений функционального блока обработки сигналов]
+	[Предметная область условных обозначений функциональных блоков обработки сигналов]
 	(* <- lang_ru;; *);
 	[Subject domain of signal processing function block symbols]
 	(* <- lang_en;; *);
-	[Предметная область условних обозначень функціонального блоку обробки сигналів]
+	[Предметная область условних обозначень функціональних блоків обробки сигналів]
 	(* <- lang_uk;; *);
 	
 -> rrel_maximum_studied_object_class: 
