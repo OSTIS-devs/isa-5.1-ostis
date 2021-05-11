@@ -39,7 +39,7 @@ concept_schematic_actuator
 => nrel_main_idtf:
 	[условное обозначение привода]
 	(* <- lang_ru;; *);
-	[schematic_actuator]
+	[schematic actuator]
 	(* <- lang_en;; *);
 	[умовне позначення приводу]
 	(* <- lang_uk;; *);

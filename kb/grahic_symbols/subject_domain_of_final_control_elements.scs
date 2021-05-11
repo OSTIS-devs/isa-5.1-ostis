@@ -38,7 +38,7 @@ concept_schematic_control_element
 => nrel_main_idtf:
 	[условное обозначение элемента управления]
 	(* <- lang_ru;; *);
-	[schematic_control_element]
+	[schematic control element]
 	(* <- lang_en;; *);
 	[умовне позначення елемента керування]
 	(* <- lang_uk;; *);
