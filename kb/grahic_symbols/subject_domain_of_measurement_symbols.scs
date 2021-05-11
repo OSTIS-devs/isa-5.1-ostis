@@ -21,6 +21,7 @@ concept_single_element_sensing_probe;
 concept_dual_element_sensing_probe;
 concept_fiberoptic_sensing_probe;
 concept_ultraviolet_flame_detector;
+concept_television_flame_monitor;
 concept_flame_rod_flame_detector;
 concept_generic_orifice_plate;
 concept_orifice_plate_in_quick_change_fitting;
@@ -59,7 +60,21 @@ concept_float_with_guide_wires;
 concept_probe_insertation;
 concept_radar;
 concept_strain_gage;
-concept_generic_element_without_thermowell;;
+concept_generic_element_without_thermowell;////////////////////////////////////
+concept_sight_glass;
+concept_gage_integrally_mounted_on_vessel;
+concept_gage_glass_externally_mounted_on_vessel;
+concept_pressure_gage;
+concept_thermometer;
+concept_flanged_insert_probe;
+concept_flanged_conditioner;
+concept_flow_straightening_vanes;
+concept_instrument_purge_or_flushing_fluid;
+concept_instrument_purge_or_flushing_devices;
+concept_diaphragm_pressure_seal;
+concept_diaphragm_chemical_seal;
+concept_thermowell;
+concept_test_well;;
 
 concept_measurement_symbol
 <- sc_node_not_relation;
@@ -98,7 +113,8 @@ concept_measurement_symbol
 	(*
 		=> nrel_inclusion:
 		concept_ultraviolet_flame_detector;
-		concept_flame_rod_flame_detector;;
+		concept_flame_rod_flame_detector;
+		concept_television_flame_monitor;;
 	*);
 	concept_flow_measurement_symbol
 	(*
@@ -420,6 +436,34 @@ concept_ultraviolet_flame_detector
 				"file://content_html/explanations/measurement/ultraviolet_flame_detector_en.html"
 			(* <- lang_en;; *);
 				"file://content_html/explanations/measurement/ultraviolet_flame_detector_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_television_flame_monitor
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[телевизионный контроль пламени]
+	(* <- lang_ru;; *);
+	[television flame monitor]
+	(* <- lang_en;; *);
+	[телевізійний контроль полум'я]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/ultraviolet_flame_detector.jpg";
+	<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/measurement/television_flame_monitor_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/television_flame_monitor_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/television_flame_monitor_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
@@ -1248,7 +1292,8 @@ concept_displacer
 	[витіснювач]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/measurement/displacer.jpg";<- rrel_key_sc_element:
+	"file://images/measurement/displacer.jpg";
+    <- rrel_key_sc_element:
 	...
 	(*
 		<- explanation;;
@@ -1275,7 +1320,8 @@ concept_ball_float
 	[кульової поплавок]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/measurement/ball_float.jpg";<- rrel_key_sc_element:
+	"file://images/measurement/ball_float.jpg";
+    <- rrel_key_sc_element:
 	...
 	(*
 		<- explanation;;
@@ -1302,7 +1348,8 @@ concept_single_point_dosimeter
 	[одноточковий дозиметр]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/measurement/sonic_flowmeter.jpg";<- rrel_key_sc_element:
+	"file://images/measurement/sonic_flowmeter.jpg";
+    <- rrel_key_sc_element:
 	...
 	(*
 		<- explanation;;
@@ -1329,7 +1376,8 @@ concept_multipoint_dosimeter
 	[многоточечний дозиметр]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/measurement/multipoint_dosimeter.jpg";<- rrel_key_sc_element:
+	"file://images/measurement/multipoint_dosimeter.jpg";
+    <- rrel_key_sc_element:
 	...
 	(*
 		<- explanation;;
@@ -1356,7 +1404,8 @@ concept_dip_tube_with_stilling_well
 	[погружная трубка із заспокійливим колодязем]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/measurement/dip_tube_with_stilling_well.jpg";<- rrel_key_sc_element:
+	"file://images/measurement/dip_tube_with_stilling_well.jpg";
+    <- rrel_key_sc_element:
 	...
 	(*
 		<- explanation;;
@@ -1383,7 +1432,8 @@ concept_float_with_guide_wires
 	[поплавок з направляючими тросами]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/measurement/float_with_guide_wires.jpg";<- rrel_key_sc_element:
+	"file://images/measurement/float_with_guide_wires.jpg";
+    <- rrel_key_sc_element:
 	...
 	(*
 		<- explanation;;
@@ -1410,7 +1460,8 @@ concept_probe_insertation
 	[вставка зонда]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/measurement/probe_insertation.jpg";<- rrel_key_sc_element:
+	"file://images/measurement/probe_insertation.jpg";
+    <- rrel_key_sc_element:
 	...
 	(*
 		<- explanation;;
@@ -1437,7 +1488,8 @@ concept_radar
 	[радар]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/measurement/radar.jpg";<- rrel_key_sc_element:
+	"file://images/measurement/radar.jpg";
+    <- rrel_key_sc_element:
 	...
 	(*
 		<- explanation;;
@@ -1464,7 +1516,8 @@ concept_strain_gage
 	[тензодатчик]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/measurement/strain_gage.jpg";<- rrel_key_sc_element:
+	"file://images/measurement/strain_gage.jpg";
+	<- rrel_key_sc_element:
 	...
 	(*
 		<- explanation;;
@@ -1491,7 +1544,8 @@ concept_generic_element_without_thermowell
 	[загальний елемент без термогільзи]
 	(* <- lang_uk;; *);
 => nrel_idtf:
-	"file://images/measurement/generic_element_without_thermowell.jpg";<- rrel_key_sc_element:
+	"file://images/measurement/generic_element_without_thermowell.jpg";
+	<- rrel_key_sc_element:
 	...
 	(*
 		<- explanation;;
@@ -1507,3 +1561,398 @@ concept_generic_element_without_thermowell
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
+
+concept_sight_glass
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[смотровое стекло]
+	(* <- lang_ru;; *);
+	[sight glass]
+	(* <- lang_en;; *);
+	[оглядове скло]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/sight_glass.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/measurement/sight_glass_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/sight_glass_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/sight_glass_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_gage_integrally_mounted_on_vessel
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[манометр, встроенный в сосуд]
+	(* <- lang_ru;; *);
+	[gage integrally mounted on vessel]
+	(* <- lang_en;; *);
+	[манометр, вбудований в посудину]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/gage_integrally_mounted_on_vessel.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/measurement/gage_integrally_mounted_on_vessel_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/gage_integrally_mounted_on_vessel_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/gage_integrally_mounted_on_vessel_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_gage_glass_externally_mounted_on_vessel
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[измерительное стекло, установленное снаружи на сосуде]
+	(* <- lang_ru;; *);
+	[gage glass externally mounted on vessel]
+	(* <- lang_en;; *);
+	[вимірювальне скло, встановлене зовні на посудині]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/gage_glass_externally_mounted_on_vessel.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/measurement/gage_glass_externally_mounted_on_vessel_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/gage_glass_externally_mounted_on_vessel_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/gage_glass_externally_mounted_on_vessel_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_pressure_gage
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[манометр]
+	(* <- lang_ru;; *);
+	[pressure gage]
+	(* <- lang_en;; *);
+	[манометр]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/pressure_gage.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/measurement/pressure_gage_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/pressure_gage_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/pressure_gage_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_thermometer
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[термометр]
+	(* <- lang_ru;; *);
+	[thermometer]
+	(* <- lang_en;; *);
+	[термометр]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/thermometer.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/measurement/thermometer_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/thermometer_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/thermometer_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_flanged_insert_probe
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[фланцевый вставной зонд]
+	(* <- lang_ru;; *);
+	[flanged insert probe]
+	(* <- lang_en;; *);
+	[фланцеве вставною зонд]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/flanged_insert_probe.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/measurement/flanged_insert_probe_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/flanged_insert_probe_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/flanged_insert_probe_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_flanged_conditioner
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[фланцевый кондиционер]
+	(* <- lang_ru;; *);
+	[flanged conditioner]
+	(* <- lang_en;; *);
+	[фланцеве кондиціонер]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/flanged_conditioner.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/measurement/flanged_conditioner_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/flanged_conditioner_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/flanged_conditioner_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_flow_straightening_vanes
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[лопатки для выпрямления потока]
+	(* <- lang_ru;; *);
+	[flow straightening vanes]
+	(* <- lang_en;; *);
+	[лопатки для випрямлення потоку]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/flow_straightening_vanes.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/measurement/flow_straightening_vanes_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/flow_straightening_vanes_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/flow_straightening_vanes_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_instrument_purge_or_flushing_fluid
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[жидкость для продувки или промывки инструмента]
+	(* <- lang_ru;; *);
+	[instrument purge or flushing fluid]
+	(* <- lang_en;; *);
+	[рідина для продувки або промивання інструмента]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/instrument_purge_or_flushing_fluid.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/measurement/instrument_purge_or_flushing_fluid_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/instrument_purge_or_flushing_fluid_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/instrument_purge_or_flushing_fluid_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_instrument_purge_or_flushing_device
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[устройство для продувки или промывки инструментов]
+	(* <- lang_ru;; *);
+	[instrument purge or flushing device]
+	(* <- lang_en;; *);
+	[пристрій для продувки або промивання інструментів]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/instrument_purge_or_flushing_fluid.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/measurement/instrument_purge_or_flushing_device_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/instrument_purge_or_flushing_devices_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/instrument_purge_or_flushing_devices_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_diaphragm_pressure_seal
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[мембранный разделитель давления]
+	(* <- lang_ru;; *);
+	[diaphragm pressure seal]
+	(* <- lang_en;; *);
+	[мембранний роздільник тиску]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/diaphragm_pressure_seal_a.jpg";
+	"file://images/measurement/diaphragm_pressure_seal_b.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/measurement/diaphragm_pressure_seal_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/diaphragm_pressure_seal_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/diaphragm_pressure_seal_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_diaphragm_chemical_seal
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[мембранный химический разделитель]
+	(* <- lang_ru;; *);
+	[diaphragm chemical seal]
+	(* <- lang_en;; *);
+	[мембранний хімічний роздільник]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/diaphragm_pressure_seal_a.jpg";
+	"file://images/measurement/diaphragm_pressure_seal_b.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/measurement/diaphragm_chemical_seal_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/diaphragm_chemical_seal_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/diaphragm_chemical_seal_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_thermowell
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[термокожух]
+	(* <- lang_ru;; *);
+	[thermowell]
+	(* <- lang_en;; *);
+	[термокожух]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/thermowell.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/measurement/thermowell_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/thermowell_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/thermowell_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_test_well
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[испытательный колодец]
+	(* <- lang_ru;; *);
+	[test well]
+	(* <- lang_en;; *);
+	[випробувальний колодязь]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/thermowell.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/measurement/test_well_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/test_well_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/test_well_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
