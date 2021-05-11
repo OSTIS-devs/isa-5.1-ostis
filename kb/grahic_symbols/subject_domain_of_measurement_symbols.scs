@@ -12,6 +12,9 @@ subject_domain_of_measurement_symbols
 concept_measurement_symbol;
 
 -> rrel_not_maximum_studied_object_class:
+concept_analysis_symbol;
+concept_burner_measurement_symbol;
+concept_level_measurement_symbol;
 concept_single_element_sensing_probe;
 concept_dual_element_sensing_probe;
 concept_fiberoptic_sensing_probe;
@@ -72,39 +75,161 @@ concept_measurement_symbol
 		*);;
 	*);
 => nrel_inclusion:
-concept_single_element_sensing_probe;
-concept_dual_element_sensing_probe;
-concept_fiberoptic_sensing_probe;
-concept_ultraviolet_flame_detector;
-concept_flame_rod_flame_detector;
-concept_generic_orifice_plate;
-concept_orifice_plate_in_quick_change_fitting;
-concept_concentric_circle_orifice_plate;
-concept_eccentric_circle_orifice_plate;
-concept_circle_quadrant_orifice_plate;
-concept_multi_hole_orifice_plate;
-concept_generic_venturi_tube;
-concept_venturi_tube;
-concept_flow_nozzle;
-concept_flow_tube;
-concept_integral_orifice_plate;
-concept_standard_pitot_tube;
-concept_averaging_pitot_tube;
-concept_turbine_flowmeter;
-concept_vortex_shedding_flowmeter;
-concept_target_flowmeter;
-concept_magnetic_flowmeter;
-concept_thermal_mass_flowmeter;
-concept_positive_displacement_flowmeter;
-concept_annular_orifice_meter;
-concept_cone_meter;
-concept_wedge_meter;
-concept_coriollis_flowmeter;
-concept_sonic_flowmeter;
-concept_ultrasonic_flowmeter;
-concept_variable_area_flowmeter;
-concept_open_channel_weir_plate;
-concept_open_channel_flume;;
+	concept_analysis_symbol
+	(*
+		=> nrel_inclusion:
+		concept_single_element_sensing_probe;
+		concept_dual_element_sensing_probe;
+		concept_fiberoptic_sensing_probe;;
+	*);
+	concept_burner_measurement_symbol
+	(*
+		=> nrel_inclusion:
+		concept_ultraviolet_flame_detector;
+		concept_flame_rod_flame_detector;;
+	*);
+	concept_flow_measurement_symbol
+	(*
+		=> nrel_inclusion:
+		concept_generic_orifice_plate;
+		concept_orifice_plate_in_quick_change_fitting;
+		concept_concentric_circle_orifice_plate;
+		concept_eccentric_circle_orifice_plate;
+		concept_circle_quadrant_orifice_plate;
+		concept_multi_hole_orifice_plate;
+		concept_generic_venturi_tube;
+		concept_venturi_tube;
+		concept_flow_nozzle;
+		concept_flow_tube;
+		concept_integral_orifice_plate;
+		concept_standard_pitot_tube;
+		concept_averaging_pitot_tube;
+		concept_turbine_flowmeter;
+		concept_vortex_shedding_flowmeter;
+		concept_target_flowmeter;
+		concept_magnetic_flowmeter;
+		concept_thermal_mass_flowmeter;
+		concept_positive_displacement_flowmeter;
+		concept_annular_orifice_meter;
+		concept_cone_meter;
+		concept_wedge_meter;
+		concept_coriollis_flowmeter;
+		concept_sonic_flowmeter;
+		concept_ultrasonic_flowmeter;
+		concept_variable_area_flowmeter;
+		concept_open_channel_weir_plate;
+		concept_open_channel_flume;;
+	*);;
+	// concept_level_measurement_symbol
+	// (*
+	// 	<- sc_node_not_relation;;
+	// 	=> nrel_inclusion:
+	// *);;
+
+concept_analysis_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[символ анализа]
+	(* <- lang_ru;; *);
+	[analysis symbol]
+	(* <- lang_en;; *);
+	[символ аналізу]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement/analysis_symbol_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/analysis_symbol_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/analysis_symbol_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_burner_measurement_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[символ измерения горелки]
+	(* <- lang_ru;; *);
+	[burner measurement symbol]
+	(* <- lang_en;; *);
+	[символ вимірювання пальника]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement/burner_measurement_symbol_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/burner_measurement_symbol_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/burner_measurement_symbol_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_flow_measurement_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[символ измерения расхода]
+	(* <- lang_ru;; *);
+	[flow measurement symbol]
+	(* <- lang_en;; *);
+	[символ вимірювання витрати]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement/flow_measurement_symbol_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/flow_measurement_symbol_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/flow_measurement_symbol_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_level_measurement_symbol
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[символ измерения уровня]
+	(* <- lang_ru;; *);
+	[level measurement symbol]
+	(* <- lang_en;; *);
+	[символ вимірювання рівня]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+                "file://content_html/explanations/measurement/level_measurement_symbol_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/measurement/level_measurement_symbol_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/measurement/level_measurement_symbol_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
 
 concept_single_element_sensing_probe
 <- sc_node_not_relation;
@@ -115,6 +240,8 @@ concept_single_element_sensing_probe
 	(* <- lang_en;; *);
 	[одноелементний зонд]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/single_element_sensing_probe.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -141,6 +268,8 @@ concept_dual_element_sensing_probe
 	(* <- lang_en;; *);
 	[двоелементний зонд]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/dual_element_sensing_probe.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -167,6 +296,8 @@ concept_fiberoptic_sensing_probe
 	(* <- lang_en;; *);
 	[оптоволоконний зонд]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/fiberoptic_sensing_probe.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -193,6 +324,8 @@ concept_ultraviolet_flame_detector
 	(* <- lang_en;; *);
 	[ультрафіолетовий датчик полум'я]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/ultraviolet_flame_detector.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -219,6 +352,8 @@ concept_flame_rod_flame_detector
 	(* <- lang_en;; *);
 	[стрижневий детектор полум'я]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/flame_rod_flame_detector.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -245,6 +380,8 @@ concept_generic_orifice_plate
 	(* <- lang_en;; *);
 	[стандартна діафрагма]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/generic_orifice_plate.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -271,6 +408,8 @@ concept_orifice_plate_in_quick_change_fitting
 	(* <- lang_en;; *);
 	[діафрагма в швидкозмінний приладі]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/orifice_plate_in_quick_change_fitting.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -297,6 +436,8 @@ concept_concentric_circle_orifice_plate
 	(* <- lang_en;; *);
 	[концентрическая кругла діафрагма]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/concentric_circle_orifice_plate.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -323,6 +464,8 @@ concept_eccentric_circle_orifice_plate
 	(* <- lang_en;; *);
 	[ексцентрикова кругла діафрагма]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/eccentric_circle_orifice_plate.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -349,6 +492,8 @@ concept_circle_quadrant_orifice_plate
 	(* <- lang_en;; *);
 	[діафрагма у вигляді квадранта]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/circle_quadrant_orifice_plate.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -375,6 +520,8 @@ concept_multi_hole_orifice_plate
 	(* <- lang_en;; *);
 	[діафрагма з декількома отворами]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/multi_hole_orifice_plate.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -401,6 +548,8 @@ concept_generic_venturi_tube
 	(* <- lang_en;; *);
 	[стандартна трубка Вентурі]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/generic_venturi_tube.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -427,6 +576,8 @@ concept_venturi_tube
 	(* <- lang_en;; *);
 	[трубка Вентурі]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/venturi_tube.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -453,6 +604,8 @@ concept_flow_nozzle
 	(* <- lang_en;; *);
 	[сопло]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/flow_nozzle.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -479,6 +632,8 @@ concept_flow_tube
 	(* <- lang_en;; *);
 	[проточна трубка]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/flow_tube.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -505,6 +660,8 @@ concept_integral_orifice_plate
 	(* <- lang_en;; *);
 	[вбудована діафрагма]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/integral_orifice_plate.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -531,6 +688,8 @@ concept_standard_pitot_tube
 	(* <- lang_en;; *);
 	[стандартна трубка Піто]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/standard_pitot_tube.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -557,6 +716,8 @@ concept_averaging_pitot_tube
 	(* <- lang_en;; *);
 	[усереднюються трубка Піто]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/averaging_pitot_tube.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -583,6 +744,8 @@ concept_turbine_flowmeter
 	(* <- lang_en;; *);
 	[турбінний витратомір]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/turbine_flowmeter.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -609,6 +772,8 @@ concept_vortex_shedding_flowmeter
 	(* <- lang_en;; *);
 	[вихровий витратомір]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/vortex_shedding_flowmeter.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -635,6 +800,8 @@ concept_target_flowmeter
 	(* <- lang_en;; *);
 	[цільової витратомір]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/target_flowmeter.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -661,6 +828,9 @@ concept_magnetic_flowmeter
 	(* <- lang_en;; *);
 	[магнітний витратомір]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/magnetic_flowmeter_a.jpg";
+	"file://images/measurement/magnetic_flowmeter_b.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -687,6 +857,9 @@ concept_thermal_mass_flowmeter
 	(* <- lang_en;; *);
 	[термомассовий витратомір]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/thermal_mass_flowmeter_a.jpg";
+	"file://images/measurement/thermal_mass_flowmeter_b.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -713,6 +886,8 @@ concept_positive_displacement_flowmeter
 	(* <- lang_en;; *);
 	[витратомір прямого витіснення]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/positive_displacement_flowmeter.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -739,6 +914,8 @@ concept_cone_meter
 	(* <- lang_en;; *);
 	[конічний вимірювач]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/annular_orifice_meter.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -765,6 +942,8 @@ concept_annular_orifice_meter
 	(* <- lang_en;; *);
 	[вимірювач з кільцевих отвором]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/annular_orifice_meter.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -791,6 +970,8 @@ concept_wedge_meter
 	(* <- lang_en;; *);
 	[клиновий вимірювач]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/wedge_meter.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -817,6 +998,8 @@ concept_coriollis_flowmeter
 	(* <- lang_en;; *);
 	[коріоллісовий витратомір]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/coriollis_flowmeter.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -843,6 +1026,8 @@ concept_sonic_flowmeter
 	(* <- lang_en;; *);
 	[звуковий витратомір]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/sonic_flowmeter.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -869,6 +1054,8 @@ concept_ultrasonic_flowmeter
 	(* <- lang_en;; *);
 	[ультразвуковий витратомір]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/sonic_flowmeter.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -895,6 +1082,8 @@ concept_variable_area_flowmeter
 	(* <- lang_en;; *);
 	[витратомір зі змінним перетином]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/variable_area_flowmeter.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -921,6 +1110,8 @@ concept_open_channel_weir_plate
 	(* <- lang_en;; *);
 	[водосливная пластина відкритого каналу]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/open_channel_weir_plate.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
@@ -947,6 +1138,8 @@ concept_open_channel_flume
 	(* <- lang_en;; *);
 	[лоток з відкритим каналом]
 	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/measurement/open_channel_flume.jpg";
 <- rrel_key_sc_element:
 	...
 	(*
