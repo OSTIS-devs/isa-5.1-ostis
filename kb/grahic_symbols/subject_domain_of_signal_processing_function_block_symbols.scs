@@ -229,9 +229,9 @@ concept_exponential_symbol
 => nrel_main_idtf:
 	[функциональный экспоненциальный символ]
 	(* <- lang_ru;; *);
-	[Functional exponential symbol]
+	[functional exponential symbol]
 	(* <- lang_en;; *);
-	[Функціональний експонентний символ]
+	[функціональний експонентний символ]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
