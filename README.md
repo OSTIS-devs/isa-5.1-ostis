@@ -14,5 +14,3 @@ schemes and graphic symbols.
 * ### Section. Subject domain of diagrams
 * ### Section. Subject domain of graphic symbols
 * ### Section. Subject domain of instrumentation symbol and identification terminology
-* ### Section. Subject domain of instrumentation schematic diagrams
-* ### Section. Subject domain of functional diagrams of instruments, loops, and application software functions
