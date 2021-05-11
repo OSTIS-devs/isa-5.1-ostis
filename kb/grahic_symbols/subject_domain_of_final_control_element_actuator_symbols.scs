@@ -1,0 +1,672 @@
+subject_domain_of_final_control_elements
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область обозначений приводов]
+	(* <- lang_ru;; *);
+	[Subject domain of actuator designations]
+	(* <- lang_en;; *);
+	[Предметна область позначень приводів]
+	(* <- lang_uk;; *);
+	
+-> rrel_maximum_studied_object_class: 
+concept_schematic_actuator;
+
+-> rrel_not_maximum_studied_object_class:
+concept_generic_actuator;
+concept_spring_diaphragm_actuator_with_positioner;
+concept_pressure_balanced_diaphragm_actuator;
+concept_linear_piston_actuator;
+concept_linear_piston_actuator_with_positioner;
+concept_rotary_piston_actuator;
+concept_rotary_piston_actuator_with_positioner;
+concept_bellows_spring_opposed_actuator;
+concept_rotary_motor_operated_actuator;
+concept_modulating_solenoid_actuator;
+concept_actuator_with_side_mounted_handwheel;
+concept_actuator_with_top_mounted_handwheel;
+concept_manual_actuator;
+concept_electrohydraulic_linear_or_rotary_actuator;
+concept_actuator_with_manual_actuated_partial_stroke_test_device;
+concept_actuator_with_remote_actuated_partial_stroke_test_device;
+concept_automatic_reset_on_off_solenoid_actuator;
+concept_manual_or_remote_reset_on_off_solenoid_actuator;
+concept_manual_and_remote_reset_on_off_solenoid_actuator;
+concept_spring_or_weight_actuated_relief_or_safety_valve_actuator;
+concept_pilot_actuated_relief_or_safety_valve_actuator;;
+
+concept_schematic_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[условное обозначение привода]
+	(* <- lang_ru;; *);
+	[schematic_actuator]
+	(* <- lang_en;; *);
+	[умовне позначення приводу]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/schematic_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/schematic_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/schematic_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);
+	
+=> nrel_inclusion:
+concept_generic_actuator;
+concept_spring_diaphragm_actuator_with_positioner;
+concept_pressure_balanced_diaphragm_actuator;
+concept_linear_piston_actuator;
+concept_linear_piston_actuator_with_positioner;
+concept_rotary_piston_actuator;
+concept_rotary_piston_actuator_with_positioner;
+concept_bellows_spring_opposed_actuator;
+concept_rotary_motor_operated_actuator;
+concept_modulating_solenoid_actuator;
+concept_actuator_with_side_mounted_handwheel;
+concept_actuator_with_top_mounted_handwheel;
+concept_manual_actuator;
+concept_electrohydraulic_linear_or_rotary_actuator;
+concept_actuator_with_manual_actuated_partial_stroke_test_device;
+concept_actuator_with_remote_actuated_partial_stroke_test_device;
+concept_automatic_reset_on_off_solenoid_actuator;
+concept_manual_or_remote_reset_on_off_solenoid_actuator;
+concept_manual_and_remote_reset_on_off_solenoid_actuator;
+concept_spring_or_weight_actuated_relief_or_safety_valve_actuator;
+concept_pilot_actuated_relief_or_safety_valve_actuator;;
+
+concept_generic_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[универсальный привод]
+	(* <- lang_ru;; *);
+	[generic actuator]
+	(* <- lang_en;; *);
+	[універсальний привід]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/generic_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/generic_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/generic_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/generic_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_spring_diaphragm_actuator_with_positioner
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[пружинно-мембранный привод с позиционером]
+	(* <- lang_ru;; *);
+	[spring-diaphragm actuator with positioner]
+	(* <- lang_en;; *);
+	[пружинно-мембранний привід з позиціонером]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/spring_diaphragm_actuator_with_positioner.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/spring_diaphragm_actuator_with_positioner_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/spring_diaphragm_actuator_with_positioner_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/spring_diaphragm_actuator_with_positioner_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_pressure_balanced_diaphragm_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[мембранный привод со сбалансированным давлением]
+	(* <- lang_ru;; *);
+	[pressure-balanced diaphragm actuator]
+	(* <- lang_en;; *);
+	[мембранний привід зі збалансованим тиском]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/pressure_balanced_diaphragm_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/pressure_balanced_diaphragm_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/pressure_balanced_diaphragm_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/pressure_balanced_diaphragm_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_linear_piston_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[линейный поршневой привод]
+	(* <- lang_ru;; *);
+	[linear piston actuator]
+	(* <- lang_en;; *);
+	[лінійний поршневий привід]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/linear_piston_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/linear_piston_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/linear_piston_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/linear_piston_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_linear_piston_actuator_with_positioner
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[линейный поршневой привод с позиционером]
+	(* <- lang_ru;; *);
+	[linear piston actuator with positioner]
+	(* <- lang_en;; *);
+	[лінійний поршневий привід з позиціонером]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/linear_piston_actuator_with_positioner.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/linear_piston_actuator_with_positioner_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/linear_piston_actuator_with_positioner_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/linear_piston_actuator_with_positioner_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_rotary_piston_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[роторно-поршневой привод]
+	(* <- lang_ru;; *);
+	[rotary piston actuator]
+	(* <- lang_en;; *);
+	[роторно-поршневий привід]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/rotary_piston_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/rotary_piston_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/rotary_piston_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/rotary_piston_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_rotary_piston_actuator_with_positioner
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[роторно-поршневой привод с позиционером]
+	(* <- lang_ru;; *);
+	[rotary piston actuator with positioner]
+	(* <- lang_en;; *);
+	[роторно-поршневий привід з позиціонером]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/rotary_piston_actuator_with_positioner.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/rotary_piston_actuator_with_positioner_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/rotary_piston_actuator_with_positioner_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/rotary_piston_actuator_with_positioner_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_bellows_spring_opposed_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[сильфонный пружинный привод]
+	(* <- lang_ru;; *);
+	[bellows spring opposed actuator]
+	(* <- lang_en;; *);
+	[сильфонний пружинний привід]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/bellows_spring_opposed_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/bellows_spring_opposed_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/bellows_spring_opposed_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/bellows_spring_opposed_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_rotary_motor_operated_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод с приводом от вращающегося двигателя]
+	(* <- lang_ru;; *);
+	[rotary motor operated actuator]
+	(* <- lang_en;; *);
+	[привід з приводом від обертового двигуна]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/rotary_motor_operated_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/rotary_motor_operated_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/rotary_motor_operated_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/rotary_motor_operated_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_modulating_solenoid_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[модулирующий электромагнитный привод]
+	(* <- lang_ru;; *);
+	[modulating solenoid actuator]
+	(* <- lang_en;; *);
+	[модулюючий електромагнітний привід]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/modulating_solenoid_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/modulating_solenoid_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/modulating_solenoid_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/modulating_solenoid_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_actuator_with_side_mounted_handwheel
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод с боковым маховиком]
+	(* <- lang_ru;; *);
+	[actuator with side-mounted handwheel]
+	(* <- lang_en;; *);
+	[привід з бічним маховиком]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/actuator_with_side_mounted_handwheel.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/actuator_with_side_mounted_handwheel_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/actuator_with_side_mounted_handwheel_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/actuator_with_side_mounted_handwheel_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_actuator_with_top_mounted_handwheel
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод с верхним маховиком]
+	(* <- lang_ru;; *);
+	[actuator with top-mounted handwheel]
+	(* <- lang_en;; *);
+	[привід з верхнім маховиком]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/actuator_with_top_mounted_handwheel.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/actuator_with_top_mounted_handwheel_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/actuator_with_top_mounted_handwheel_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/actuator_with_top_mounted_handwheel_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_manual_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[ручной привод]
+	(* <- lang_ru;; *);
+	[manual actuator]
+	(* <- lang_en;; *);
+	[ручний привід]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/manual_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/manual_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/manual_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/manual_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_electrohydraulic_linear_or_rotary_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[электрогидравлический линейный или поворотный привод]
+	(* <- lang_ru;; *);
+	[electrohydraulic linear or rotary actuator]
+	(* <- lang_en;; *);
+	[електрогідравлічний лінійний або поворотний привід]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/electrohydraulic_linear_or_rotary_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/electrohydraulic_linear_or_rotary_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/electrohydraulic_linear_or_rotary_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/electrohydraulic_linear_or_rotary_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_actuator_with_manual_actuated_partial_stroke_test_device
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод с устройством для испытания частичного хода с ручным приводом]
+	(* <- lang_ru;; *);
+	[actuator with manual actuated partial stroke test device]
+	(* <- lang_en;; *);
+	[привід з пристроєм для випробування часткового ходу з ручним приводом]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/actuator_with_manual_actuated_partial_stroke_test_device.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/actuator_with_manual_actuated_partial_stroke_test_device_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/actuator_with_manual_actuated_partial_stroke_test_device_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/actuator_with_manual_actuated_partial_stroke_test_device_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_actuator_with_remote_actuated_partial_stroke_test_device
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод с дистанционным приводом устройство для испытания частичного хода]
+	(* <- lang_ru;; *);
+	[actuator with remote actuated partial stroke test device]
+	(* <- lang_en;; *);
+	[привід з дистанційним приводом пристрій для випробування часткового ходу]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/actuator_with_remote_actuated_partial_stroke_test_device.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/actuator_with_remote_actuated_partial_stroke_test_device_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/actuator_with_remote_actuated_partial_stroke_test_device_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/actuator_with_remote_actuated_partial_stroke_test_device_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_automatic_reset_on_off_solenoid_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[автоматический сброс включения-выключения электромагнитного привода]
+	(* <- lang_ru;; *);
+	[automatic reset on-off solenoid actuator]
+	(* <- lang_en;; *);
+	[автоматичне скидання включення-виключення електромагнітного приводу]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/automatic_reset_on_off_solenoid_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/automatic_reset_on_off_solenoid_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/automatic_reset_on_off_solenoid_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/automatic_reset_on_off_solenoid_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_manual_or_remote_reset_on_off_solenoid_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[ручной или дистанционный сброс включения-выключения электромагнитного привода]
+	(* <- lang_ru;; *);
+	[manual or remote reset on-off solenoid actuator]
+	(* <- lang_en;; *);
+	[ручний або дистанційний скидання включення-виключення електромагнітного приводу]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/manual_or_remote_reset_on_off_solenoid_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/manual_or_remote_reset_on_off_solenoid_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/manual_or_remote_reset_on_off_solenoid_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/manual_or_remote_reset_on_off_solenoid_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_manual_and_remote_reset_on_off_solenoid_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[ручной и дистанционный сброс включения-выключения электромагнитного привода]
+	(* <- lang_ru;; *);
+	[manual and remote reset on-off solenoid actuator]
+	(* <- lang_en;; *);
+	[ручний і дистанційний скидання включення-виключення електромагнітного приводу]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/manual_and_remote_reset_on_off_solenoid_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/manual_and_remote_reset_on_off_solenoid_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/manual_and_remote_reset_on_off_solenoid_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/manual_and_remote_reset_on_off_solenoid_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_spring_or_weight_actuated_relief_or_safety_valve_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод предохранительного клапана с пружинным или весовым приводом]
+	(* <- lang_ru;; *);
+	[spring or weight actuated relief or safety valve actuator]
+	(* <- lang_en;; *);
+	[привід запобіжного клапана з пружинним або ваговим приводом]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/spring_or_weight_actuated_relief_or_safety_valve_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/spring_or_weight_actuated_relief_or_safety_valve_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/spring_or_weight_actuated_relief_or_safety_valve_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/spring_or_weight_actuated_relief_or_safety_valve_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_pilot_actuated_relief_or_safety_valve_actuator
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[привод предохранительного или предохранительного клапана с пилотным приводом]
+	(* <- lang_ru;; *);
+	[pilot actuated relief or safety valve actuator]
+	(* <- lang_en;; *);
+	[привід запобіжного або запобіжного клапана з пілотним приводом]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/pilot_actuated_relief_or_safety_valve_actuator.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/pilot_actuated_relief_or_safety_valve_actuator_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/pilot_actuated_relief_or_safety_valve_actuator_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/pilot_actuated_relief_or_safety_valve_actuator_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
