@@ -70,7 +70,7 @@ concept_flanged_insert_probe;
 concept_flanged_conditioner;
 concept_flow_straightening_vanes;
 concept_instrument_purge_or_flushing_fluid;
-concept_instrument_purge_or_flushing_devices;
+concept_instrument_purge_or_flushing_device;
 concept_diaphragm_pressure_seal;
 concept_diaphragm_chemical_seal;
 concept_thermowell;
@@ -1849,9 +1849,9 @@ concept_instrument_purge_or_flushing_device
 		-> rrel_example:
 				"file://content_html/explanations/measurement/instrument_purge_or_flushing_device_ru.html"
 			(* <- lang_ru;; *);
-				"file://content_html/explanations/measurement/instrument_purge_or_flushing_devices_en.html"
+				"file://content_html/explanations/measurement/instrument_purge_or_flushing_device_en.html"
 			(* <- lang_en;; *);
-				"file://content_html/explanations/measurement/instrument_purge_or_flushing_devices_uk.html"
+				"file://content_html/explanations/measurement/instrument_purge_or_flushing_device_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
