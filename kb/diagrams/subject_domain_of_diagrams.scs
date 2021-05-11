@@ -9,10 +9,8 @@ subject_domain_of_diagrams
 	(* <- lang_uk;; *);
 	
 => nrel_private_subject_domain:
-{
-	section_subject_domain_of_functional_diagrams;
-	section_subject_domain_of_instrumentation_schematic_diagrams
-};
+section_subject_domain_of_functional_diagrams;
+section_subject_domain_of_instrumentation_schematic_diagrams;
 
 -> rrel_maximum_studied_object_class: 
 concept_diagram;;
