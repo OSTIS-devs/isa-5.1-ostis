@@ -25,11 +25,11 @@ concept_bellows_sealed_valve;
 concept_generic_damper;
 concept_parallel_blade_damper;
 concept_opposed_blade_damper;
-concept_two_way_0n_off_solenoid_valve;
+concept_two_way_on_off_solenoid_valve;
 concept_angle_on_off_solenoid_valve;
-concept_three_way_0n_off_solenoid_valve;
-concept_four_way_plug_or_ball_0n_off_solenoid_valve;
-concept_four_way_five_ported_0n_off_solenoid_valve;
+concept_three_way_on_off_solenoid_valve;
+concept_four_way_plug_or_ball_on_off_solenoid_valve;
+concept_four_way_five_ported_on_off_solenoid_valve;
 concept_permanent_magnet_variable_speed_coupling;
 concept_electric_motor;;
 
@@ -73,11 +73,11 @@ concept_bellows_sealed_valve;
 concept_generic_damper;
 concept_parallel_blade_damper;
 concept_opposed_blade_damper;
-concept_two_way_0n_off_solenoid_valve;
+concept_two_way_on_off_solenoid_valve;
 concept_angle_on_off_solenoid_valve;
-concept_three_way_0n_off_solenoid_valve;
-concept_four_way_plug_or_ball_0n_off_solenoid_valve;
-concept_four_way_five_ported_0n_off_solenoid_valve;
+concept_three_way_on_off_solenoid_valve;
+concept_four_way_plug_or_ball_on_off_solenoid_valve;
+concept_four_way_five_ported_on_off_solenoid_valve;
 concept_permanent_magnet_variable_speed_coupling;
 concept_electric_motor;;
 
@@ -133,6 +133,510 @@ concept_generic_two_way_angle_valve
 				"file://content_html/explanations/final/generic_two_way_angle_valve_en.html"
 			(* <- lang_en;; *);
 				"file://content_html/explanations/final/generic_two_way_angle_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_generic_three_way_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[универсальный трехходовой клапан]
+	(* <- lang_ru;; *);
+	[generic three-way valve]
+	(* <- lang_en;; *);
+	[універсальний триходовий клапан]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/generic_three_way_valve.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/generic_three_way_valve_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/generic_three_way_valve_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/generic_three_way_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_generic_four_way_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[универсальный четырехходовой клапан]
+	(* <- lang_ru;; *);
+	[generic four-way valve]
+	(* <- lang_en;; *);
+	[універсальний чотириходовий клапан]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/generic_four_way_valve.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/generic_four_way_valve_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/generic_four_way_valve_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/generic_four_way_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_butterfly_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[дроссельная заслонка]
+	(* <- lang_ru;; *);
+	[butterfly valve]
+	(* <- lang_en;; *);
+	[дросельна заслінка]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/butterfly_valve.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/butterfly_valve_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/butterfly_valve_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/butterfly_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_ball_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[шаровой кран]
+	(* <- lang_ru;; *);
+	[ball valve]
+	(* <- lang_en;; *);
+	[кульовий кран]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/ball_valve.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/ball_valve_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/ball_valve_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/ball_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_plug_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[пробковый клапан]
+	(* <- lang_ru;; *);
+	[plug valve]
+	(* <- lang_en;; *);
+	[корковий клапан]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/plug_valve.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/plug_valve_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/plug_valve_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/plug_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_eccentric_rotary_disc_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[эксцентриковый поворотный дисковый клапан]
+	(* <- lang_ru;; *);
+	[eccentric rotary disc valve]
+	(* <- lang_en;; *);
+	[ексцентриковий поворотний дисковий клапан]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/eccentric_rotary_disc_valve.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/eccentric_rotary_disc_valve_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/eccentric_rotary_disc_valve_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/eccentric_rotary_disc_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_pinch_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[зажимной клапан]
+	(* <- lang_ru;; *);
+	[pinch valve]
+	(* <- lang_en;; *);
+	[затискний клапан]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/pinch_valve.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/pinch_valve_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/pinch_valve_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/pinch_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_bellows_sealed_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[сильфонный герметичный клапан]
+	(* <- lang_ru;; *);
+	[bellows sealed valve]
+	(* <- lang_en;; *);
+	[сильфонний герметичний клапан]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/bellows_sealed_valve.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/bellows_sealed_valve_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/bellows_sealed_valve_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/bellows_sealed_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_generic_damper
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[универсальный демпфер]
+	(* <- lang_ru;; *);
+	[generic damper]
+	(* <- lang_en;; *);
+	[універсальний демпфер]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/generic_damper.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/generic_damper_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/generic_damper_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/generic_damper_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_parallel_blade_damper
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[демпфер параллельных лопастей]
+	(* <- lang_ru;; *);
+	[parallel blade damper]
+	(* <- lang_en;; *);
+	[демпфер паралельних лопатей]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/parallel_blade_damper.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/parallel_blade_damper_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/parallel_blade_damper_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/parallel_blade_damper_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_opposed_blade_damper
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[демпфер с противоположной лопастью]
+	(* <- lang_ru;; *);
+	[opposed blade damper]
+	(* <- lang_en;; *);
+	[демпфер з протилежною лопаттю]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/opposed_blade_damper.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/opposed_blade_damper_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/opposed_blade_damper_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/opposed_blade_damper_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_two_way_on_off_solenoid_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[двухсторонний электромагнитный клапан включения-выключения]
+	(* <- lang_ru;; *);
+	[two-way on-off solenoid valve]
+	(* <- lang_en;; *);
+	[двосторонній електромагнітний клапан включення-виключення]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/two_way_on_off_solenoid_valve.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/two_way_on_off_solenoid_valve_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/two_way_on_off_solenoid_valve_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/two_way_on_off_solenoid_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_angle_on_off_solenoid_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[электромагнитный клапан углового включения-выключения]
+	(* <- lang_ru;; *);
+	[angle on-off solenoid valve]
+	(* <- lang_en;; *);
+	[електромагнітний клапан кутового включення-виключення]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/angle_on_off_solenoid_valve.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/angle_on_off_solenoid_valve_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/angle_on_off_solenoid_valve_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/angle_on_off_solenoid_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_three_way_on_off_solenoid_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[трехходовой электромагнитный клапан включения-выключения]
+	(* <- lang_ru;; *);
+	[three-way on-off solenoid valve]
+	(* <- lang_en;; *);
+	[триходовий електромагнітний клапан включення-виключення]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/three_way_on_off_solenoid_valve.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/three_way_on_off_solenoid_valve_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/three_way_on_off_solenoid_valve_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/three_way_on_off_solenoid_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_four_way_plug_or_ball_on_off_solenoid_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[четырехходовой штекерный или шаровой электромагнитный клапан включения-выключения]
+	(* <- lang_ru;; *);
+	[four-way plug or ball on-off solenoid valve]
+	(* <- lang_en;; *);
+	[чотириходовий штекерний або кульовий електромагнітний клапан включення-виключення]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/four_way_plug_or_ball_on_off_solenoid_valve.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/four_way_plug_or_ball_on_off_solenoid_valve_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/four_way_plug_or_ball_on_off_solenoid_valve_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/four_way_plug_or_ball_on_off_solenoid_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_four_way_five_ported_on_off_solenoid_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[четырехходовой пятипортовый электромагнитный клапан включения-выключения]
+	(* <- lang_ru;; *);
+	[four-way five-ported on-off solenoid valve]
+	(* <- lang_en;; *);
+	[чотириходовий п'ятипортовий електромагнітний клапан включення-виключення]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/four_way_five_ported_on_off_solenoid_valve.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/four_way_five_ported_on_off_solenoid_valve_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/four_way_five_ported_on_off_solenoid_valve_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/four_way_five_ported_on_off_solenoid_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_permanent_magnet_variable_speed_coupling
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[муфта переменной скорости с постоянным магнитом]
+	(* <- lang_ru;; *);
+	[permanent magnet variable speed coupling]
+	(* <- lang_en;; *);
+	[муфта змінної швидкості з постійним магнітом]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/permanent_magnet_variable_speed_coupling.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/permanent_magnet_variable_speed_coupling_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/permanent_magnet_variable_speed_coupling_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/permanent_magnet_variable_speed_coupling_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+
+concept_electric_motor
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[электродвигатель]
+	(* <- lang_ru;; *);
+	[electric motor]
+	(* <- lang_en;; *);
+	[електродвигун]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/final/electric_motor.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/final/electric_motor_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/final/electric_motor_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/final/electric_motor_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
