@@ -7,7 +7,7 @@ subject_domain_of_instrumentation_schematic_diagrams
 	(* <- lang_en;; *);
 	[Предметна область принципових схем контрольно-вимірювальних приладів]
 	(* <- lang_uk;; *);
-=> nrel_not_maximum_studied_object_class:
+-> rrel_not_maximum_studied_object_class:
 {
 	concept_instrumentation;
     concept_primary_instrumentation;
