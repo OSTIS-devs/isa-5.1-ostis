@@ -1,0 +1,9 @@
+subject_domain_of_functional_diagrams
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область  функциональных схем приборов, контуров и функций прикладного программного обеспечения]
+	(* <- lang_ru;; *);
+	[Subject domain of functional diagrams of instruments, loops, and application software functions]
+	(* <- lang_en;; *);
+	[Предметна область функціональних схем інструментів, шлейфів та функцій прикладного програмного забезпечення]
+	(* <- lang_uk;; *);;
