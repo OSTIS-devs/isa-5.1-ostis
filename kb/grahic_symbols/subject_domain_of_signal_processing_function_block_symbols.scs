@@ -514,7 +514,7 @@ concept_low_signal_monitor_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/low_signal_monitor_limiter.jpg";
+	"file://images/functional/low_signal_monitor.jpg";
 
 <- rrel_key_sc_element:
 
