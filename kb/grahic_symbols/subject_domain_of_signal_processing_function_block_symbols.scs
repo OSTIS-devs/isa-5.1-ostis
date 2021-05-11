@@ -21,11 +21,11 @@ concept_summation_symbol;;
 concept_functional_block_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Условное обозначение функционального блока обработки сигналов]
+	[условное обозначение функционального блока обработки сигналов]
 	(* <- lang_ru;; *);
-	[Symbol of the signal processing function block]
+	[symbol of the signal processing function block]
 	(* <- lang_en;; *);
-	[Умовне позначення функціонального блоку обробки сигналів]
+	[умовне позначення функціонального блоку обробки сигналів]
 	(* <- lang_uk;; *);
 
 <- rrel_key_sc_element:
@@ -55,11 +55,11 @@ concept_multiplication_symbol;;
 concept_summation_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Функциональный символ суммы]
+	[функциональный символ суммы]
 	(* <- lang_ru;; *);
-	[Functional summation symbol]
+	[functional summation symbol]
 	(* <- lang_en;; *);
-	[Функціональний підсумовування символ]
+	[функціональний підсумовування символ]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
@@ -89,11 +89,11 @@ concept_summation_symbol
 concept_multiplication_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Функциональный символ умножения]
+	[функциональный символ умножения]
 	(* <- lang_ru;; *);
-	[Functional multiplication symbol]
+	[functional multiplication symbol]
 	(* <- lang_en;; *);
-	[Функціональний символ множення]
+	[функціональний символ множення]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
@@ -125,11 +125,11 @@ concept_multiplication_symbol
 concept_difference_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Функциональный символ разности]
+	[функциональный символ разности]
 	(* <- lang_ru;; *);
-	[Functional difference symbol]
+	[functional difference symbol]
 	(* <- lang_en;; *);
-	[Функціональний символ різниці]
+	[функціональний символ різниці]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
@@ -161,11 +161,11 @@ concept_difference_symbol
 concept_average_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Функциональный символ среднего значения]
+	[функциональный символ среднего значения]
 	(* <- lang_ru;; *);
-	[Functional average symbol]
+	[functional average symbol]
 	(* <- lang_en;; *);
-	[Функціональний символ середнього значення]
+	[функціональний символ середнього значення]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:

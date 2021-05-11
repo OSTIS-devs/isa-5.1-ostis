@@ -31,7 +31,23 @@ concept_foot_switch_actuator;
 concept_relay_operating_coil;
 concept_normally_open_relay_contact;
 concept_normally_closed_relay_contact;
-concept_normally_open_or_normally_closed_relay_contact;;
+concept_normally_open_or_normally_closed_relay_contact;
+concept_on_time_delay;
+concept_off_time_delay;
+concept_transformer;
+concept_non_resettable_fuse;
+concept_thermal_overload;
+concept_circuit_interrupter_1_pole_manual_reset;
+concept_circuit_interrupter_3_pole_manual_reset;
+concept_circuit_breaker_1_pole_manual_reset;
+concept_circuit_breaker_3_pole_manual_reset;
+concept_bell;
+concept_horn;
+concept_buzzer;
+concept_solenoid_coil;
+concept_pilot_light;
+concept_battery;
+concept_ground;;
 
 
 concept_electrical_schematic_symbol
@@ -80,7 +96,23 @@ concept_foot_switch_actuator;
 concept_relay_operating_coil;
 concept_normally_open_relay_contact;
 concept_normally_closed_relay_contact;
-concept_normally_open_or_normally_closed_relay_contact;;
+concept_normally_open_or_normally_closed_relay_contact;
+concept_on_time_delay;
+concept_off_time_delay;
+concept_transformer;
+concept_non_resettable_fuse;
+concept_thermal_overload;
+concept_circuit_interrupter_1_pole_manual_reset;
+concept_circuit_interrupter_3_pole_manual_reset;
+concept_circuit_breaker_1_pole_manual_reset;
+concept_circuit_breaker_3_pole_manual_reset;
+concept_bell;
+concept_horn;
+concept_buzzer;
+concept_solenoid_coil;
+concept_pilot_light;
+concept_battery;
+concept_ground;;
 
 concept_device_wiring_point
 <- sc_node_not_relation;
@@ -638,6 +670,457 @@ concept_normally_open_or_normally_closed_relay_contact
 				"file://content_html/explanations/electric/normally_open_or_normally_closed_relay_contact_en.html"
 			(* <- lang_en;; *);
 				"file://content_html/explanations/electric/normally_open_or_normally_closed_relay_contact_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_on_time_delay
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[включатель]
+	(* <- lang_ru;; *);
+	[on time delay]
+	(* <- lang_en;; *);
+	[вмикач]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/on_time_delay.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/on_time_delay_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/on_time_delay_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/on_time_delay_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_off_time_delay
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[выключатель]
+	(* <- lang_ru;; *);
+	[off time delay]
+	(* <- lang_en;; *);
+	[вимикач]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/off_time_delay.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/off_time_delay_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/off_time_delay_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/off_time_delay_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_transformer
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[трансформатор]
+	(* <- lang_ru;; *);
+	[transformer]
+	(* <- lang_en;; *);
+	[трансформатор]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/transformer.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/transformer_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/transformer_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/transformer_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_non_resettable_fuse
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[невосстанавливаемый предохранитель]
+	(* <- lang_ru;; *);
+	[non-resettable fuse]
+	(* <- lang_en;; *);
+	[невідновлюваний запобіжник]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/non_resettable_fuse.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/non_resettable_fuse_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/non_resettable_fuse_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/non_resettable_fuse_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_thermal_overload
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[тепловой перегрузчик]
+	(* <- lang_ru;; *);
+	[thermal overload]
+	(* <- lang_en;; *);
+	[теплової перевантажувач]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/thermal_overload.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/thermal_overload_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/thermal_overload_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/thermal_overload_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_circuit_interrupter_1_pole_manual_reset
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[прерыватель цепи, 1-полюсный, ручной сброс]
+	(* <- lang_ru;; *);
+	[circuit interrupter, 1-pole, manual reset]
+	(* <- lang_en;; *);
+	[переривник ланцюга, 1-полюсний, ручне скидання]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/circuit_interrupter_1_pole_manual_reset.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/circuit_interrupter_1_pole_manual_reset_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/circuit_interrupter_1_pole_manual_reset_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/circuit_interrupter_1_pole_manual_reset_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_circuit_interrupter_3_pole_manual_reset
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[прерыватель цепи, 3-полюсный, ручной сброс]
+	(* <- lang_ru;; *);
+	[circuit interrupter, 3-pole, manual reset]
+	(* <- lang_en;; *);
+	[переривник ланцюга, 3-полюсний, ручне скидання]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/circuit_interrupter_3_pole_manual_reset.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/circuit_interrupter_3_pole_manual_reset_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/circuit_interrupter_3_pole_manual_reset_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/circuit_interrupter_3_pole_manual_reset_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_circuit_breaker_1_pole_manual_reset
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[автоматический выключатель, 1-полюсный, ручной сброс]
+	(* <- lang_ru;; *);
+	[circuit breaker, 1-pole, manual reset]
+	(* <- lang_en;; *);
+	[автоматичний вимикач, 1-полюсний, ручне скидання]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/circuit_breaker_1_pole_manual_reset.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/circuit_breaker_1_pole_manual_reset_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/circuit_breaker_1_pole_manual_reset_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/circuit_breaker_1_pole_manual_reset_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_circuit_breaker_3_pole_manual_reset
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[автоматический выключатель, 3-полюсный, ручной сброс]
+	(* <- lang_ru;; *);
+	[circuit breaker, 3-pole, manual reset]
+	(* <- lang_en;; *);
+	[автоматичний вимикач, 3-полюсний, ручне скидання]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/circuit_breaker_3_pole_manual_reset.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/circuit_breaker_3_pole_manual_reset_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/circuit_breaker_3_pole_manual_reset_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/circuit_breaker_3_pole_manual_reset_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_bell
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[звонок]
+	(* <- lang_ru;; *);
+	[bell]
+	(* <- lang_en;; *);
+	[дзвінок]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/bell.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/bell_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/bell_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/bell_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_horn
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[рупор]
+	(* <- lang_ru;; *);
+	[horn]
+	(* <- lang_en;; *);
+	[рупор]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/horn.jpg";
+=> nrel_idtf:
+	[siren]
+	(* <- lang_en;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/horn_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/horn_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/horn_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_buzzer
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[гудок]
+	(* <- lang_ru;; *);
+	[buzzer]
+	(* <- lang_en;; *);
+	[гудок]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/buzzer.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/buzzer_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/buzzer_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/buzzer_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_solenoid_coil
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[катушка соленоида]
+	(* <- lang_ru;; *);
+	[solenoid coil]
+	(* <- lang_en;; *);
+	[котушка соленоїда]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/solenoid_coil.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/solenoid_coil_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/solenoid_coil_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/solenoid_coil_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_pilot_light
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[контрольная лампа]
+	(* <- lang_ru;; *);
+	[pilot light]
+	(* <- lang_en;; *);
+	[контрольна лампа]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/pilot_light.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/pilot_light_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/pilot_light_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/pilot_light_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_battery
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[аккумулятор]
+	(* <- lang_ru;; *);
+	[battery]
+	(* <- lang_en;; *);
+	[акумулятор]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/battery.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/battery_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/battery_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/battery_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_ground
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[заземление]
+	(* <- lang_ru;; *);
+	[ground]
+	(* <- lang_en;; *);
+	[заземлення]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/ground.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/ground_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/ground_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/ground_uk.html"
 			(* <- lang_uk;; *);;
 		*);;
 	*);;
