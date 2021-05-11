@@ -107,7 +107,9 @@ concept_measurement_symbol
 		=> nrel_inclusion:
 		concept_single_element_sensing_probe;
 		concept_dual_element_sensing_probe;
-		concept_fiberoptic_sensing_probe;;
+		concept_fiberoptic_sensing_probe;
+		concept_flanged_insert_probe;
+		concept_flanged_conditioner;;
 	*);
 	concept_burner_measurement_symbol
 	(*
@@ -146,7 +148,11 @@ concept_measurement_symbol
 		concept_ultrasonic_flowmeter;
 		concept_variable_area_flowmeter;
 		concept_open_channel_weir_plate;
-		concept_open_channel_flume;;
+		concept_open_channel_flume;
+		concept_sight_glass;
+		concept_flow_straightening_vanes;
+		concept_instrument_purge_or_flushing_fluid;
+		concept_instrument_purge_or_flushing_devices;;
 	*);
 	concept_level_measurement_symbol
 	(*
@@ -159,19 +165,27 @@ concept_measurement_symbol
 		concept_dip_tube_with_stilling_well;
 		concept_float_with_guide_wires;
 		concept_probe_insertation;
-		concept_radar;;
+		concept_radar;
+		concept_gage_integrally_mounted_on_vessel;
+		concept_gage_glass_externally_mounted_on_vessel;;
 	*);
 	concept_pressure_gauge_symbol
 	(*
 		<- sc_node_not_relation;;
 		=> nrel_inclusion:
-		concept_strain_gage;;
+		concept_strain_gage;
+		concept_pressure_gage;
+		concept_diaphragm_pressure_seal;
+		concept_diaphragm_chemical_seal;;
 	*);
 	concept_temperature_gage_symbol
 	(*
 		<- sc_node_not_relation;;
 		=> nrel_inclusion:
-		concept_generic_element_without_thermowell;;
+		concept_generic_element_without_thermowell;
+		concept_thermometer;
+		concept_thermowell;
+		concept_test_well;;
 	*);;
 
 concept_analysis_symbol
