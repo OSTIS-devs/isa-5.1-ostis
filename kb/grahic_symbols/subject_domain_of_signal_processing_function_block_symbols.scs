@@ -235,7 +235,7 @@ concept_exponential_symbol
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
-	"file://images/functional/еxponential.jpg";
+	"file://images/functional/exponential.jpg";
 
 <- rrel_key_sc_element:
 
@@ -258,11 +258,11 @@ concept_exponential_symbol
 concept_proportion_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Функциональный символ пропорции]
+	[функциональный символ пропорции]
 	(* <- lang_ru;; *);
-	[Functional proportion symbol]
+	[functional proportion symbol]
 	(* <- lang_en;; *);
-	[Функціональний символ пропорції]
+	[функціональний символ пропорції]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
@@ -289,11 +289,11 @@ concept_proportion_symbol
 concept_integral_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Функциональный интегральный символ]
+	[функциональный интегральный символ]
 	(* <- lang_ru;; *);
-	[Functional integral symbol]
+	[functional integral symbol]
 	(* <- lang_en;; *);
-	[Функціональний інтегральний символ]
+	[функціональний інтегральний символ]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
@@ -320,11 +320,11 @@ concept_integral_symbol
 concept_unspecified_function_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Символ неуказанной функции]
+	[символ неуказанной функции]
 	(* <- lang_ru;; *);
-	[Symbol of unspecified function]
+	[symbol of unspecified function]
 	(* <- lang_en;; *);
-	[Символ неуточненої функції]
+	[символ неуточненої функції]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
@@ -351,11 +351,11 @@ concept_unspecified_function_symbol
 concept_conversion_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Функциональный символ преобразования]
+	[функциональный символ преобразования]
 	(* <- lang_ru;; *);
-	[Functional conversion symbol]
+	[functional conversion symbol]
 	(* <- lang_en;; *);
-	[Функціональний символ перетворення]
+	[функціональний символ перетворення]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
@@ -382,11 +382,11 @@ concept_conversion_symbol
 concept_middle_signal_select_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Функциональный символ преобразования]
+	[функциональный символ выбора среднего сигнала]
 	(* <- lang_ru;; *);
-	[Functional conversion symbol]
+	[functional symbol of middle signal select]
 	(* <- lang_en;; *);
-	[Функціональний символ перетворення]
+	[функціональний символ вибору середнього сигналу]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
@@ -394,7 +394,7 @@ concept_middle_signal_select_symbol
 
 <- rrel_key_sc_element:
 
-	..conversion_explanation
+	..middle_signal_select_explanation
 	(*
 		<- explanation;;
 		<= nrel_sc_text_translation:
@@ -413,11 +413,11 @@ concept_middle_signal_select_symbol
 concept_high_limit_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Функциональный символ преобразования]
+	[функциональный символ верхнего предела]
 	(* <- lang_ru;; *);
-	[Functional conversion symbol]
+	[functional symbol of high limit]
 	(* <- lang_en;; *);
-	[Функціональний символ перетворення]
+	[функціональний символ верхньої межі]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
@@ -444,11 +444,11 @@ concept_high_limit_symbol
 concept_positive_bias_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Функциональный символ преобразования]
+	[функциональный символ положительной предвзятости]
 	(* <- lang_ru;; *);
-	[Functional conversion symbol]
+	[functional symbol of positive bias]
 	(* <- lang_en;; *);
-	[Функціональний символ перетворення]
+	[функціональний символ позитивного упередження]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
@@ -475,11 +475,11 @@ concept_positive_bias_symbol
 concept_velocity_limiter_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Функциональный символ преобразования]
+	[функциональный символ ограничителя скорости]
 	(* <- lang_ru;; *);
-	[Functional conversion symbol]
+	[functional symbol of velocity limiter]
 	(* <- lang_en;; *);
-	[Функціональний символ перетворення]
+	[функціональний символ обмежувача швидкості]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
@@ -506,11 +506,11 @@ concept_velocity_limiter_symbol
 concept_low_signal_monitor_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Функциональный символ преобразования]
+	[функциональный символ монитора низкого уровня сигнала]
 	(* <- lang_ru;; *);
-	[Functional conversion symbol]
+	[functional symbol of low signal monitor]
 	(* <- lang_en;; *);
-	[Функціональний символ перетворення]
+	[функціональний символ монітора низького рівня сигналу]
 	(* <- lang_uk;; *);
 
 => nrel_idtf:
@@ -518,7 +518,7 @@ concept_low_signal_monitor_symbol
 
 <- rrel_key_sc_element:
 
-	..velocity_limiter_explanation
+	..low_signal_monitor_explanation
 	(*
 		<- explanation;;
 		<= nrel_sc_text_translation:
@@ -818,7 +818,7 @@ concept_negative_bias_symbol
 concept_high_signal_monitor_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Функциональный символ монитора высокого уровня сигнала]
+	[функциональный символ монитора высокого уровня сигнала]
 	(* <- lang_ru;; *);
 	[functional high signal monitor symbol]
 	(* <- lang_en;; *);
@@ -849,7 +849,7 @@ concept_high_signal_monitor_symbol
 concept_high_low_signal_monitor_symbol
 <- sc_node_not_relation;
 => nrel_main_idtf:
-	[Функциональный символ монитора высокого / низкого уровня сигнала]
+	[функциональный символ монитора высокого / низкого уровня сигнала]
 	(* <- lang_ru;; *);
 	[functional high/low signal monitor symbol]
 	(* <- lang_en;; *);
