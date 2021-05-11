@@ -73,6 +73,7 @@ concept_shared_display;
 concept_software;
 concept_software_link;
 concept_supervisory_setpoint_control_system;
+concept_switch;
 concept_test_point;
 concept_transducer;
 concept_transmitter;;
