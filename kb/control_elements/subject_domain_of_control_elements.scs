@@ -1,0 +1,138 @@
+subject_domain_of_control_elements
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Предметная область обозначений конечных элементов управления]
+	(* <- lang_ru;; *);
+	[Subject domain of finite element notation]
+	(* <- lang_en;; *);
+	[Предметна область позначень кінцевих елементів управління]
+	(* <- lang_uk;; *);
+	
+-> rrel_maximum_studied_object_class: 
+concept_schematic_control_element;
+
+-> rrel_not_maximum_studied_object_class:
+concept_generic_two_way_valve;
+concept_generic_two_way_angle_valve;
+concept_generic_three_way_valve;
+concept_generic_four_way_valve;
+concept_butterfly_valve;
+concept_ball_valve;
+concept_plug_valve;
+concept_eccentric_rotary_disc_valve;
+concept_pinch_valve;
+concept_bellows_sealed_valve;
+concept_generic_damper;
+concept_parallel_blade_damper;
+concept_opposed_blade_damper;
+concept_two_way_0n_off_solenoid_valve;
+concept_angle_on_off_solenoid_valve;
+concept_three_way_0n_off_solenoid_valve;
+concept_four_way_plug_or_ball_0n_off_solenoid_valve;
+concept_four_way_five_ported_0n_off_solenoid_valve;
+concept_permanent_magnet_variable_speed_coupling;
+concept_electric_motor;;
+
+concept_schematic_control_element
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[условное обозначение элемента управления]
+	(* <- lang_ru;; *);
+	[schematic_control_element]
+	(* <- lang_en;; *);
+	[умовне позначення елемента керування]
+	(* <- lang_uk;; *);
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/schematic_control_element_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/schematic_control_element_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/schematic_control_element_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);
+	
+=> nrel_inclusion:
+concept_generic_two_way_valve;
+concept_generic_two_way_angle_valve;
+concept_generic_three_way_valve;
+concept_generic_four_way_valve;
+concept_butterfly_valve;
+concept_ball_valve;
+concept_plug_valve;
+concept_eccentric_rotary_disc_valve;
+concept_pinch_valve;
+concept_bellows_sealed_valve;
+concept_generic_damper;
+concept_parallel_blade_damper;
+concept_opposed_blade_damper;
+concept_two_way_0n_off_solenoid_valve;
+concept_angle_on_off_solenoid_valve;
+concept_three_way_0n_off_solenoid_valve;
+concept_four_way_plug_or_ball_0n_off_solenoid_valve;
+concept_four_way_five_ported_0n_off_solenoid_valve;
+concept_permanent_magnet_variable_speed_coupling;
+concept_electric_motor;;
+
+concept_generic_two_way_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[универсальный двухходовой клапан]
+	(* <- lang_ru;; *);
+	[generic two-way valve]
+	(* <- lang_en;; *);
+	[універсальний двоходовий клапан]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/generic_two_way_valve.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/generic_two_way_valve_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/generic_two_way_valve_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/generic_two_way_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
+	
+concept_generic_two_way_angle_valve
+<- sc_node_not_relation;
+=> nrel_main_idtf:
+	[универсальный двухходовой угловой клапан]
+	(* <- lang_ru;; *);
+	[generic two-way angle valve]
+	(* <- lang_en;; *);
+	[універсальний двоходовий кутовий клапан]
+	(* <- lang_uk;; *);
+=> nrel_idtf:
+	"file://images/electric/generic_two_way_angle_valve.jpg";
+<- rrel_key_sc_element:
+	...
+	(*
+		<- explanation;;
+		<= nrel_sc_text_translation:
+		...
+		(*
+		-> rrel_example:
+				"file://content_html/explanations/electric/generic_two_way_angle_valve_ru.html"
+			(* <- lang_ru;; *);
+				"file://content_html/explanations/electric/generic_two_way_angle_valve_en.html"
+			(* <- lang_en;; *);
+				"file://content_html/explanations/electric/generic_two_way_angle_valve_uk.html"
+			(* <- lang_uk;; *);;
+		*);;
+	*);;
