@@ -12,6 +12,7 @@ subject_domain_of_graphic_symbols
 concept_graphic_symbol;
 
 => nrel_private_subject_domain:
+subject_domain_of_measurment_symbols;
 subject_domain_of_binary_logic_symbols;
 subject_domain_of_electrical_schematic_symbols;
 subject_domain_of_signal_processing_function_block_symbols;
