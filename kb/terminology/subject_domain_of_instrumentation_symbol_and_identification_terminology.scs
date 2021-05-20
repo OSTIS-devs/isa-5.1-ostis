@@ -240,9 +240,9 @@ concept_balloon
 => nrel_main_idtf:
     [balloon]
     (* <- lang_en;; *);
-    [баллон]
+    [воздушный шар]
     (* <- lang_ru;; *);
-    [балон]
+    [повітряна куля]
     (* <- lang_uk;; *);
 <- rrel_key_sc_element:
     ...
@@ -268,7 +268,7 @@ concept_basic_process_control_system
     (* <- lang_en;; *);
     [базовая система управления технологическим процессом]
     (* <- lang_ru;; *);
-    [основна система управління процесом]
+    [базова система управління технологічним процесом]
     (* <- lang_uk;; *);
 <- rrel_key_sc_element:
     ...
@@ -528,7 +528,7 @@ concept_configurable
     (* <- lang_en;; *);
     [настраиваемый]
     (* <- lang_ru;; *);
-    [конфігурується]
+    [настраіваемий]
     (* <- lang_uk;; *);
 <- rrel_key_sc_element:
     ...
@@ -1020,9 +1020,9 @@ concept_instrumentation
 => nrel_main_idtf:
     [instrumentation]
     (* <- lang_en;; *);
-    [приборы]
+    [инструментарий]
     (* <- lang_ru;; *);
-    [приладобудування]
+    [інструментарій]
     (* <- lang_uk;; *);
 <- rrel_key_sc_element:
     ...
@@ -1252,11 +1252,11 @@ concept_panel
 concept_panel_mounted
 <- sc_node_not_relation;
 => nrel_main_idtf:
-    [panel-mounted]
+    [panel-mounted instrument]
     (* <- lang_en;; *);
-    [панельный]
+    [панельный прибор]
     (* <- lang_ru;; *);
-    [на панелі]
+    [панельний прилад]
     (* <- lang_uk;; *);
 <- rrel_key_sc_element:
     ...
@@ -1464,7 +1464,7 @@ concept_safety_instrumented_system
     (* <- lang_en;; *);
     [автоматическая система безопасности]
     (* <- lang_ru;; *);
-    [приладова система безпеки]
+    [автоматична система безпеки]
     (* <- lang_uk;; *);
 <- rrel_key_sc_element:
     ...
@@ -1748,9 +1748,9 @@ concept_transducer
 => nrel_main_idtf:
     [transducer]
     (* <- lang_en;; *);
-    [преобразователь]
+    [приёмник]
     (* <- lang_ru;; *);
-    [перетворювач]
+    [примач]
     (* <- lang_uk;; *);
 <- rrel_key_sc_element:
     ...
