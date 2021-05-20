@@ -840,7 +840,7 @@ concept_controller
 => nrel_main_idtf:
     [controller]
     (* <- lang_en;; *);
-    [контролер]
+    [контроллер]
     (* <- lang_ru;; *);
     [контролер]
     (* <- lang_uk;; *);
@@ -2226,7 +2226,7 @@ concept_programmable_logic_controller
 => nrel_main_idtf:
     [programmable logic controller]
     (* <- lang_en;; *);
-    [Программируемый логический контроллер]
+    [программируемый логический контроллер]
     (* <- lang_ru;; *);
     [програмований логічний контролер]
     (* <- lang_uk;; *);
