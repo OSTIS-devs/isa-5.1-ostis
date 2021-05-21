@@ -1,16 +1,13 @@
 subject_domain_of_instrumentation_symbol_and_identification_terminology
 <- sc_node_struct;
 => nrel_main_idtf:
-	[Предметная область терминологии условных обозначений и идентификации]
+	[Предметная область терминологии условных обозначений и символов инструментов]
 	(* <- lang_ru;; *);
 	[Subject domain of instrumentation symbol and identification terminology]
 	(* <- lang_en;; *);
-	[Предметна область термінології умовних позначень та ідентифікації]
+	[Предметна область термінології умовних позначень і символів інструментів]
 	(* <- lang_uk;; *);
 	
-/*-> rrel_maximum_studied_object_class: */
-
-
 -> rrel_not_maximum_studied_object_class:
 concept_accessible;
 concept_alarm;
@@ -77,7 +74,6 @@ concept_switch;
 concept_test_point;
 concept_transducer;
 concept_transmitter;;
-
 
 concept_accessible
 <- sc_node_not_relation;
