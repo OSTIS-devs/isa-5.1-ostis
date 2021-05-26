@@ -103,22 +103,6 @@ concept_accessible
                     "file://content_html/explanations/accessible_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/accessible_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/accessible_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/accessible_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_alarm
@@ -143,22 +127,6 @@ concept_alarm
                     "file://content_html/explanations/alarm_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/alarm_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/alarm_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/alarm_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/alarm_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -187,22 +155,6 @@ concept_analog
                     "file://content_html/explanations/analog_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/analog_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/analog_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/analog_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_application_software
@@ -227,22 +179,6 @@ concept_application_software
                     "file://content_html/explanations/application_software_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/application_software_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/application_software_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/application_software_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/application_software_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -271,22 +207,6 @@ concept_assignable
                     "file://content_html/explanations/assignable_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/assignable_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/assignable_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/assignable_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_auto_manual_station
@@ -313,22 +233,6 @@ concept_auto_manual_station
                     "file://content_html/explanations/auto_manual_station_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/auto_manual_station_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/auto_manual_station_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/auto_manual_station_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_balloon
@@ -336,9 +240,9 @@ concept_balloon
 => nrel_main_idtf:
     [balloon]
     (* <- lang_en;; *);
-    [баллон]
+    [воздушный шар]
     (* <- lang_ru;; *);
-    [балон]
+    [повітряна куля]
     (* <- lang_uk;; *);
 <- rrel_key_sc_element:
     ...
@@ -355,22 +259,6 @@ concept_balloon
                     "file://content_html/explanations/balloon_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/balloon_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/balloon_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/balloon_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_basic_process_control_system
@@ -380,7 +268,7 @@ concept_basic_process_control_system
     (* <- lang_en;; *);
     [базовая система управления технологическим процессом]
     (* <- lang_ru;; *);
-    [основна система управління процесом]
+    [базова система управління технологічним процесом]
     (* <- lang_uk;; *);
 <- rrel_key_sc_element:
     ...
@@ -395,22 +283,6 @@ concept_basic_process_control_system
                     "file://content_html/explanations/basic_process_control_system_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/basic_process_control_system_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/basic_process_control_system_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/basic_process_control_system_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/basic_process_control_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -439,22 +311,6 @@ concept_basic_process_control_system
                     "file://content_html/explanations/behind_the_panel_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/behind_the_panel_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/behind_the_panel_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/behind_the_panel_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_binary
@@ -479,22 +335,6 @@ concept_binary
                     "file://content_html/explanations/binary_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/binary_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/binary_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/binary_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/binary_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -523,22 +363,6 @@ concept_board
                     "file://content_html/explanations/board_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/board_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/board_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/board_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_bubble
@@ -563,22 +387,6 @@ concept_bubble
                     "file://content_html/explanations/bubble_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/bubble_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/bubble_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/bubble_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/bubble_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -607,22 +415,6 @@ concept_communication_link
                     "file://content_html/explanations/communication_link_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/communication_link_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/communication_link_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/communication_link_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_computer_control_system
@@ -647,22 +439,6 @@ concept_computer_control_system
                     "file://content_html/explanations/computer_control_system_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/computer_control_system_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/computer_control_system_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/computer_control_system_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/computer_control_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -691,22 +467,6 @@ concept_computing_device
                     "file://content_html/explanations/computing_device_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/computing_device_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/computing_device_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/computing_device_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_computing_relay
@@ -731,22 +491,6 @@ concept_computing_relay
                     "file://content_html/explanations/computing_relay_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/computing_relay_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/computing_relay_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/computing_relay_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/computing_relay_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -775,22 +519,6 @@ concept_computing_function
                     "file://content_html/explanations/computing_function_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/computing_function_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/computing_function_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/computing_function_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_configurable
@@ -800,7 +528,7 @@ concept_configurable
     (* <- lang_en;; *);
     [настраиваемый]
     (* <- lang_ru;; *);
-    [конфігурується]
+    [настраіваемий]
     (* <- lang_uk;; *);
 <- rrel_key_sc_element:
     ...
@@ -815,22 +543,6 @@ concept_configurable
                     "file://content_html/explanations/configurable_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/configurable_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/configurable_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/configurable_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/configurable_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -859,22 +571,6 @@ concept_controller
                     "file://content_html/explanations/controller_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/controller_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/controller_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/controller_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_control_station
@@ -899,22 +595,6 @@ concept_control_station
                     "file://content_html/explanations/control_station_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/control_station_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/control_station_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/control_station_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/control_station_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -943,22 +623,6 @@ concept_control_valve
                     "file://content_html/explanations/control_valve_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/control_valve_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/control_valve_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/control_valve_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_converter
@@ -983,22 +647,6 @@ concept_converter
                     "file://content_html/explanations/converter_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/converter_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/converter_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/converter_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/converter_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1027,22 +675,6 @@ concept_datalink
                     "file://content_html/explanations/datalink_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/datalink_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/datalink_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/datalink_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_detector
@@ -1067,22 +699,6 @@ concept_detector
                     "file://content_html/explanations/detector_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/detector_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/detector_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/detector_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/detector_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1111,22 +727,6 @@ concept_device
                     "file://content_html/explanations/device_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/device_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/device_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/device_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_digital
@@ -1151,22 +751,6 @@ concept_digital
                     "file://content_html/explanations/digital_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/digital_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/digital_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/digital_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/digital_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1195,22 +779,6 @@ concept_discrete_instrument
                     "file://content_html/explanations/discrete_instrument_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/discrete_instrument_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/discrete_instrument_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/discrete_instrument_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_discrete_signals
@@ -1235,22 +803,6 @@ concept_discrete_signals
                     "file://content_html/explanations/discrete_signals_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/discrete_signals_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/discrete_signals_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/discrete_signals_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/discrete_signals_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1279,22 +831,6 @@ concept_distributed_control_system
                     "file://content_html/explanations/distributed_control_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/distributed_control_system_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/distributed_control_system_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/distributed_control_system_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_field_instrument
@@ -1319,22 +855,6 @@ concept_field_instrument
                     "file://content_html/explanations/field_instrument_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/field_instrument_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/field_instrument_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/field_instrument_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/field_instrument_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1363,22 +883,6 @@ concept_final_control_element
                     "file://content_html/explanations/final_control_element_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/final_control_element_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/final_control_element_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/final_control_element_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_function
@@ -1403,22 +907,6 @@ concept_function
                     "file://content_html/explanations/function_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/function_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/function_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/function_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/function_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1447,22 +935,6 @@ concept_hardware
                     "file://content_html/explanations/hardware_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/hardware_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/hardware_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/hardware_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_high_level_control_system
@@ -1487,22 +959,6 @@ concept_high_level_control_system
                     "file://content_html/explanations/high_level_control_system_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/high_level_control_system_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/high_level_control_system_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/high_level_control_system_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/high_level_control_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1531,22 +987,6 @@ concept_identification
                     "file://content_html/explanations/identification_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/identification_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/identification_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/identification_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_instrument
@@ -1573,22 +1013,6 @@ concept_instrument
                     "file://content_html/explanations/instrument_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/instrument_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/instrument_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/instrument_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_instrumentation
@@ -1596,9 +1020,9 @@ concept_instrumentation
 => nrel_main_idtf:
     [instrumentation]
     (* <- lang_en;; *);
-    [приборы]
+    [инструментарий]
     (* <- lang_ru;; *);
-    [приладобудування]
+    [інструментарій]
     (* <- lang_uk;; *);
 <- rrel_key_sc_element:
     ...
@@ -1613,22 +1037,6 @@ concept_instrumentation
                     "file://content_html/explanations/instrumentation_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/instrumentation_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/instrumentation_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/instrumentation_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/instrumentation_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1657,22 +1065,6 @@ concept_local_instrument
                     "file://content_html/explanations/local_instrument_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/local_instrument_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/local_instrument_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/local_instrument_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_local_panel
@@ -1697,22 +1089,6 @@ concept_local_panel
                     "file://content_html/explanations/local_panel_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/local_panel_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/local_panel_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/local_panel_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/local_panel_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1741,22 +1117,6 @@ concept_loop
                     "file://content_html/explanations/loop_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/loop_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/loop_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/loop_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_manual_loading_station
@@ -1781,22 +1141,6 @@ concept_manual_loading_station
                     "file://content_html/explanations/manual_loading_station_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/manual_loading_station_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/manual_loading_station_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/manual_loading_station_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/manual_loading_station_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1825,22 +1169,6 @@ concept_measurement
                     "file://content_html/explanations/measurement_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/measurement_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/measurement_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/measurement_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_monitor
@@ -1865,22 +1193,6 @@ concept_monitor
                     "file://content_html/explanations/monitor_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/monitor_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/monitor_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/monitor_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/monitor_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -1909,22 +1221,6 @@ concept_monitor_light
                     "file://content_html/explanations/monitor_light_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/monitor_light_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/monitor_light_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/monitor_light_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_panel
@@ -1951,32 +1247,16 @@ concept_panel
                     "file://content_html/explanations/panel_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/panel_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/panel_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/panel_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_panel_mounted
 <- sc_node_not_relation;
 => nrel_main_idtf:
-    [panel-mounted]
+    [panel-mounted instrument]
     (* <- lang_en;; *);
-    [панельный]
+    [панельный прибор]
     (* <- lang_ru;; *);
-    [на панелі]
+    [панельний прилад]
     (* <- lang_uk;; *);
 <- rrel_key_sc_element:
     ...
@@ -1991,22 +1271,6 @@ concept_panel_mounted
                     "file://content_html/explanations/panel_mounted_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/panel_mounted_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/panel_mounted_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/panel_mounted_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/panel_mounted_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2035,22 +1299,6 @@ concept_pilot_light
                     "file://content_html/explanations/pilot_light_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/pilot_light_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/pilot_light_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/pilot_light_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_primary_element
@@ -2075,22 +1323,6 @@ concept_primary_element
                     "file://content_html/explanations/primary_element_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/primary_element_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/primary_element_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/primary_element_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/primary_element_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2119,22 +1351,6 @@ concept_process
                     "file://content_html/explanations/process_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/process_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/process_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/process_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_process_variable
@@ -2159,22 +1375,6 @@ concept_process_variable
                     "file://content_html/explanations/process_variable_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/process_variable_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/process_variable_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/process_variable_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/process_variable_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2203,22 +1403,6 @@ concept_program
                     "file://content_html/explanations/program_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/program_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/program_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/program_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_programmable_logic_controller
@@ -2243,22 +1427,6 @@ concept_programmable_logic_controller
                     "file://content_html/explanations/programmable_logic_controller_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/programmable_logic_controller_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/programmable_logic_controller_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/programmable_logic_controller_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/programmable_logic_controller_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2287,22 +1455,6 @@ concept_relay
                     "file://content_html/explanations/relay_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/relay_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/relay_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/relay_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_safety_instrumented_system
@@ -2312,7 +1464,7 @@ concept_safety_instrumented_system
     (* <- lang_en;; *);
     [автоматическая система безопасности]
     (* <- lang_ru;; *);
-    [приладова система безпеки]
+    [автоматична система безпеки]
     (* <- lang_uk;; *);
 <- rrel_key_sc_element:
     ...
@@ -2327,22 +1479,6 @@ concept_safety_instrumented_system
                     "file://content_html/explanations/safety_instrumented_system_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/safety_instrumented_system_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/safety_instrumented_system_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/safety_instrumented_system_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/safety_instrumented_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2371,22 +1507,6 @@ concept_scan
                     "file://content_html/explanations/scan_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/scan_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/scan_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/scan_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_sensor
@@ -2411,22 +1531,6 @@ concept_sensor
                     "file://content_html/explanations/sensor_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/sensor_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/sensor_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/sensor_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/sensor_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2455,22 +1559,6 @@ concept_setpoint
                     "file://content_html/explanations/setpoint_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/setpoint_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/setpoint_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/setpoint_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_shared_control
@@ -2495,22 +1583,6 @@ concept_shared_control
                     "file://content_html/explanations/shared_control_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/shared_control_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/shared_control_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/shared_control_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/shared_control_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2539,22 +1611,6 @@ concept_shared_display
                     "file://content_html/explanations/shared_display_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/shared_display_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/shared_display_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/shared_display_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_software
@@ -2579,22 +1635,6 @@ concept_software
                     "file://content_html/explanations/software_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/software_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/software_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/software_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/software_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2623,22 +1663,6 @@ concept_software_link
                     "file://content_html/explanations/software_link_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/software_link_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/software_link_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/software_link_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_supervisory_setpoint_control_system
@@ -2663,22 +1687,6 @@ concept_supervisory_setpoint_control_system
                     "file://content_html/explanations/supervisory_setpoint_control_system_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/supervisory_setpoint_control_system_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/supervisory_setpoint_control_system_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/supervisory_setpoint_control_system_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/supervisory_setpoint_control_system_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2707,22 +1715,6 @@ concept_switch
                     "file://content_html/explanations/switch_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/switch_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/switch_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/switch_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_test_point
@@ -2749,22 +1741,6 @@ concept_test_point
                     "file://content_html/explanations/test_point_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/test_point_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/test_point_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/test_point_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
 
 concept_transducer
@@ -2772,9 +1748,9 @@ concept_transducer
 => nrel_main_idtf:
     [transducer]
     (* <- lang_en;; *);
-    [преобразователь]
+    [приёмник]
     (* <- lang_ru;; *);
-    [перетворювач]
+    [примач]
     (* <- lang_uk;; *);
 <- rrel_key_sc_element:
     ...
@@ -2789,22 +1765,6 @@ concept_transducer
                     "file://content_html/explanations/transducer_ru.html"
                     (* <- lang_ru;; *);
                     "file://content_html/explanations/transducer_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/transducer_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/transducer_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/transducer_uk.html"
                     (* <- lang_uk;; *);;
             *);;
     *);;
@@ -2833,21 +1793,4 @@ concept_transmitter
                     "file://content_html/explanations/transmitter_uk.html"
                     (* <- lang_uk;; *);;
             *);;
-    *);
-<- rrel_key_sc_element:
-    ...
-    (*
-        <- note;;
-        <= nrel_sc_text_translation:
-            ...
-            (*
-                -> rrel_example:
-                    "file://content_html/notes/transmitter_en.html"
-                    (* <- lang_en;; *);
-                    "file://content_html/notes/transmitter_ru.html"
-                    (* <- lang_ru;; *);
-                    "file://content_html/notes/transmitter_uk.html"
-                    (* <- lang_uk;; *);;
-            *);;
     *);;
-
