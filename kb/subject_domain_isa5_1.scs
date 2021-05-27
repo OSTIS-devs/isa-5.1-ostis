@@ -9,6 +9,6 @@ subject_domain_of_isa5_1
 	(* <- lang_uk;; *);
 	
 => nrel_private_subject_domain:
-subject_domain_of_diagrams;
-subject_domain_of_graphic_symbols;
+subject_domain_of_instrumentation_diagrams;
+subject_domain_of_instrumentation_graphic_symbols;
 subject_domain_of_instrumentation_symbol_and_identification_terminology;;
