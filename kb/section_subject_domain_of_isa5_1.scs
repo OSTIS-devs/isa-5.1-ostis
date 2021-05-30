@@ -2,21 +2,24 @@ section_subject_domain_of_isa5_1
 <- ui_start_sc_element;
 <- sc_node_struct;
 => nrel_main_idtf:
-	[Раздел. Предметная область cимволов и обозначений приборов]
+	[Раздел. Предметная область аппаратного и программного обеспечения]
 	(* <- lang_ru;; *);
-	[Section. Subject domain of instrumentation symbols and identification]
+	[Section. Subject domain of hardware and software]
 	(* <- lang_en;; *);
-	[Розділ. Предметна область символів і позначень приладів]
+	[Розділ. Предметна область апаратного та програмного забезпечення]
 	(* <- lang_uk;; *);
+
 <= nrel_section_decomposition: 
 {
-	section_subject_domain_of_instrumentation_diagrams
-	(* => nrel_section_base_order: 
-		section_subject_domain_of_instrumentation_graphic_symbols;; *);
-	section_subject_domain_of_instrumentation_graphic_symbols
-	(* => nrel_section_base_order: 
-		section_subject_domain_of_instrumentation_symbol_and_identification_terminology;; *);
-	section_subject_domain_of_instrumentation_symbol_and_identification_terminology 
+	section_subject_domain_of_signals
+	(* => nrel_section_base_order: section_subject_domain_of_instruments;; *);
+	section_subject_domain_of_instruments
+	(* => nrel_section_base_order: section_subject_domain_of_devices;; *);
+	section_subject_domain_of_devices
+	(* => nrel_section_base_order: section_subject_domain_of_control_systems;; *);
+	section_subject_domain_of_control_systems
+	(* => nrel_section_base_order: section_subject_domain_of_instrumentation_schematic_diagrams;; *);
+	section_subject_domain_of_instrumentation_schematic_diagrams
 };
 
 => nrel_summary:
@@ -46,43 +49,67 @@ section_subject_domain_of_isa5_1
 	представляючи систему позначень, яка включає ідентифікацію схем і графічних позначень.]
 	(* <- lang_uk;; *);;
 	
+section_subject_domain_of_signals
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Раздел. Предметная область сигналов]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of signals]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область сигналів]
+	(* <- lang_uk;; *);;
 
-section_subject_domain_of_instrumentation_diagrams
+section_subject_domain_of_instruments
 <- sc_node_struct;
 => nrel_main_idtf:
-	[Раздел. Предметная область схем приборов]
+	[Раздел. Предметная область приборов]
 	(* <- lang_ru;; *);
-	[Section. Subject domain of instrumentation diagrams]
+	[Section. Subject domain of instruments]
 	(* <- lang_en;; *);
-	[Розділ. Предметна область схем приладів]
+	[Розділ. Предметна область приладів]
 	(* <- lang_uk;; *);;
-	
-section_subject_domain_of_instrumentation_graphic_symbols
+
+section_subject_domain_of_instrumentation_schematic_diagrams
 <- sc_node_struct;
 => nrel_main_idtf:
-	[Раздел. Предметная область графических обозначений приборов]
+	[Раздел. Предметная область принципиальных схем приборов, устройств и функций]
 	(* <- lang_ru;; *);
-	[Section. Subject domain of instrumentation graphic symbols]
+	[Section. Subject domain of instrumentation schematic diagrams]
 	(* <- lang_en;; *);
-	[Розділ. Предметна область графічних позначень приладів]
+	[Розділ. Предметна область принципових схем приладів, пристроїв і функцій]
 	(* <- lang_uk;; *);;
-	
-section_subject_domain_of_instrumentation_symbol_and_identification_terminology
+
+section_subject_domain_of_devices
 <- sc_node_struct;
 => nrel_main_idtf:
-	[Раздел. Предметная область терминологии условных обозначений и символов приборов]
+	[Раздел. Предметная область устройств]
 	(* <- lang_ru;; *);
-	[Section. Subject domain of instrumentation symbol and identification terminology]
+	[Section. Subject domain of devices]
 	(* <- lang_en;; *);
-	[Розділ. Предметна область термінології умовних позначень і символів приладів]
+	[Розділ. Предметна область пристроїв]
 	(* <- lang_uk;; *);;
+
+section_subject_domain_of_control_systems
+<- sc_node_struct;
+=> nrel_main_idtf:
+	[Раздел. Предметная область систем управления]
+	(* <- lang_ru;; *);
+	[Section. Subject domain of control systems]
+	(* <- lang_en;; *);
+	[Розділ. Предметна область систем управління]
+	(* <- lang_uk;; *);;
+
 	
 rrel_key_sc_element -> 
 (section_subject_domain_of_isa5_1 
--> subject_domain_of_isa5_1); 
-(section_subject_domain_of_instrumentation_diagrams 
--> subject_domain_of_instrumentation_diagrams);
-(section_subject_domain_of_instrumentation_graphic_symbols 
--> subject_domain_of_instrumentation_graphic_symbols);
-(section_subject_domain_of_instrumentation_symbol_and_identification_terminology 
--> subject_domain_of_instrumentation_symbol_and_identification_terminology);;
+-> subject_domain_of_isa5_1);
+(section_subject_domain_of_signals 
+-> subject_domain_of_signals);
+(section_subject_domain_of_instruments 
+-> subject_domain_of_instruments);
+(section_subject_domain_of_instrumentation_schematic_diagrams 
+-> subject_domain_of_instrumentation_schematic_diagrams);
+(section_subject_domain_of_devices 
+-> subject_domain_of_devices);
+(section_subject_domain_of_control_systems
+-> subject_domain_of_control_systems);;
